@@ -1,0 +1,238 @@
+@font-face {
+    font-family: SfProMed;
+    src: url(../fonts/SfPro/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: SfProReg;
+    src: url(../fonts/SfPro/SFPRODISPLAYREGULAR.OTF);
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 110px;
+    margin-top: 10px;
+}
+#nav2{
+    display: none;
+}
+
+
+nav #name h2, #nav2 #name h2 {
+    font-family: SfProMed;
+    z-index: 1000;
+    font-size: 34px;
+    font-weight: 860;
+    background: linear-gradient(90deg, #03BE3D 50%, #006D22 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.3px;
+
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    text-rendering: optimizeLegibility; 
+}
+
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+nav #buttons #link{
+    font-family: SfProReg;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    transition: color 0.3s ease;
+}
+
+nav #buttons #link:hover{
+    color: #000000da;
+}
+
+nav #buttons #courses button {
+    font-family: SfProReg;
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: none;
+    font-size: 17px;
+    font-weight: 590;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
+}
+
+nav #buttons #courses button:hover{
+    transform: scale(1.01); 
+}
+
+
+nav #buttons #flag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+nav #buttons #flag img{
+    width: 30px;
+}
+
+nav #buttons #flag p{
+    font-family: SfProReg;
+    margin: 0;
+    color: black;
+    font-size: 13px;
+    font-weight: 860;
+}
+
+
+@media screen and (max-width: 1279px){
+
+    nav{
+        padding: 0 3%;
+        margin-top: 10px;
+    }
+
+    nav #name h2 {
+        font-size: 30px;
+        letter-spacing: 0.3px;
+    }
+
+    #buttons{
+        gap: 30px;
+    }
+
+    nav #buttons #link{
+        font-size: 18px;
+    }
+
+    nav #buttons #courses button {
+        width: 170px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    nav #buttons #flag img{
+        width: 24px;
+    }
+
+    nav #buttons #flag p{
+        font-size: 13px;
+        font-weight: 860;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 968px){
+    #nav1{
+        display: none;
+    }
+    #nav2{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 3%;
+        margin-top: 0;
+        z-index: 101;
+        background: white;
+    }
+    #nav2 #name{
+        max-width: 200px;
+    }
+    #nav2 #name h2{
+        font-size: 30px;
+        margin: 0;
+    }
+    #burger {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        position: absolute;
+        width: 28px;
+        height: 3px;
+        background-color: black;
+        transition: transform 0.4s ease;
+        border-radius: 10px;
+    }
+
+    #line1 {
+        top: 10px;
+    }
+
+    #line2 {
+        top: 20px;
+    }
+
+    #line3 {
+        top: 30px;
+    }
+
+    .open #line1 {
+        transform: translateY(10px) rotate(-45deg);
+    }
+
+    .open #line2 {
+        opacity: 0;
+    }
+
+    .open #line3 {
+        transform: translateY(-10px) rotate(45deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 480px){
+    #nav2{
+        padding: 30px 25px;
+    }
+    #nav2 #name h2{
+        font-size: 22px;
+    }
+    .line {
+        position: absolute;
+        width: 26px;
+        height: 3px;
+        background-color: black;
+        transition: transform 0.4s ease;
+        border-radius: 10px;
+    }
+}
