@@ -24,6 +24,7 @@
     font-family: SfProReg;
     font-weight: 400;
     max-width: 770px;
+    letter-spacing: 1.02px;
     width: 90%;
     color: #707070;
     padding: 0;
@@ -71,7 +72,10 @@
 }
 
 #first #first_content #form #form_one #email{
+    font-family: SfProReg;
+    letter-spacing: 1.1px;
     font-size: 19px;
+    font-weight: 100;
     border: none;
     width: 169px;
 }
@@ -303,7 +307,7 @@
     
     #first #first_image img {
         width: 270px;
-        height: 621px;
+        height: 561px;
     }
     
     #first #first_image::after {
@@ -450,6 +454,9 @@
 
 
 @media screen and (max-width: 768px){
+    #first #first_image {
+        margin-right: 0px;
+    }
     #first{
         display: flex;
         flex-direction: column;
@@ -512,7 +519,165 @@
         font-size: 13.3px;
         transform: translateX(-90px);
     }
+}
 
+
+
+
+
+
+
+
+@media screen and (max-width: 530px){
+
+    #first #first_content #colabs #incredibles{
+        width: 80px;
+        height: 35px;
+    }
+
+    #first #first_content #colabs #mycompany{
+        width: 72px;
+        height: 30.75px;
+    }
+
+    #first #first_content #colabs #mamstartup{
+        width: 80px;
+        height: 24px;
+    }
+
+    #first #first_content #colabs #czworka{
+        width: 80px;
+        height: 36px;
+    }
+
+    #first{
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+    #first #first_content h2{
+        font-size: 29px;
+        max-width: auto;
+    }
+    
+    #first #first_content p{
+        font-size: 10px;
+        max-width: 500px;
+        margin: 30px 0;
+    }
 
     
+    #first #first_content #colabs{
+        width: auto;
+        gap: 10px;
+    }
+    
+    #first #first_content #colabs #incredibles{
+        width: 80px;
+        height: 36px;
+    }
+    
+    #first #first_content #colabs #mycompany{
+        width: 80px;
+        height: 32.75px;
+    }
+    
+    #first #first_content #colabs #mamstartup{
+        width: 85px;
+        height: 25px;
+    }
+    
+    #first #first_content #colabs #czworka{
+        width: 80px;
+        height: 32px;
+    }
+
+    
+    #first #first_image img {
+        width: 200px;
+        height: 421px;
+    }
+    
+    #first #first_image::after {
+        top: 50px;
+        left: -30px;
+        width: 260px;
+        height: 93%;
+        max-height: 400px;
+    }
+
+
+
+
+
+    #first #first_content #form{
+        height: 32px;
+        margin: 20px 0 40px 0;
+        width: 90vw;
+    }
+    
+    #first #first_content #form #form_one{
+        height: 32px;
+        padding: 0 100px 0 20px;
+    }
+     
+    
+    #first #first_content #form #form_one img{
+        width: 13px;
+        height: 13px;
+    }
+    
+    #first #first_content #form #form_one #email{
+        font-size: 11px;
+        width: 135px;
+    }
+    
+    
+    #first #first_content #form #submit {
+        width: 140px;
+        height: 32px;
+        font-size: 9px;
+        transform: translateX(-90px);
+        padding: 0 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+    #first #first_content #form #form_one {
+        height: 32px;
+        padding: 0 80px 0 10px;
+    }
+
+    #first #first_content #colabs{
+        width: auto;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    #first #first_content #colabs #incredibles{
+        width: 65px;
+        height: 32px;
+    }
+    
+    #first #first_content #colabs #mycompany{
+        width: 65px;
+        height: 26px;
+    }
+    
+    #first #first_content #colabs #mamstartup{
+        width: 65px;
+        height: 20px;
+    }
+    
+    #first #first_content #colabs #czworka{
+        width: 65px;
+        height: 26px;
+    }
+
 }
