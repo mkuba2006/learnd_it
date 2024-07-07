@@ -14,7 +14,7 @@
         width: 100vw;
         padding: 15vh 150px 10vh 150px;
         gap: 10px;
-        transform: translateY(-100vh);
+        transform: translateY(-130vh);
         transition: transform 0.5s ease-in-out;
         background: white;
     }

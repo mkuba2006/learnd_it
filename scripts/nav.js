@@ -26,7 +26,7 @@ function toggleMenu() {
         navigation.style.transform = 'translateY(0)';
         document.body.style.overflowY = 'hidden';
     } else {
-        navigation.style.transform = 'translateY(-100vh)'; 
+        navigation.style.transform = 'translateY(-130vh)'; 
         document.body.style.overflowY = 'visible';
     }
 }

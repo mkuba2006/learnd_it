@@ -165,7 +165,7 @@ nav #buttons #flag p{
         position: relative;
         cursor: pointer;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
     }
 
@@ -174,12 +174,13 @@ nav #buttons #flag p{
         width: 28px;
         height: 3px;
         background-color: black;
-        transition: transform 0.4s ease;
-        border-radius: 10px;
+        transition: transform 0.4s ease, width 0.4s ease;
+        border-radius: 170px;
     }
 
     #line1 {
         top: 10px;
+        width: 14px;
     }
 
     #line2 {
@@ -188,10 +189,12 @@ nav #buttons #flag p{
 
     #line3 {
         top: 30px;
+        width: 20px;
     }
 
     .open #line1 {
         transform: translateY(10px) rotate(-45deg);
+        width: 28px;
     }
 
     .open #line2 {
@@ -200,7 +203,9 @@ nav #buttons #flag p{
 
     .open #line3 {
         transform: translateY(-10px) rotate(45deg);
+        width: 28px;
     }
+
 }
 
 

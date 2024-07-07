@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 0 110px;
     margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 #first #first_content{
@@ -511,6 +512,7 @@
         font-size: 13.3px;
         transform: translateX(-90px);
     }
+
 
     
 }
