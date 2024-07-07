@@ -7,3 +7,12 @@ body{
     padding: 0;
     background-color: white;
 }
+@font-face {
+    font-family: SfProMed;
+    src: url(../../fonts/SfPro/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: SfProReg;
+    src: url(../../fonts/SfPro/SFPRODISPLAYREGULAR.OTF);
+}
+

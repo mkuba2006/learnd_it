@@ -1,0 +1,459 @@
+#first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 110px;
+    margin-top: 60px;
+}
+
+#first #first_content{
+    width: 60vw;
+    max-width: 870px;
+}
+
+#first #first_content h2{
+    font-size: 71px;
+    font-family: SfProReg;
+    font-weight: 400;
+    margin: 0;
+}
+
+#first #first_content p{
+    font-size: 21px;
+    font-family: SfProReg;
+    font-weight: 400;
+    max-width: 770px;
+    width: 90%;
+    color: #707070;
+    padding: 0;
+    margin: 40px 0 50px 0;
+}
+
+#first #first_content h2 span {
+    display: block;
+    font-weight: 500;
+    background: linear-gradient(to right, #03BE3D, #006D22);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#first #first_content #form{
+    font-family: SfProReg;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 40px 0;
+    width: min-content;
+}
+
+#first #first_content #form #form_one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border: 1px solid #B3B3B3;
+    border-radius: 32px;
+    height: 54px;
+    padding: 0 150px 0 20px;
+}
+ 
+
+#first #first_content #form #form_one img{
+    width: 24px;
+    height: 24px;
+}
+
+#first #first_content #form #form_one #email{
+    font-size: 19px;
+    border: none;
+    width: 169px;
+}
+
+#first #first_content #form #form_one #email:focus {
+    outline: none;
+    border: none;
+}
+
+
+
+#first #first_content #form #submit {
+    font-family: SfProReg;
+    width: 200px;
+    height: 54px;
+    border-radius: 32px;
+    border: none;
+    font-size: 15.3px;
+    font-weight: 590;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
+    transform: translateX(-90px);
+    cursor: pointer;
+}
+
+#first #first_content #colabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+}
+
+#first #first_content #colabs #incredibles{
+    width: 144px;
+    height: 67.75px;
+}
+
+#first #first_content #colabs #mycompany{
+    width: 141.75px;
+    height: 57.75px;
+}
+
+#first #first_content #colabs #mamstartup{
+    width: 173px;
+    height: 47px;
+}
+
+#first #first_content #colabs #czworka{
+    width: 106px;
+    height: 49px;
+}
+
+
+
+
+
+
+#first #first_image {
+    position: relative;
+    margin-right:  50px;
+}
+
+#first #first_image img {
+    width: 324px;
+    height: 671px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#first #first_image::after {
+    top: 110px;
+    left: -36px;
+    width: 393px;
+    height: 87%;
+    max-height: 578px;
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, #03BE3D, #006D22);
+    opacity: 0.85;
+    border-radius: 72px;
+    z-index: 1;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1450px){
+    
+    #first #first_content h2{
+        font-size: 60px;
+        max-width: 750px;
+    }
+    
+    #first #first_content p{
+        font-size: 18px;
+        max-width: 650px;
+        margin: 40px 0;
+    }
+
+ 
+    
+    #first #first_content #colabs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    #first #first_content #colabs #incredibles{
+        width: 124px;
+        height: 60.75px;
+    }
+    
+    #first #first_content #colabs #mycompany{
+        width: 101.75px;
+        height: 42.75px;
+    }
+    
+    #first #first_content #colabs #mamstartup{
+        width: 123px;
+        height: 35px;
+    }
+    
+    #first #first_content #colabs #czworka{
+        width: 106px;
+        height: 49px;
+    }
+
+    #first #first_image {
+        position: relative;
+        margin-right:  0;
+    }
+    
+    #first #first_image img {
+        width: 290px;
+        height: 621px;
+        height: auto;
+    }
+    
+    #first #first_image::after {
+        top: 80px;
+        left: -37px;
+        width: 363px;
+        height: 90%;
+        max-height: 578px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1279px){
+
+    #first{
+        padding: 0 5%;
+        margin-top: 40px;
+    }
+
+    #first #first_content h2{
+        font-size: 53px;
+        max-width: 700px;
+    }
+    
+    #first #first_content p{
+        font-size: 18px;
+        max-width: 650px;
+        margin: 30px 0;
+    }
+
+    
+    #first #first_content #colabs{
+        gap: 17px;
+    }
+    
+    #first #first_content #colabs #incredibles{
+        width: 100px;
+        height: 55.75px;
+    }
+    
+    #first #first_content #colabs #mycompany{
+        width: 100px;
+        height: 40.75px;
+    }
+    
+    #first #first_content #colabs #mamstartup{
+        width: 110px;
+        height: 33px;
+    }
+    
+    #first #first_content #colabs #czworka{
+        width: 100px;
+        height: 46px;
+    }
+
+    #first #first_image {
+        margin-right: 30px;
+    }
+    
+    #first #first_image img {
+        width: 270px;
+        height: 621px;
+    }
+    
+    #first #first_image::after {
+        top: 80px;
+        left: -32px;
+        width: 333px;
+        height: 90%;
+        max-height: 578px;
+    }
+
+
+
+
+    #first #first_content #form{
+        height: 47px;
+        margin: 20px 0 40px 0;
+    }
+    
+    #first #first_content #form #form_one{
+        height: 47px;
+        padding: 0 100px 0 20px;
+    }
+     
+    
+    #first #first_content #form #form_one img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    #first #first_content #form #form_one #email{
+        font-size: 16px;
+        width: 150px;
+    }
+    
+    
+    #first #first_content #form #submit {
+        font-family: SfProReg;
+        width: 180px;
+        height: 47px;
+        border-radius: 32px;
+        border: none;
+        font-size: 13.3px;
+        font-weight: 590;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+        background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
+        transform: translateX(-90px);
+        cursor: pointer;
+    }
+
+}
+
+
+@media screen and (max-width: 968px){
+    #first{
+        padding: 0 5%;
+        margin-top: 40px;
+    }
+
+    #first #first_content h2{
+        font-size: 40px;
+        max-width: 500px;
+    }
+    
+    #first #first_content p{
+        font-size: 18px;
+        max-width: 650px;
+        margin: 30px 0;
+    }
+
+    
+    #first #first_content #colabs{
+        gap: 17px;
+    }
+    
+    #first #first_content #colabs #incredibles{
+        width: 100px;
+        height: 55.75px;
+    }
+    
+    #first #first_content #colabs #mycompany{
+        width: 100px;
+        height: 40.75px;
+    }
+    
+    #first #first_content #colabs #mamstartup{
+        width: 110px;
+        height: 33px;
+    }
+    
+    #first #first_content #colabs #czworka{
+        width: 100px;
+        height: 46px;
+    }
+
+
+
+    #first #first_image {
+        margin-right: 30px;
+    }
+    
+    #first #first_image img {
+        width: 200px;
+        height: 421px;
+    }
+    
+    #first #first_image::after {
+        top: 50px;
+        left: -30px;
+        width: 260px;
+        max-height: 400px;
+    }
+
+
+
+
+    #first #first_content #form{
+        height: 47px;
+        margin: 20px 0 40px 0;
+    }
+    
+    #first #first_content #form #form_one{
+        height: 47px;
+        padding: 0 100px 0 20px;
+    }
+     
+    
+    #first #first_content #form #form_one img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    #first #first_content #form #form_one #email{
+        font-size: 16px;
+        width: 150px;
+    }
+    
+    
+    #first #first_content #form #submit {
+        font-family: SfProReg;
+        width: 180px;
+        height: 47px;
+        border-radius: 32px;
+        border: none;
+        font-size: 13.3px;
+        font-weight: 590;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+        background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
+        transform: translateX(-90px);
+        cursor: pointer;
+    }
+
+}

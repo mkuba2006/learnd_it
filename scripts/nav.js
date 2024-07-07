@@ -24,7 +24,9 @@ function toggleMenu() {
 
     if (burger.classList.contains('open')) {
         navigation.style.transform = 'translateY(0)';
+        document.body.style.overflowY = 'hidden';
     } else {
-        navigation.style.transform = 'translateY(-100vh)'; // Adjust this value as needed
+        navigation.style.transform = 'translateY(-100vh)'; 
+        document.body.style.overflowY = 'visible';
     }
 }

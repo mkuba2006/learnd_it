@@ -1,12 +1,3 @@
-@font-face {
-    font-family: SfProMed;
-    src: url(../fonts/SfPro/SFPRODISPLAYMEDIUM.OTF);
-}
-@font-face {
-    font-family: SfProReg;
-    src: url(../fonts/SfPro/SFPRODISPLAYREGULAR.OTF);
-}
-
 
 nav{
     display: flex;
@@ -55,7 +46,7 @@ nav #buttons #link{
 }
 
 nav #buttons #link:hover{
-    color: #000000da;
+    color: #406942;
 }
 
 nav #buttons #courses button {
@@ -99,7 +90,7 @@ nav #buttons #flag p{
 @media screen and (max-width: 1279px){
 
     nav{
-        padding: 0 3%;
+        padding: 0 5%;
         margin-top: 10px;
     }
 
@@ -148,7 +139,7 @@ nav #buttons #flag p{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 30px 3%;
+        padding: 30px 5%;
         margin-top: 0;
         z-index: 101;
         background: white;
