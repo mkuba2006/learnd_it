@@ -1,3 +1,11 @@
+@font-face {
+    font-family: SfProMed;
+    src: url(../SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: SfProReg;
+    src: url(../SFPRODISPLAYREGULAR.OTF);
+}
 
 nav{
     display: flex;
