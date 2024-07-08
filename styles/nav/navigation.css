@@ -10,9 +10,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: calc(100vh - 100px);
+        height: calc(100vh);
         width: 100vw;
-        padding: 15vh 150px 10vh 150px;
+        padding: 15vh 150px 20vh 150px;
         gap: 10px;
         transform: translateY(-130vh);
         transition: transform 0.5s ease-in-out;
@@ -76,6 +76,6 @@
 
 @media screen and (max-width: 489px){
     #navigation{
-        padding: 80px;
+        padding: 120px 80px 180px 80px;
     }
 }

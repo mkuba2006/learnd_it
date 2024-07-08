@@ -62,7 +62,7 @@
     border: 1px solid #B3B3B3;
     border-radius: 32px;
     height: 54px;
-    padding: 0 150px 0 20px;
+    padding: 0 100px 0 20px;
 }
  
 
@@ -77,7 +77,7 @@
     font-size: 19px;
     font-weight: 100;
     border: none;
-    width: 169px;
+    width: 200px;
 }
 
 #first #first_content #form #form_one #email:focus {

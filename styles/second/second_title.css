@@ -1,0 +1,66 @@
+#second{
+    display: flex;
+    flex-direction: column;
+}
+#second #description{
+    font-family: SfProMed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+    margin: 0 auto;
+}
+
+#second #description h1{
+    font-size: 54px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#second #description h2{
+    color: #707070;
+    max-width: 800px;
+    font-size: 19.29px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1250px){
+    #second #description h1{
+        font-size: 40px;
+    }
+    
+    #second #description h2{
+        font-size: 17px;
+    }
+
+}
+
+
+@media screen and (max-width: 920px){
+    #second #description h1{
+        font-size: 35px;
+    }
+    
+    #second #description h2{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 625px){
+    #second #description{
+        padding: 0 30px;
+    }
+
+    #second #description h1{
+        font-size: 25px;
+    }
+    
+    #second #description h2{
+        font-size: 11px;
+    }
+}
+

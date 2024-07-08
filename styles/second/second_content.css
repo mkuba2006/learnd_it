@@ -1,0 +1,294 @@
+#second #content {
+    display: grid;
+    grid-template-columns: auto 500px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "el1 phone el2"
+        "el3 phone el4";
+    
+    gap: 30px; 
+    margin: 30px auto 0 auto;
+    padding: 0 40px;
+    font-family: SfProReg;
+}
+
+#phone {
+    grid-area: phone;
+    justify-self: center; 
+    align-self: center;
+    position: relative; /* Added for pseudo-element positioning */
+    width: 100%;
+    max-width: 300px;
+}
+#phone::before {
+    content: '';
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    background: linear-gradient(to right, #03BE3D, #006D22);
+    border-radius: 50%;
+    transform: translate(-65px, 78px);
+    z-index: -1; 
+}
+
+#phone img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 590px;
+    position: relative;
+}
+#el1, #el2, #el3, #el4{
+    max-width: 420px;
+}
+#el1, #el3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: start; 
+    justify-content: flex-start;
+    text-align: right;
+}
+#el1 {
+    grid-area: el1;
+    margin-top: 20px;
+}
+#el3 {
+    grid-area: el3;
+}
+
+#el2, #el4 {
+    align-self: start; 
+    justify-content: flex-start;
+    text-align: left;
+}
+#el2 {
+    grid-area: el2;
+    margin-top: 20px;
+}
+#el4 {
+    grid-area: el4;
+}
+
+#el1 div, #el2 div, #el4 div, #el3 div {
+    width: 83px;
+    height: 83px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#el1 div, #el2 div, #el4 div {
+    background: linear-gradient(to right, #03be3e31, #006d2231);
+}
+#el3 div {
+    background: linear-gradient(to right, #03BE3D, #006D22);
+    color: white;
+}
+
+#el1 div p, #el2 div p, #el4 div p, #el3 div {
+    font-weight: 700;
+    font-size: 39px;
+}
+#el1 div p, #el2 div p, #el4 div p {
+    background: linear-gradient(to right, #03BE3D, #006D22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+    font-size: 23.15px;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+}
+
+
+#el1 #text, #el2 #text, #el3 #text, #el4 #text {
+    color: #707070;
+    font-size: 19.29px;
+}
+
+
+
+
+
+@media screen and (max-width: 1250px){
+    #second #content {
+        grid-template-columns: auto 330px auto;
+        padding: 0 40px;
+        gap: 40px; 
+    }
+
+    #phone {
+        max-width: 220px;
+    }
+
+    #phone::before {
+        width: 350px;
+        height: 350px;
+        transform: translate(-65px, 70px);
+    }
+    
+    #phone img {
+        max-width: 220px;
+        max-height: 448px;
+    }
+
+    #el1 div p, #el2 div p, #el4 div p, #el3 div {
+        font-size: 30px;
+    }
+
+    #el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+        font-size: 21px;
+        margin: 15px 0 0 0;
+    }
+
+
+    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+        color: #707070;
+        font-size: 15px;
+    }
+
+    #el1 div, #el2 div, #el4 div, #el3 div {
+        width: 63px;
+        height: 63px;
+        border-radius: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 920px){
+
+    #second #content {
+        grid-template-columns: auto 280px auto;
+        padding: 0 40px;
+        gap: 40px; 
+    }
+
+    #phone {
+        max-width: 200px;
+    }
+
+    #phone::before {
+        width: 310px;
+        height: 310px;
+        transform: translate(-58px, 60px);
+    }
+    
+    #phone img {
+        max-width: 200px;
+        max-height: 412px;
+    }
+
+    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+        color: #707070;
+        font-size: 15px;
+    }
+
+    #el1 div, #el2 div, #el4 div, #el3 div {
+        width: 48px;
+        height: 48px;
+        border-radius: 15px;
+    }
+
+    #el1 div p, #el2 div p, #el4 div p, #el3 div {
+        font-size: 20px;
+    }
+
+    #el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+        font-size: 17px;
+        margin: 15px 0 0 0;
+    }
+
+
+    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    #second #content {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: 
+            "el1"
+            "el2"
+            "phone"
+            "el3"
+            "el4";
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    #el1, #el2, #el3, #el4{
+        max-width: 420px;
+    }
+    #el1, #el3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: start; 
+        justify-content: flex-start;
+        text-align: center;
+    }
+    #el1 {
+        grid-area: el1;
+        margin-top: 20px;
+    }
+    #el3 {
+        grid-area: el3;
+    }
+    
+    #el2, #el4 {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: start; 
+        justify-content: flex-start;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px){
+
+
+    #phone {
+        max-width: 160px;
+    }
+
+    #phone::before {
+        width: 240px;
+        height: 240px;
+        transform: translate(-39px, 52px);
+    }
+    
+    #phone img {
+        max-width: 200px;
+        max-height: 412px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+        color: #707070;
+        font-size: 15px;
+    }
+
+    #el1 div p, #el2 div p, #el4 div p, #el3 div {
+        font-size: 18px;
+    }
+
+    #el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+        font-size: 13px;
+    }
+
+
+    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+        font-size: 11px;
+    }
+}
