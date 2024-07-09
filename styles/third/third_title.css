@@ -1,0 +1,35 @@
+#third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#third h1{
+    text-align: center;
+    font-family: SfProMed;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    #third h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #third h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #third h1{
+        font-size: 25px;
+    }
+}

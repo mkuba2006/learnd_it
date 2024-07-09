@@ -1,0 +1,132 @@
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+#lessons {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 19.82px;
+    background: linear-gradient(120deg, #FFFFFF, #A5A5A5);
+}
+
+#lessons div h2, #lessons div p {
+    margin: 5px;
+    font-family: SfProReg;
+    color: #323232;
+}
+
+#lessons div h2 {
+    letter-spacing: 1.3px;
+    font-size: 21.8px;
+    font-weight: 700;
+}
+
+#lessons div p {
+    letter-spacing: 1.2px;
+    font-size: 13.88px;
+    font-weight: 590;
+}
+
+#lessons:nth-child(odd) {
+    background: linear-gradient(120deg, #03BE3D, #006D22);
+}
+
+#lessons:nth-child(odd) div h2, #lessons:nth-child(odd) div p {
+    color: #FFFFFF;
+}
+
+
+
+
+@media screen and (max-width: 1270px) {
+    #box {
+        gap: 20px;
+    }
+    
+    #lessons {
+        width: 230px;
+        height: 230px;
+        border-radius: 17.82px;
+    }
+
+    #lessons div h2 {
+        letter-spacing: 1.3px;
+        font-size: 19.8px;
+        font-weight: 700;
+    }
+    
+    #lessons div p {
+        letter-spacing: 0.2px;
+        font-size: 12.88px;
+        font-weight: 590;
+    }
+    #lessons img{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+
+    #lessons {
+        width: 180px;
+        height: 180px;
+        border-radius: 17.82px;
+    }
+
+    #lessons div h2 {
+        font-size: 15.8px;
+        font-weight: 700;
+    }
+    
+    #lessons div p {
+        letter-spacing: 0.7px;
+        font-size: 9.88px;
+        font-weight: 590;
+    }
+    #lessons img{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+
+@media screen and (max-width: 639px) {
+    #lessons:nth-child(3){
+        order: 4;
+    }
+}
+@media screen and (max-width: 470px){
+    #box {
+        gap: 3vw;
+    }
+    #lessons {
+        width: 140px;
+        height: 140px;
+        border-radius: 10px;
+    }
+
+    #lessons div h2 {
+        font-size: 11.8px;
+        font-weight: 700;
+    }
+    
+    #lessons div p {
+        font-size: 7.88px;
+        font-weight: 590;
+    }
+    #lessons img{
+        width: 37px;
+        height: 37px;
+    }
+
+}
