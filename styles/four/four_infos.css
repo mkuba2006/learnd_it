@@ -1,0 +1,59 @@
+#infos {
+    width: 99vw;
+}
+
+#infos #student_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 5vw;
+}
+
+#infos #student_info #img_box{
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+}
+
+#student_info #student_content{
+    font-family: SfProReg;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+#student_content div{
+    width: 45%;
+    row-gap: 0;
+}
+
+#student_content div #icon_box {
+    width: 82px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(3, 190, 61, 0.15), rgba(0, 109, 34, 0.15));
+    z-index: 1;
+    border-radius: 21.91px;
+}
+
+#student_content div #icon_box img {
+    z-index: 100;
+}
+
+#student_content div h2{
+    font-size: 22.87px;
+    font-weight: 700;
+}
+
+#student_content div p{
+    font-size: 19.06px;
+    font-weight: 400;
+    color:  #707070;   
+}

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 #third h1{
@@ -11,7 +11,7 @@
     font-family: SfProMed;
     font-weight: 700;
     font-size: 54px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
