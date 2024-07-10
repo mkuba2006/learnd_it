@@ -79,7 +79,9 @@
     border: none;
     width: 200px;
 }
-
+#first #first_content #form #form_one #email:hover{
+    opacity: 0.80;
+}
 #first #first_content #form #form_one #email:focus {
     outline: none;
     border: none;
@@ -100,8 +102,11 @@
     background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
     transform: translateX(-90px);
     cursor: pointer;
+    transition: all 0.3s ease;
 }
-
+#first #first_content #form #submit:hover{
+    opacity: 0.93;
+}
 #first #first_content #colabs{
     display: flex;
     flex-direction: row;
