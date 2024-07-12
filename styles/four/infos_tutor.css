@@ -115,3 +115,16 @@
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 570px){
+    #tutor_info #tutor_content {
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+    #tutor_info #img_box img{
+        width: 100%;
+        min-width: 380px;
+    }
+
+}

@@ -1,72 +1,138 @@
 #button {
-    display: flex;
-    border-radius: 20px;
-    width: 434px;
-    height: 83px;
-    position: relative;
-    overflow: hidden;
-    background-color: #323232;
-    margin: 30px 0;
-  }
+  display: flex;
+  border-radius: 20px;
+  width: 434px;
+  height: 83px;
+  position: relative;
+  overflow: hidden;
+  background-color: #323232;
+  margin: 30px 0;
+}
   
-  #student {
-    font-family: SfProReg;
-    font-weight: 590;
-    font-size: 22.87px;
-    width: 50%;
-    background: none;
-    border: none;
-    color: #C4C4C4;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 28.58px;
-    cursor: pointer;
-    z-index: 10;
-    transform: translateX(5px);
-    transition: 0.3s;
-  }
+#student {
+  font-family: SfProReg;
+  font-weight: 590;
+  font-size: 22.87px;
+  width: 50%;
+  background: none;
+  border: none;
+  color: #C4C4C4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 28.58px;
+  cursor: pointer;
+  z-index: 10;
+  transform: translateX(5px);
+  transition: 0.3s;
+}
   
-  #tutor {
-    
-    font-family: SfProReg;
-    font-weight: 590;
-    font-size: 22.87px;
-    width: 50%;
-    background: none;
-    border: none;
-    color: #C4C4C4;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 28.58px;
-    cursor: pointer;
-    z-index: 10;
-    transform: translateX(-5px);
-    transition: 0.3s;
-  }
+#tutor {
+  font-family: SfProReg;
+  font-weight: 590;
+  font-size: 22.87px;
+  width: 50%;
+  background: none;
+  border: none;
+  color: #C4C4C4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 28.58px;
+  cursor: pointer;
+  z-index: 10;
+  transform: translateX(-5px);
+  transition: 0.3s;
+}
   
-  .button-animation {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-1%);
-    width: 53%;
-    height: 100%;
-    background: linear-gradient(to right, #03BE3D, #006D22);
-    border-radius: 22.20px;
-    transition: left 0.6s ease;
-    z-index: 0;
-  }
+.button-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-1%);
+  width: 53%;
+  height: 100%;
+  background: linear-gradient(to right, #03BE3D, #006D22);
+  border-radius: 22.20px;
+  transition: left 0.6s ease;
+  z-index: 0;
+}
   
-  #student.active, #tutor.active, #student:hover, #tutor:hover {
-    color: white;
-  }
+#student.active, #tutor.active, #student:hover, #tutor:hover {
+  color: white;
+}
   
 @media screen and (max-width: 1400px){
   #button {
+    border-radius: 19px;
+    width: 370px;
+    height: 73px;
     margin: 30px 0 0 0;
+  }
+  #student {
+    font-size: 20.87px;
+  }
+  #tutor {
+    font-size: 20.87px;
+  }
+}
+
+
+@media screen and (max-width: 1250px){
+  #button {
+    border-radius: 18px;
+    width: 340px;
+    height: 70px;
+    margin: 10px 0 0 0;
+  }
+  #student {
+    font-size: 19px;
+    transform: translateX(-2px);
+  }
+  #tutor {
+    font-size: 19px;
+    transform: translateX(-2px);
+  }
+}
+
+
+@media screen and (max-width: 920px){
+
+  #button {
+    border-radius: 20px;
+    width: 270px;
+    height: 60px;
+    margin: 10px 0 0 0;
+  }
+  #student {
+    font-size: 16px;
+  }
+  #tutor {
+    font-size: 16px;
+  }
+  .button-animation {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 625px){
+  #button {
+    border-radius: 12px;
+    width: 185px;
+    height: 35px;
+    margin: 10px 0 0 0;
+  }
+  #student {
+    font-size: 9.66px;
+    padding: 12.5px 32px;
+  }
+  #tutor {
+    font-size: 9.66px;
+    padding: 12.5px 32px;
+  }
+  .button-animation {
+    border-radius: 13px;
   }
 }
