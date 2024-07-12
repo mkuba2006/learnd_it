@@ -1,0 +1,304 @@
+#five{
+    margin: 0 auto;
+    width: 96vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;    
+    max-width: 1280px;
+    margin-top: 150px;
+}
+
+#five #topic{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+}
+#five #topic h1{
+    font-family: SfProMed;
+    font-weight: 700;
+    font-size: 54px;
+    margin: 0;
+}
+
+#five #topic p{
+    font-family: SfProReg;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 5px 0;
+    color: #707070;
+}
+
+#five #item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(3, 190, 61, 0.15), rgba(0, 109, 34, 0.15));
+    border-radius: 21.91px;
+    width: 230px;
+    height: 230px;
+    padding: 20px;
+}
+#five #item img{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 17px;
+}
+
+#five #item h2 {
+    font-family: SfProMed;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    background: linear-gradient(to right, #03BE3D 0%, #006D22 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+
+#five #item p{
+    font-family: SfProReg;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0;
+    color: #707070;
+    text-align: center;
+}
+
+#five #item:last-child{
+    background: linear-gradient(to right, rgb(3, 190, 62), rgb(0, 109, 34));
+    align-items: flex-start;
+    padding: 30px 30px 0 30px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+    justify-content: flex-start;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#five #item:last-child:hover{
+    scale: 1.01;
+}
+#five #item:last-child h3{
+    color: white;
+    font-family: SfProReg;
+    letter-spacing: 2.2px;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+#five #item:last-child img{
+    width: 55px;
+    height: 55px;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1275px){
+    #five{
+        max-width: 730px;
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 925px){
+    #five{
+        max-width: 580px;
+    }
+    #five #topic{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    #five #topic h1{
+        font-family: SfProMed;
+        font-weight: 700;
+        font-size: 45px;
+        margin: 0;
+    }
+    
+    #five #topic p{
+        font-family: SfProReg;
+        font-weight: 400;
+        font-size: 17px;
+        margin: 5px 0;
+        color: #707070;
+    }
+
+
+    #five #item{
+        border-radius: 21.91px;
+        width: 180px;
+        height: 180px;
+        padding: 17px;
+    }
+    #five #item img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 13px;
+    }
+    
+    #five #item h2 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    #five #item p{
+        font-size: 13px;
+        margin: 5px 0;
+    }
+    
+    #five #item:last-child{
+        padding: 20px 20px 0 20px;
+    }
+    #five #item:last-child h3{
+        font-size: 22px;
+        margin: 0 0 10px 0;
+    }
+    #five #item:last-child img{
+        width: 55px;
+        height: 55px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 625px){
+    #five{
+        max-width: 350px;
+        padding: 0;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #five #topic{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #five #topic h1{
+        font-family: SfProMed;
+        font-size: 25px;
+        margin: 0;
+    }
+    
+    #five #topic p{
+        font-family: SfProReg;
+        font-size: 12px;
+        margin: 5px 0;
+        color: #707070;
+    }
+
+
+    #five #item{
+        border-radius: 12.1px;
+        width: 160px;
+        height: 160px;
+        padding: 20px 15px;
+    }
+    #five #item img{
+        width: 44px;
+        height: 44px;
+        margin-bottom: 5px;
+    }
+    
+    #five #item h2 {
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    #five #item p{
+        font-size:10px;
+        margin: 5px 0;
+    }
+    
+    #five #item:last-child{
+        padding: 20px 20px 0 20px;
+    }
+    #five #item:last-child h3{
+        font-size: 17px;
+        margin: 0 0 10px 0;
+    }
+    #five #item:last-child img{
+        width: 31px;
+        height: 31px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    #five{
+        margin-top: 50px;
+        max-width: 280px;
+        padding: 0;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #five #topic{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #five #topic h1{
+        font-family: SfProMed;
+        font-weight: 700;
+        font-size: 24.75px;
+        margin: 0;
+    }
+    
+    #five #topic p{
+        font-family: SfProReg;
+        font-weight: 400;
+        font-size: 10.72px;
+        margin: 5px 0;
+        color: #707070;
+    }
+
+
+    #five #item{
+        border-radius: 12.1px;
+        width: 127px;
+        height: 127px;
+        padding: 20px 10px;
+    }
+    #five #item img{
+        width: 39.83px;
+        height: 39.83px;
+        margin-bottom: 5px;
+    }
+    
+    #five #item h2 {
+        font-size: 12.17px;
+        margin: 0;
+    }
+    
+    #five #item p{
+        font-size: 8.85px;
+        margin: 5px 0;
+    }
+    
+    #five #item:last-child{
+        padding: 20px 20px 0 20px;
+    }
+    #five #item:last-child h3{
+        font-size: 15.46px;
+        margin: 0 0 10px 0;
+    }
+    #five #item:last-child img{
+        width: 28.16px;
+        height: 28.16px;
+    }
+
+}
