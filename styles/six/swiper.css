@@ -1,0 +1,167 @@
+
+#x{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 601px){
+    #x{
+        display: block;
+    }
+    .swiper {
+        width: auto;
+        height: 550px;
+    }
+
+
+    .swiper-slide #item{
+        width: 310px;
+        border-radius: 21.91px;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .swiper-slide #item{
+        margin: 0 auto;
+    }
+    .swiper-slide #item #img_box{
+        width: 310px;
+        height: 290px;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .swiper-slide #item #img_box img{
+        object-fit: cover;
+        width: 310px;
+        height: 290px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .swiper-slide #item #content{
+        font-family: SfProMed;
+        padding: 20px 35px;
+    }
+
+    .swiper-slide #item #content #name{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0 10px 0;
+    }
+    .swiper-slide #item #content h4{
+        font-family: SfProReg;
+        font-size: 17px;
+        font-weight: 400;
+        color: #707070;
+        margin: 15px 0 15px 0;
+    }
+
+    .swiper-slide #item #line{
+        content: '';
+        position: absolute;
+        width: 310px;
+        height: 9px;
+        background: linear-gradient(90deg, #03BE3D 40%, #006D22 100%);
+    }
+    .swiper-slide #item #content a{
+        background: linear-gradient(to right, rgb(3, 190, 62), rgb(0, 109, 34));
+        padding-top: 1px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        margin-bottom: 7px;
+    }
+
+    .swiper-slide #item #content a img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    #x{
+        display: block;
+    }
+    .swiper {
+        width: auto;
+        height: 420px;
+    }
+
+
+    .swiper-slide #item{
+        width: 265px;
+        border-radius: 21.91px;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .swiper-slide #item{
+        margin: 0 auto;
+    }
+    .swiper-slide #item #img_box{
+        width: 265px;
+        height: 252px;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .swiper-slide #item #img_box img{
+        object-fit: cover;
+        width: 265px;
+        height: 252px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .swiper-slide #item #content{
+        font-family: SfProMed;
+        padding: 10px 20px;
+    }
+
+    .swiper-slide #item #content #name{
+        font-size: 16.68px;
+        font-weight: 700;
+        margin: 16px 0 0 0;
+    }
+    .swiper-slide #item #content h4{
+        font-family: SfProReg;
+        font-size: 13.24px;
+        margin: 5px 0 9px 0;
+    }
+
+    .swiper-slide #item #line{
+        content: '';
+        position: absolute;
+        width: 265px;
+        height: 6.26px;
+        background: linear-gradient(90deg, #03BE3D 40%, #006D22 100%);
+    }
+    .swiper-slide #item #content a{
+        background: linear-gradient(to right, rgb(3, 190, 62), rgb(0, 109, 34));
+        padding-top: 1px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        margin-bottom: 7px;
+    }
+
+    .swiper-slide #item #content a img{
+        width: 15px;
+        height: 15px;
+    }
+}

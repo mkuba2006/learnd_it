@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./styles/four/infos_student.css">
     <link rel="stylesheet" href="./styles/four/infos_tutor.css">
     <link rel="stylesheet" href="./styles/five/five.css">
+    <link rel="stylesheet" href="./styles/six/six.css">
+    <link rel="stylesheet" href="./styles/six/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     
@@ -302,6 +305,122 @@
 
     </section>
 
+    <section id="six">
+        <h1>Meet the Team</h1>
+
+        <div id="team">
+            <div id="item">
+                <div id="img_box">
+                    <img src="./images/persons/char3.jpg">
+                </div>
+                <div id="line"></div>
+                <div id="content">
+                    <h3 id="name">Jakub Strzemieczny</h3>
+                    <h4 id="profession">CEO & Head of Design</h4>
+                    <a href="/">
+                        <img src="./images/icons/linkedin.png">
+                    </a>
+                </div>
+            </div>
+            <div id="item">
+                <div id="img_box">
+                    <img src="./images/persons/char2.jpg">
+                </div>
+                <div id="line"></div>
+                <div id="content">
+                    <h3 id="name">Adam Zasiński</h3>
+                    <h4 id="profession">CSO & Community Coordinator</h4>
+                    <a href="/">
+                        <img src="./images/icons/linkedin.png">
+                    </a>
+                </div>
+            </div>
+            <div id="item">
+                <div id="img_box">
+                    <img src="./images/persons/char1.jpg">
+                </div>
+                <div id="line"></div>
+                <div id="content">
+                    <h3 id="name">Damian Wiszowaty</h3>
+                    <h4 id="profession">Mentor</h4>
+                    <a href="/">
+                        <img src="./images/icons/linkedin.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="x">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+
+
+                    <div class="swiper-slide">
+                        <div id="item">
+                            <div id="img_box">
+                                <img src="./images/persons/char3.jpg">
+                            </div>
+                            <div id="line"></div>
+                            <div id="content">
+                                <h3 id="name">Jakub Strzemieczny</h3>
+                                <h4 id="profession">CEO & Head of Design</h4>
+                                <a href="/">
+                                    <img src="./images/icons/linkedin.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    
+                    <div class="swiper-slide">
+                        <div id="item">
+                            <div id="img_box">
+                                <img src="./images/persons/char2.jpg">
+                            </div>
+                            <div id="line"></div>
+                            <div id="content">
+                                <h3 id="name">Adam Zasiński</h3>
+                                <h4 id="profession">CSO & Community Coordinator</h4>
+                                <a href="/">
+                                    <img src="./images/icons/linkedin.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="swiper-slide">
+                        <div id="item">
+                            <div id="img_box">
+                                <img src="./images/persons/char1.jpg">
+                            </div>
+                            <div id="line"></div>
+                            <div id="content">
+                                <h3 id="name">Damian Wiszowaty</h3>
+                                <h4 id="profession">Mentor</h4>
+                                <a href="/">
+                                    <img src="./images/icons/linkedin.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
 
 
 
@@ -317,9 +436,16 @@
 
 
 
-
-
-<script src="./scripts/nav.js"></script>
-<script src="./scripts/button.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/button.js"></script>
+    <script src="./scripts/swiper.js"></script>
 </body>
 </html>

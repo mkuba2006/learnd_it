@@ -1,0 +1,213 @@
+#six{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 0 5vw;
+}
+
+#six #team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#six h1{
+    font-family: SfProReg;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+#six #team #item{
+    width: 381px;
+    gap: 50px;
+    border-radius: 21.91px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+#six #team #item:hover{
+    scale: 1.01;
+}
+#six #team #item #img_box{
+    width: 381px;
+    height: 364px;
+    border-radius: 25px 25px 0px 0px;
+}
+#six #team #item #img_box img{
+    object-fit: cover;
+    width: 381px;
+    height: 364px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#six #team #item #content{
+    font-family: SfProMed;
+    padding: 20px 35px;
+}
+
+#six #team #item #content #name{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+#six #team #item #content h4{
+    font-family: SfProReg;
+    font-size: 19.06px;
+    font-weight: 400;
+    color: #707070;
+    margin: 15px 0 15px 0;
+}
+
+#six #team #item #line{
+    content: '';
+    position: absolute;
+    width: 381px;
+    height: 9px;
+    background: linear-gradient(90deg, #03BE3D 40%, #006D22 100%);
+}
+#six #team #item #content a{
+    background: linear-gradient(to right, rgb(3, 190, 62), rgb(0, 109, 34));
+    padding-top: 1px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 7px;
+}
+
+#six #team #item #content a img{
+    width: 21.6px;
+    height: 21.6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1450px){
+
+    #six h1{
+        font-size: 54px;
+        margin-bottom: 50px;
+    }
+    
+    #six #team{
+        gap: 35px;
+    }
+
+    #six #team #item{
+        width: 320px;
+        border-radius: 20.91px;
+    }
+    #six #team #item #img_box{
+        width: 320px;
+        height: 290px;
+    }
+    #six #team #item #img_box img{
+        width: 320px;
+        height: 290px;
+    }
+    
+    #six #team #item #content{
+        padding: 18px 30px;
+    }
+    
+    #six #team #item #content #name{
+        font-size: 20px;
+        margin: 15px 0 10px 0;
+    }
+    #six #team #item #content h4{
+        font-size: 18px;
+        color: #707070;
+        margin: 12px 0 15px 0;
+    }
+    
+    #six #team #item #line{
+        width: 320px;
+        height: 8px;
+    }
+    #six #team #item #content a{
+        border-radius: 6px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    #six #team #item #content a img{
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1150px){
+
+    #six h1{
+        font-size: 40px;
+    }
+    
+    #six #team{
+        gap: 30px;
+    }
+
+    #six #team #item{
+        width: 250px;
+    }
+    #six #team #item #img_box{
+        width: 250px;
+        height: 240px;
+    }
+    #six #team #item #img_box img{
+        width: 250px;
+        height: 240px;
+    }
+    
+    #six #team #item #content{
+        padding: 15px 26px;
+    }
+    
+    #six #team #item #content #name{
+        font-size: 18px;
+        margin: 15px 0 10px 0;
+    }
+    #six #team #item #content h4{
+        font-size: 15px;
+        color: #707070;
+        margin: 10px 0 12px 0;
+    }
+    
+    #six #team #item #line{
+        width: 250px;
+        height: 7px;
+    }
+    #six #team #item #content a{
+        border-radius: 6px;
+        width: 26px;
+        height: 26px;
+    }
+    
+    #six #team #item #content a img{
+        width: 16px;
+        height: 16px;
+    }
+
+}
+@media screen and (max-width: 600px){
+    #six #team{
+        display: none;
+    }
+}
