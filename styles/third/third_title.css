@@ -32,4 +32,7 @@
     #third h1{
         font-size: 25px;
     }
+    #third{
+        margin: 70px auto 100px auto;
+    }
 }
