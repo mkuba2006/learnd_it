@@ -133,6 +133,7 @@
     padding: 12.5px 32px;
   }
   .button-animation {
+    transition: left 0.3s ease;
     border-radius: 13px;
   }
 }
