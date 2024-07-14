@@ -89,6 +89,7 @@
     #student_content div #icon_box {
         width: 62px;
         height: 62px;
+        border-radius: 17.32px;
     }
     #student_content div #icon_box img{
         width: 32px;
@@ -109,6 +110,43 @@
         width: 100%;
     }
 }
+
+
+
+
+
+@media screen and (max-width: 625px){
+    #student_info #student_content{
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+    #student_content div h2{
+        font-size: 12.86px;
+        font-weight: 700;
+        margin: 15px 0 5px 0;
+    }
+    
+    #student_content div p{
+        font-size: 10.72px;
+        margin: 5px 0;
+        max-width: 300px;
+    }
+    #student_content div #icon_box {
+        width: 46px;
+        height: 46px;
+        border-radius: 12.32px;
+    }
+    #student_content div #icon_box img{
+        width: 20px;
+    }
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 570px){
     #student_info #tutor_content {

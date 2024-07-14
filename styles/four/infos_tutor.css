@@ -116,6 +116,31 @@
     }
 }
 
+@media screen and (max-width: 625px){
+    #tutor_info #tutor_content{
+        flex-direction: column;
+        padding: 0;
+    }
+    #tutor_content div h2{
+        font-size: 12.86px;
+        font-weight: 700;
+        margin: 15px 0 5px 0;
+    }
+    
+    #tutor_content div p{
+        font-size: 10.72px;
+        margin: 5px 0;
+        max-width: 300px;
+    }
+    #tutor_content div #icon_box {
+        width: 46px;
+        height: 46px;
+        border-radius: 12.32px;
+    }
+    #tutor_content div #icon_box img{
+        width: 20px;
+    }
+}
 
 @media screen and (max-width: 570px){
     #tutor_info #tutor_content {
