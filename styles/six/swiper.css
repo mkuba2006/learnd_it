@@ -96,6 +96,8 @@
 @media screen and (max-width: 420px){
     #x{
         display: block;
+        width: 100vw;
+        /* new */
     }
     .swiper {
         width: auto;
