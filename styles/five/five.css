@@ -243,6 +243,7 @@
         max-width: 280px;
         padding: 0;
         align-items: center;
+        gap: 12px;
         justify-content: flex-start;
     }
     #five #topic{
