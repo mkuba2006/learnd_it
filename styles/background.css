@@ -9,6 +9,7 @@ body{
     padding: 0;
     background-color: white;
     padding-bottom: 600px;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: SfProMed;

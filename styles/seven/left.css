@@ -1,6 +1,4 @@
-/* left */
-
-#left p{
+#left p {
     width: 536px;
     border: 1px solid #DADADA;
     border-radius: 20px;
@@ -11,15 +9,15 @@
     letter-spacing: 1.25px;
 }
 
-#left_first{
-    transform: translate(30px,130px);
+#left_first {
+    transform: translate(30px, 130px);
 }
 
-
-#left_second{
+#left_second {
     display: flex;
 }
-#data_box2{
+
+#data_box2 {
     font-family: SfProReg;
     letter-spacing: 1.5px;
     width: 186px;
@@ -32,37 +30,36 @@
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
-    transform: translate(30px,191px);
+    transform: translate(30px, 191px);
 }
-#left_second img{
+
+#left_second img {
     object-fit: cover;
     border-radius: 15px;
     width: 414px;
     height: 288px;
-    transform: translate(-20px,162px);
+    transform: translate(-20px, 162px);
 }
 
-#left #left_third{
+#left #left_third {
     padding: 27px 20px;
     width: 390px;
-    transform: translate(25px,250px);
+    transform: translate(25px, 195px);
 }
 
-
-
-#left_fourth{
+#left_fourth {
     display: flex;
 }
 
-#left_fourth img{
+#left_fourth img {
     object-fit: cover;
     border-radius: 15px;
     width: 281px;
     height: 227px;
-    transform: translate(-30px,240px);
+    transform: translate(-30px, 240px);
 }
 
-#data_box4{
+#data_box4 {
     font-family: SfProReg;
     letter-spacing: 1.5px;
     width: 186px;
@@ -75,10 +72,10 @@
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
-    transform: translate(30px,310px);
+    transform: translate(30px, 310px);
 }
 
-#span1{
+#span1 {
     font-family: SfProMed;
     font-weight: 900;
     background: linear-gradient(to right, #03BE3D 0%, #006D22 100%);
@@ -86,10 +83,83 @@
     -webkit-text-fill-color: transparent;
 }
 
-#left_fifth{
-    transform: translate(30px,240px);
+
+#left_fifth {
+    transform: translate(30px, 240px);
 }
 
-#span2{
-color: #B4C300;
+#span2 {
+    color: #B4C300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1450px){
+    #left p {
+        width: 380px;
+        border-radius: 22px;
+        font-size: 18px;
+        font-family: SfProReg;
+        padding: 27px 30px;
+    }
+    
+    #left_first {
+        transform: translate(30px, 115px);
+    }
+    
+    #data_box2 {
+        width: 140px;
+        height: 38px;
+        font-size: 15px;
+        border-radius: 6px;
+        transform: translate(30px, 160px);
+    }
+    
+    #left_second img {
+        width: 300px;
+        height: 208px;
+        transform: translate(0, 132px);
+    }
+    
+    #left #left_third {
+        padding: 27px 20px;
+        width: 390px;
+        transform: translate(25px, 195px);
+    }
+    
+    #left_fourth img {
+        border-radius: 15px;
+        width: 210px;
+        height: 169px;
+        transform: translate(-10px, 210px);
+    }
+    
+    #data_box4 {
+        width: 140px;
+        height: 38px;
+        font-size: 15px;
+        transform: translate(30px, 274px);
+    }
 }
