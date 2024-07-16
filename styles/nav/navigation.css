@@ -68,10 +68,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 7px;
+        width: 21.38px;
+        height: 21.38px;
         background: #333333;
         border-radius: 50px;
     }
+    #navigation_d2 a img{
+        width: 12.8px;
+    }
+
 }
 
 @media screen and (max-width: 489px){
