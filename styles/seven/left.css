@@ -216,13 +216,13 @@
         border-radius: 8px;
         font-size: 9.94px;
         padding: 13px 13px;
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
     #left_first {
         transform: translate(30px, 85px);
         font-size: 19px;
         padding: 27px 20px;
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
     #data_box2 {
         padding-top: 1.5px;
@@ -231,7 +231,7 @@
         height: 25.06px;
         font-size: 11px;
         transform: translate(30px, 137px);
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
     #left #left_third {
         padding: 13px 13px;
@@ -245,7 +245,7 @@
         height: 25.06px;
         font-size: 11px;
         transform: translate(30px, 359px);
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
 
     p#left_fifth{
@@ -282,14 +282,15 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(30px, 348px);
+        transform: translate(30px, 360px);
     }
 }
 
 
 @media screen and (max-width: 330px){
     #data_box2 {
-        transform: translate(30px, 127px);
+        padding-top: 0;
+        transform: translate(30px, 138px);
         width: 90px;
         font-size: 8px;
     }
@@ -312,10 +313,10 @@
         height: auto;
     }
     #data_box4 {
-        padding-top: 1px;
+        padding-top: 0;
         width: 90px;
         font-size: 8px;
         height: 25.06px;
-        transform: translate(30px, 340px);
+        transform: translate(30px, 363px);
     }
 }

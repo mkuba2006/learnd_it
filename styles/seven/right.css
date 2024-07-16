@@ -34,11 +34,11 @@
 }
 
 #data_box3 {
-    transform: translate(-30px, 261px);
+    transform: translate(-30px, 321px);
 }
 
 #data_box5 {
-    transform: translate(-30px, 178px);
+    transform: translate(-30px, 172px);
 }
 
 #right_second, #right_fourth {
@@ -208,7 +208,7 @@
         height: 25.06px;
         font-size: 11px;
         transform: translate(-30px, 94px);
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
     
     #data_box3 {
@@ -216,8 +216,8 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(-30px, 294px);
-        letter-spacing: 1px;
+        transform: translate(-30px, 304px);
+        letter-spacing: 0;
     }
     
     #data_box5 {
@@ -225,8 +225,8 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(-30px, 403px);
-        letter-spacing: 1px;
+        transform: translate(-30px, 424px);
+        letter-spacing: 0;
     }
 
     #right_second {
@@ -235,7 +235,7 @@
         width: 167px;
         padding: 13px 13px;
         border-radius: 8px;
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
 
     #right_fourth {
@@ -244,9 +244,13 @@
         width: 176px;
         padding: 13px 13px;
         border-radius: 8px;
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
 }
+
+
+
+
 
 
 @media screen and (max-width: 440px){
@@ -267,9 +271,9 @@
 
     #right_fourth {
         font-size: 9.94px;
-        transform: translate(-30px, 370px);
+        transform: translate(-30px, 360px);
         width: 126px;
-        padding: 13px 13px;
+        padding: 8px;
         border-radius: 8px;
     }
 
@@ -278,9 +282,14 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(-30px, 391px);
+        transform: translate(-30px, 400px);
     }
 }
+
+
+
+
+
 
 @media screen and (max-width: 340px){
     #right_second {
@@ -296,12 +305,12 @@
         width: 100px;
         font-size: 8px;
         padding: 4px;
-        transform: translate(-30px, 263px);
+        transform: translate(-30px, 285px);
     }
 
     #right_fourth {
         font-size: 8.94px;
-        transform: translate(-30px, 348px);
+        transform: translate(-30px, 373px);
         width: 117px;
         padding: 8px;
         border-radius: 8px;
@@ -312,6 +321,6 @@
         height: 25.06px;
         width: 90px;
         font-size: 8px;
-        transform: translate(-30px, 349px);
+        transform: translate(-30px, 404px);
     }
 }
