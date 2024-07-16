@@ -223,6 +223,7 @@
         font-size: 19px;
         padding: 27px 20px;
         letter-spacing: 0;
+        min-width: 110px;
     }
     #data_box2 {
         padding-top: 1.5px;
@@ -238,6 +239,7 @@
         height: auto;
         width: 167px;
         transform: translate(25px, 293px);
+        min-width: 110px;
     }
     #data_box4 {
         padding-top: 1px;
@@ -251,6 +253,7 @@
     p#left_fifth{
         transform: translate(30px, 432px);
         height: auto;
+        min-width: 110px;
     }
 }
 
