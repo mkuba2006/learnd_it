@@ -282,3 +282,37 @@
         transform: translate(30px, 348px);
     }
 }
+
+
+@media screen and (max-width: 330px){
+    #data_box2 {
+        transform: translate(30px, 127px);
+        width: 90px;
+        font-size: 8px;
+    }
+    #left p {
+        transform: translate(30px, 80px);
+        width: 110px;
+        height: auto;
+        border-radius: 8px;
+        font-size: 8.94px;
+        padding: 8px 13px;
+    }
+    #left #left_third {
+        padding: 13px 6px;
+        height: auto;
+        width: 110px;
+        transform: translate(25px, 290px);
+    }
+    p#left_fifth{
+        transform: translate(30px, 416px);
+        height: auto;
+    }
+    #data_box4 {
+        padding-top: 1px;
+        width: 90px;
+        font-size: 8px;
+        height: 25.06px;
+        transform: translate(30px, 340px);
+    }
+}
