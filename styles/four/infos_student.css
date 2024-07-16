@@ -155,7 +155,7 @@
     }
     #student_info #img_box img{
         width: 100%;
-        min-width: 360px;
+        min-width: 280px;
     }
 
 }
