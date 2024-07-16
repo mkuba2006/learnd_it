@@ -68,6 +68,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 7px;
+        background: #333333;
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #navigation_d2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    } 
+    #navigation_d2 a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 21.38px;
         height: 21.38px;
         background: #333333;
@@ -76,11 +94,10 @@
     #navigation_d2 a img{
         width: 12.8px;
     }
-
 }
 
 @media screen and (max-width: 489px){
     #navigation{
-        padding: 120px 80px 180px 80px;
+        padding: 70px 80px 180px 80px;
     }
 }
