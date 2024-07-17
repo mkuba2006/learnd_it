@@ -662,8 +662,8 @@
 
     #first #first_content #colabs{
         width: auto;
-        justify-content: space-between;
-        gap: 10px;
+        justify-content: flex-start;
+        gap: 15px;
     }
     #first #first_content #colabs #incredibles{
         width: 65px;

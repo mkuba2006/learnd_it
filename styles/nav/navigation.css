@@ -12,7 +12,7 @@
         justify-content: space-between;
         height: calc(100vh);
         width: 100vw;
-        padding: 15vh 150px 20vh 150px;
+        padding: 100px 150px  200px 150px;
         gap: 10px;
         transform: translateY(-130vh);
         transition: transform 0.5s ease-in-out;
@@ -23,7 +23,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 40px; 
+        gap: 35px; 
     }
 
     #navigation_d1 #link{
@@ -42,11 +42,11 @@
 
     #navigation_d1 #courses button {
         font-family: SfProReg;
-        width: 200px;
-        height: 50px;
+        width: 153px;
+        height: 43px;
         border-radius: 32px;
         border: none;
-        font-size: 17px;
+        font-size: 12px;
         font-weight: 590;
         letter-spacing: 1.2px;
         color: #FFFFFF;
@@ -75,6 +75,7 @@
 }
 
 @media screen and (max-width: 550px){
+    
     #navigation_d2{
         display: flex;
         flex-direction: row;
@@ -97,7 +98,10 @@
 }
 
 @media screen and (max-width: 489px){
+
     #navigation{
-        padding: 70px 80px 180px 80px;
+        justify-content: center;
+        padding: 0 0 100px 0;
+        gap: 10vh;
     }
 }
