@@ -316,11 +316,13 @@
     }
     #left{
         padding: 20px 20px 0 0;
-        width: 130px;
+        width: 110px;
+        min-width: 100px;
     }
     #right{
         padding: 20px 0 0 20px;
-        width: 130px;
+        width: 110px;
+        min-width: 100px;
     }
 
 
