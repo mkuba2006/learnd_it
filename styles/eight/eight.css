@@ -44,6 +44,7 @@
 @media screen and (max-width: 768px) {
     #eight {
         height: 85px;
+        margin: 100px 0 0 0 ;
     }
 
     #eight p {

@@ -8,17 +8,30 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
-    padding-bottom: 600px;
     overflow-x: hidden;
 }
 @font-face {
     font-family: SfProMed;
-    src: url(../../fonts/SfPro/SFPRODISPLAYMEDIUM.OTF);
+    src: url(./SFmed.OTF);
 }
 @font-face {
     font-family: SfProReg;
-    src: url(../../fonts/SfPro/SFPRODISPLAYREGULAR.OTF);
+    src: url(./SFreg.OTF);
 }
+@font-face {
+    font-family: SfProBold;
+    src: url(./SFbold.OTF);
+}
+@font-face {
+    font-family: SfProThin;
+    src: url(./thin.otf);
+}
+
+@font-face {
+    font-family: SfProBold2;
+    src: url(./bold.otf);
+}
+
 
 /* @font-face {
     font-family: SfProMed;
