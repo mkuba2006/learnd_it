@@ -333,8 +333,11 @@
     }
 
 }
-
-
+@media screen and (max-width: 360px){
+    #images_container {
+        max-width: 250px;
+    }
+}
 @media screen and (max-width: 330px){
 
     #left{
