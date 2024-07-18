@@ -604,16 +604,17 @@
 
     
     #first #first_image img {
-        width: 200px;
-        height: 421px;
+        width: 163px;
+        height: 332px;
     }
     
     #first #first_image::after {
-        top: 50px;
-        left: -30px;
-        width: 260px;
+        top: 60px;
+        left: -19px;
+        width: 198px;
         height: 93%;
-        max-height: 400px;
+        max-height: 290px;
+        border-radius: 37.1px;
     }
 
 

@@ -54,6 +54,9 @@
 
 
 @media screen and (max-width: 625px){
+    #second {
+        margin-top: 100px;
+    }
     #second #description{
         padding: 0 30px;
     }

@@ -287,8 +287,8 @@
         font-size: 13px;
     }
 
-
     #el1 #text, #el2 #text, #el3 #text, #el4 #text {
         font-size: 11px;
+        max-width: 330px;
     }
 }
