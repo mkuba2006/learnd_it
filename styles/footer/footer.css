@@ -179,7 +179,7 @@ footer h1 {
 
 @media screen and (max-width: 1450px) {
     footer h1 {
-        transform: translateY(300px);
+        transform: translateY(400px);
         font-size: 40px;
     }
 
@@ -248,6 +248,12 @@ footer h1 {
 }
 
 
+@media screen and (max-width: 1000px) {
+    footer h1 {
+        transform: translateY(250px);
+        font-size: 40px;
+    }
+}
 
 @media screen and (max-width: 750px) {
 

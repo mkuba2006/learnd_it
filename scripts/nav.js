@@ -19,14 +19,15 @@ function toggleMenu() {
     const nav2 = document.getElementById('nav2');
     const navigation = document.getElementById('navigation');
 
-    burger.classList.toggle('open'); 
-    nav2.classList.toggle('open'); 
+    const isOpen = burger.classList.toggle('open');
+    nav2.classList.toggle('open');
 
-    if (burger.classList.contains('open')) {
+    if (isOpen) {
         navigation.style.transform = 'translateY(0)';
         document.body.style.overflowY = 'hidden';
     } else {
-        navigation.style.transform = 'translateY(-130vh)'; 
+        navigation.style.transform = 'translateY(-130vh)';
         document.body.style.overflowY = 'visible';
     }
 }
+
