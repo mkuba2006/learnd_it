@@ -567,12 +567,12 @@
 
     #first #first_content h2{
         font-size: 29px;
-        max-width: auto;
+        max-width: 430px;
     }
     
     #first #first_content p{
         font-size: 10px;
-        max-width: 500px;
+        max-width: 440px;
         margin: 30px 0;
     }
 
@@ -655,6 +655,17 @@
 
 
 @media screen and (max-width: 400px){
+    #first #first_content h2{
+        font-size: 29px;
+        max-width: 330px;
+    }
+    
+    #first #first_content p{
+        font-size: 10px;
+        max-width: 330px;
+        margin: 30px 0;
+    }
+
     #first #first_content #form #form_one {
         height: 32px;
         padding: 0 80px 0 10px;
@@ -683,6 +694,15 @@
     #first #first_content #colabs #czworka{
         width: 65px;
         height: 26px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 330px){
+    #first #first_content #colabs{
+        gap: 8px;
     }
 
 }
