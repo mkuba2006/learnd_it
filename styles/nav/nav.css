@@ -1,19 +1,15 @@
-@font-face {
-    font-family: SfProMed;
-    src: url(../SFPRODISPLAYMEDIUM.OTF);
-}
-@font-face {
-    font-family: SfProReg;
-    src: url(../SFPRODISPLAYREGULAR.OTF);
-}
 
 nav{
+    position: fixed;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 110px;
-    margin-top: 10px;
+    padding: 10px 110px;
+    background-color: white;
+    top: 0;
+    z-index: 1000;
 }
 #nav2{
     display: none;
@@ -21,14 +17,14 @@ nav{
 
 
 nav #name h2, #nav2 #name h2 {
-    font-family: SfProMed;
+    font-family: Logo;
     z-index: 1000;
     font-size: 34px;
-    font-weight: 860;
+    font-weight: 900;
     background: linear-gradient(90deg, #03BE3D 50%, #006D22 120%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 0.3px;
+    letter-spacing: 0px;
 
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale; 
@@ -142,7 +138,7 @@ nav #buttons #flag p{
         display: none;
     }
     #nav2{
-        position: relative;
+        position: fixed;
         display: flex;
         flex-direction: row;
         align-items: center;

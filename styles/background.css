@@ -12,7 +12,7 @@ body{
 }
 @font-face {
     font-family: SfProMed;
-    src: url(./SFmed.OTF);
+    src: url(./Medium.otf);
 }
 @font-face {
     font-family: SfProReg;
@@ -30,6 +30,10 @@ body{
 @font-face {
     font-family: SfProBold2;
     src: url(./bold.otf);
+}
+@font-face {
+    font-family: Logo;
+    src: url(./SF-Pro-Display-Black.otf);
 }
 
 

@@ -23,7 +23,7 @@ function toggleMenu() {
     nav2.classList.toggle('open');
 
     if (isOpen) {
-        navigation.style.transform = 'translateY(0)';
+        navigation.style.transform = 'translateY(-5vh)';
         document.body.style.overflowY = 'hidden';
     } else {
         navigation.style.transform = 'translateY(-130vh)';
