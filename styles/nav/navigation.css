@@ -112,7 +112,7 @@
     display: none;
 }
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 1150px){
     #navigation {
         z-index: 100;
         position: fixed;

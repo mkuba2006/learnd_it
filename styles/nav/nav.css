@@ -16,6 +16,17 @@ nav{
 }
 
 
+#name_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+#name_div #links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 nav #name h2, #nav2 #name h2 {
     font-family: Logo;
     z-index: 1000;
@@ -39,7 +50,7 @@ nav #name h2, #nav2 #name h2 {
     gap: 40px;
 }
 
-nav #buttons #link{
+nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
     font-family: SfProReg;
     text-decoration: none;
     color: black;
@@ -49,7 +60,7 @@ nav #buttons #link{
     transition: color 0.3s ease;
 }
 
-nav #buttons #link:hover{
+nav #name_div #link1:hover,nav #name_div #link2:hover, nav #name_div #link3:hover,nav #name_div #link4:hover{
     color: #406942;
 }
 
@@ -133,7 +144,7 @@ nav #buttons #flag p{
 
 
 
-@media screen and (max-width: 968px){
+@media screen and (max-width:1150px){
     #nav1{
         display: none;
     }
@@ -170,7 +181,7 @@ nav #buttons #flag p{
         width: 28px;
         height: 3px;
         background-color: black;
-        transition: transform 0.4s ease, width 0.4s ease;
+        transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease;
         border-radius: 170px;
     }
 
@@ -191,34 +202,24 @@ nav #buttons #flag p{
     .open #line1 {
         transform: translateY(10px) rotate(-45deg);
         width: 28px;
+        height: 2px;
     }
 
     .open #line2 {
         opacity: 0;
+        height: 2px;
     }
 
     .open #line3 {
         transform: translateY(-10px) rotate(45deg);
         width: 28px;
+        height: 2px;
     }
 
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px){
-    
-}
 
 @media screen and (max-width: 480px){
     #nav2{
