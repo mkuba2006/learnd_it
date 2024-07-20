@@ -37,11 +37,11 @@ footer h1 {
 }
 
 #one h2 {
-    font-family: SfProBold2;
+    font-family: Logo;
     font-size: 34px;
     font-weight: 960;
     margin: 0;
-    background: linear-gradient(71.21deg, #FFF 1.98%, #A5A5A5 115.47%);
+    background: linear-gradient(to right, #FFF 100%, #A5A5A5 120%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -128,17 +128,24 @@ footer h1 {
 #column h3 {
     font-family: SfProThin;
     font-size: 22px;
+    margin: 22px 0 10px 0;
     color: #EAEAEA;
 }
 
 #column a,
 #column p {
     font-size: 16px;
+    letter-spacing: 0.5px;
     color: #A6A6A6;
     font-family: SfProReg;
     text-decoration: none;
     margin: 0;
+    transition: 0.2s ease;
 }
+#column a:hover,
+#column p:hover{
+    color: #a6a6a6d2;
+} 
 
 #icons {
     display: flex;

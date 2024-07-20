@@ -13,6 +13,19 @@ const originalTexts = {
     first_span1: document.getElementById('first_span1').textContent,
     first_span2: document.getElementById('first_span2').textContent,
     first_p: document.getElementById('first_p').textContent,
+
+    second_h1: document.getElementById('second_h1').textContent,
+    second_h2: document.getElementById('second_h2').textContent,
+    second_el1_h3: document.getElementById('second_el1_h3').textContent,
+    text1: document.getElementById('text1').textContent,
+    second_el2_h3: document.getElementById('second_el2_h3').textContent,
+    text2: document.getElementById('text2').textContent,
+    second_el3_h3: document.getElementById('second_el3_h3').textContent,
+    text3: document.getElementById('text3').textContent,
+    second_el4_h3: document.getElementById('second_el4_h3').textContent,
+    text4: document.getElementById('text4').textContent,
+
+    third_description: document.getElementById('third_description').textContent,
 };
 
 
@@ -39,6 +52,19 @@ button_flag.addEventListener('click', () => {
         document.getElementById('email').setAttribute("placeholder", "Twój adres email");
         document.getElementById('submit').setAttribute("value", 'Odbierz Wczesny Dostęp');
 
+        
+        document.getElementById('second_h1').textContent = 'Jak działa Learnd.it';
+        document.getElementById('second_h2').textContent = 'Z Learnd.it możesz wybrać rodzaj zajęć, które Cię interesują – indywidualne sesje, lekcje grupowe czy interaktywne wykłady na żywo. Następnie wybierz nauczyciela z dostępnych opcji i zacznij zdobywać potrzebną wiedzę.';
+        document.getElementById('second_el1_h3').textContent = 'Wybierz rodzaj zajęć';
+        document.getElementById('text1').textContent = 'Zdecyduj, czy wolisz sesje indywidualne, zajęcia grupowe, czy interaktywne wykłady na żywo.';
+        document.getElementById('second_el2_h3').textContent = 'Znajdź wymarzonego Nauczyciela';
+        document.getElementById('text2').textContent = 'Przejrzyj listę doświadczonych nauczycieli. Wybierz tego, który najlepiej odpowiada Twoim preferencjom i celom edukacyjnym, aby jak najlepiej wykorzystać swoje zajęcia.';
+        document.getElementById('second_el3_h3').textContent = 'Zaplanuj swoje zajęcia w szybki sposób';
+        document.getElementById('text3').textContent = 'Zaplanuj swoje sesje nauki kilkoma kliknięciami. Nasza intuicyjna platforma sprawia, że łatwo zarezerwujesz zajęcia w dogodnych dla Ciebie terminach.';
+        document.getElementById('second_el4_h3').textContent = 'Korzystaj ze zweryfikowanych źródeł';
+        document.getElementById('text4').textContent = 'Zdobądź wiedzę od najlepszych tutorów, korzystając ze zweryfikowanych i niezawodnych źródeł. Zwiększ swoje doświadczenia edukacyjne dzięki zaufanym i skutecznym materiałom.';
+
+        document.getElementById('third_description').textContent ='Kluczowe Funkcjonalności';
 
 
         
@@ -62,9 +88,18 @@ button_flag.addEventListener('click', () => {
         document.getElementById('submit').setAttribute("value", 'Get Early Access');
 
 
-
-
-
+        document.getElementById('second_h1').textContent = originalTexts.second_h1;
+        document.getElementById('second_h2').textContent = originalTexts.second_h2;
+        document.getElementById('second_el1_h3').textContent = originalTexts.second_el1_h3;
+        document.getElementById('text1').textContent = originalTexts.text1; 
+        document.getElementById('second_el2_h3').textContent = originalTexts.second_el2_h3;
+        document.getElementById('text2').textContent = originalTexts.text2; 
+        document.getElementById('second_el3_h3').textContent = originalTexts.second_el3_h3;
+        document.getElementById('text3').textContent = originalTexts.text3; 
+        document.getElementById('second_el4_h3').textContent = originalTexts.second_el4_h3; 
+        document.getElementById('text4').textContent = originalTexts.text4; 
+        
+        document.getElementById('third_description').textContent = originalTexts.third_description; 
 
 
 

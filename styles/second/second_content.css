@@ -1,22 +1,22 @@
 #second #content {
     display: grid;
-    grid-template-columns: auto 500px auto;
+    grid-template-columns: 1fr 500px 1fr;
     grid-template-rows: auto auto;
     grid-template-areas: 
         "el1 phone el2"
         "el3 phone el4";
-    
     gap: 30px; 
     margin: 30px auto 0 auto;
     padding: 0 40px;
     font-family: SfProReg;
 }
 
+
 #phone {
     grid-area: phone;
     justify-self: center; 
     align-self: center;
-    position: relative; /* Added for pseudo-element positioning */
+    position: relative;
     width: 100%;
     max-width: 300px;
 }
@@ -96,25 +96,32 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+
+
+#el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
     font-size: 23.15px;
     font-weight: 700;
     margin: 15px 0 0 0;
 }
 
 
-#el1 #text, #el2 #text, #el3 #text, #el4 #text {
+#el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
     color: #707070;
     font-size: 19.29px;
 }
 
+@media screen and (max-width: 1500px){
+    #second #content {
+        gap: 25px;
+    }
+    #el1, #el2, #el3, #el4{
+        max-width: 360px;
+    }
 
-
-
-
+}
 @media screen and (max-width: 1250px){
     #second #content {
-        grid-template-columns: auto 330px auto;
+        grid-template-columns: 1fr 330px 1fr;
         padding: 0 40px;
         gap: 40px; 
     }
@@ -138,13 +145,13 @@
         font-size: 30px;
     }
 
-    #el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+    #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
         font-size: 21px;
         margin: 15px 0 0 0;
     }
 
 
-    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
         color: #707070;
         font-size: 15px;
     }
@@ -161,7 +168,7 @@
 @media screen and (max-width: 920px){
 
     #second #content {
-        grid-template-columns: auto 280px auto;
+        grid-template-columns: 1fr 280px 1fr;
         padding: 0 40px;
         gap: 40px; 
     }
@@ -181,7 +188,7 @@
         max-height: 412px;
     }
 
-    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
         color: #707070;
         font-size: 15px;
     }
@@ -196,13 +203,13 @@
         font-size: 20px;
     }
 
-    #el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+    #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
         font-size: 17px;
         margin: 15px 0 0 0;
     }
 
 
-    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
         font-size: 13px;
     }
 }
@@ -274,7 +281,7 @@
 }
 
 @media screen and (max-width: 470px){
-    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
         color: #707070;
         font-size: 15px;
     }
@@ -283,11 +290,11 @@
         font-size: 18px;
     }
 
-    #el1 h3, #el2 h3, #el3 h3, #el4 h3 {
+    #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
         font-size: 13px;
     }
 
-    #el1 #text, #el2 #text, #el3 #text, #el4 #text {
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
         font-size: 11px;
         max-width: 330px;
     }

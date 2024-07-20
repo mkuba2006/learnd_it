@@ -31,6 +31,7 @@
 @media screen and (max-width: 625px) {
     #third h1{
         font-size: 25px;
+        padding: 0 20px;
     }
     #third{
         margin: 70px auto 100px auto;
