@@ -31,7 +31,7 @@
 }
 
 
-@media screen and (max-width: 925px){
+@media screen and (max-width: 970px){
     #infos #student_info {
         min-width: 100vw;
         display: flex;

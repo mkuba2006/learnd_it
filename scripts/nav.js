@@ -26,6 +26,50 @@ const originalTexts = {
     text4: document.getElementById('text4').textContent,
 
     third_description: document.getElementById('third_description').textContent,
+    third_h2_1: document.getElementById('third_h2_1').textContent,
+    third_h2_2: document.getElementById('third_h2_2').textContent,
+    third_h2_3: document.getElementById('third_h2_3').textContent,
+    third_h2_4: document.getElementById('third_h2_4').textContent,
+
+
+    third_p_1: document.getElementById('third_p_1').textContent,
+    third_p_2: document.getElementById('third_p_2').textContent,
+    third_p_3: document.getElementById('third_p_3').textContent,
+    third_p_4: document.getElementById('third_p_4').textContent,
+
+
+    four_h1: document.getElementById('four_h1').textContent,
+    four_h2: document.getElementById('four_h2').textContent,
+    student : document.getElementById('student').textContent,
+    student_h2_1: document.getElementById('student_h2_1').textContent,
+    student_h2_2: document.getElementById('student_h2_2').textContent,
+    student_h2_3: document.getElementById('student_h2_3').textContent,
+    student_p_1: document.getElementById('student_p_1').textContent,
+    student_p_2: document.getElementById('student_p_2').textContent,
+    student_p_3: document.getElementById('student_p_3').textContent,
+
+    tutor_h2_1: document.getElementById('tutor_h2_1').textContent,
+    tutor_h2_2: document.getElementById('tutor_h2_2').textContent,
+    tutor_h2_3: document.getElementById('tutor_h2_3').textContent,
+    tutor_p_1: document.getElementById('tutor_p_1').textContent,
+    tutor_p_2: document.getElementById('tutor_p_2').textContent,
+    tutor_p_3: document.getElementById('tutor_p_3').textContent,
+
+    topic_h1: document.getElementById('topic_h1').textContent,
+    topic_p: document.getElementById('topic_p').textContent,
+    item_h2_1: document.getElementById('item_h2_1').textContent,
+    item_p_1: document.getElementById('item_p_1').textContent,
+    item_h2_2: document.getElementById('item_h2_2').textContent,
+    item_p_2: document.getElementById('item_p_2').textContent,
+    item_h2_3: document.getElementById('item_h2_3').textContent,
+    item_p_3: document.getElementById('item_p_3').textContent,
+    item_h2_4: document.getElementById('item_h2_4').textContent,
+    item_p_4: document.getElementById('item_p_4').textContent,
+    item_h2_5: document.getElementById('item_h2_5').textContent,
+    item_p_5: document.getElementById('item_p_5').textContent,
+    item_h2_6: document.getElementById('item_h2_6').textContent,
+    item_p_6: document.getElementById('item_p_6').textContent,
+    item_h3: document.getElementById('item_h3').textContent,
 };
 
 
@@ -65,9 +109,49 @@ button_flag.addEventListener('click', () => {
         document.getElementById('text4').textContent = 'Zdobądź wiedzę od najlepszych tutorów, korzystając ze zweryfikowanych i niezawodnych źródeł. Zwiększ swoje doświadczenia edukacyjne dzięki zaufanym i skutecznym materiałom.';
 
         document.getElementById('third_description').textContent ='Kluczowe Funkcjonalności';
+        document.getElementById('third_h2_1').textContent ='Lekcje indywidualne';
+        document.getElementById('third_h2_2').textContent = 'Lekcje grupowe';
+        document.getElementById('third_h2_3').textContent = 'Wykłady LIVE';
+        document.getElementById('third_h2_4').textContent = 'LIVE z pytaniami';
+        document.getElementById('third_p_1').textContent = 'od 50 PLN za 60 min';
+        document.getElementById('third_p_2').textContent = 'od 20 PLN za 60 min';
+        document.getElementById('third_p_3').textContent = 'od 2 PLN za 60 min';
+        document.getElementById('third_p_4').textContent = 'od 1 PLN za pytanie';
 
 
-        
+        document.getElementById('four_h1').textContent ='Wybierz Swoją Ścieżkę';
+        document.getElementById('four_h2').textContent = 'Z Learnd.it masz elastyczność kształtowania swojej edukacyjnej drogi. Jako uczeń, wybierz spośród różnych formatów zajęć, które najlepiej odpowiadają Twojemu stylowi nauki. Jeśli jesteś ekspertem w swojej dziedzinie, dołącz do nas jako nauczyciel, aby dzielić się swoją wiedzą, inspirować innych i zarabiać. Wykorzystaj okazję, by uczyć się lub nauczać w sposób, który odpowiada Twoim celom.';
+        document.getElementById('student').textContent = 'Uczeń';
+        document.getElementById('student_h2_1').textContent = 'Odkrywaj dopasowaną naukę';
+        document.getElementById('student_h2_2').textContent = 'Skontaktuj się z ekspertami';
+        document.getElementById('student_h2_3').textContent = 'Korzystaj z wysokiej jakości materiałów';
+        document.getElementById('student_p_1').textContent = 'Znajdź zajęcia dopasowane do Twoich potrzeb i zainteresowań dzięki spersonalizowanym rekomendacjom.';
+        document.getElementById('student_p_2').textContent = 'Nawiąż kontakt z wykwalifikowanymi nauczycielami, którzy oferują wsparcie i pomoc w osiągnięciu sukcesu.';
+        document.getElementById('student_p_3').textContent = 'Korzystaj ze zweryfikowanych materiałów edukacyjnych, aby wzmocnić swoje zrozumienie i opanowanie tematów.';
+        document.getElementById('tutor_h2_1').textContent = 'Dziel się doświadczeniem'; 
+        document.getElementById('tutor_h2_2').textContent = 'Elastyczny grafik'; 
+        document.getElementById('tutor_h2_3').textContent = 'Rozwijaj swoje zasięgi'; 
+        document.getElementById('tutor_p_1').textContent = 'Dołącz do naszej społeczności edukatorów i twórz angażujące zajęcia, aby inspirować uczniów.'; 
+        document.getElementById('tutor_p_2').textContent = 'Łatwo zarządzaj swoim harmonogramem nauczania i dostosuj go do swoich zobowiązań.'; 
+        document.getElementById('tutor_p_3').textContent = 'Nawiązuj kontakt z uczniami na całym świecie i zwiększaj swój wpływ dzięki narzędziom naszej platformy.'; 
+
+        document.getElementById('topic_h1').textContent ='Główne Zalety';
+        document.getElementById('topic_p').textContent ='Poznaj wyjątkowe cechy i korzyści, które oferujemy, aby uczynić Twoje doświadczenie edukacyjne wyjątkowym i dostosowanym do Twoich potrzeb.';
+    
+
+        document.getElementById('item_h2_1').textContent ='Przystępne ceny';
+        document.getElementById('item_p_1').textContent ='Ciesz się wysokiej jakości edukacją w niskiej cenie.';
+        document.getElementById('item_h2_2').textContent ='Elastyczna nauka';
+        document.getElementById('item_p_2').textContent ='Sam decyduj; kiedy i jak się uczyć.';
+        document.getElementById('item_h2_3').textContent ='Sami eksperci';
+        document.getElementById('item_p_3').textContent ='Zdobywaj wiedzę od zweryfikowanych tutorów.';
+        document.getElementById('item_h2_4').textContent ='Szybki system rezerwacji';
+        document.getElementById('item_p_4').textContent ='Zaplanuj swoje zajęcia szybko i wygodnie.';
+        document.getElementById('item_h2_5').textContent ='Ucz się gdzie tylko zapragniesz';
+        document.getElementById('item_p_5').textContent ='Dostęp do zajęć z dowolnego miejsca.';
+        document.getElementById('item_h2_6').textContent ='Przyjazny interfejs';
+        document.getElementById('item_p_6').textContent ='Łatwo poruszaj się po naszej intuicyjnej platformie.';
+        document.getElementById('item_h3').textContent ='Rozpocznij swoją edukacyjną podróż!';
     } 
     
     else {
@@ -99,10 +183,50 @@ button_flag.addEventListener('click', () => {
         document.getElementById('second_el4_h3').textContent = originalTexts.second_el4_h3; 
         document.getElementById('text4').textContent = originalTexts.text4; 
         
+
         document.getElementById('third_description').textContent = originalTexts.third_description; 
+        document.getElementById('third_h2_1').textContent = originalTexts.third_h2_1; 
+        document.getElementById('third_h2_2').textContent = originalTexts.third_h2_2; 
+        document.getElementById('third_h2_3').textContent = originalTexts.third_h2_3; 
+        document.getElementById('third_h2_4').textContent = originalTexts.third_h2_4; 
+        document.getElementById('third_p_1').textContent = originalTexts.third_p_1;  
+        document.getElementById('third_p_2').textContent = originalTexts.third_p_2; 
+        document.getElementById('third_p_3').textContent = originalTexts.third_p_3;  
+        document.getElementById('third_p_4').textContent = originalTexts.third_p_4; 
+
+        document.getElementById('four_h1').textContent = originalTexts.four_h1; 
+        document.getElementById('four_h2').textContent = originalTexts.four_h2; 
+        document.getElementById('student').textContent = originalTexts.student;
+        document.getElementById('student_h2_1').textContent = originalTexts.student_h2_1;
+        document.getElementById('student_h2_2').textContent = originalTexts.student_h2_2;
+        document.getElementById('student_h2_3').textContent = originalTexts.student_h2_3;
+        document.getElementById('student_p_1').textContent = originalTexts.student_p_1;
+        document.getElementById('student_p_2').textContent = originalTexts.student_p_2;
+        document.getElementById('student_p_3').textContent = originalTexts.student_p_3;
+        document.getElementById('tutor_h2_1').textContent = originalTexts.tutor_h2_1;
+        document.getElementById('tutor_h2_2').textContent = originalTexts.tutor_h2_2;
+        document.getElementById('tutor_h2_3').textContent = originalTexts.tutor_h2_3;
+        document.getElementById('tutor_p_1').textContent = originalTexts.tutor_p_1;
+        document.getElementById('tutor_p_2').textContent = originalTexts.tutor_p_2;
+        document.getElementById('tutor_p_3').textContent = originalTexts.tutor_p_3;
 
 
+        document.getElementById('topic_h1').textContent = originalTexts.topic_h1;
+        document.getElementById('topic_p').textContent = originalTexts.topic_p;
 
+        document.getElementById('item_h2_1').textContent = originalTexts.item_h2_1;
+        document.getElementById('item_p_1').textContent = originalTexts.item_p_1;
+        document.getElementById('item_h2_2').textContent = originalTexts.item_h2_2;
+        document.getElementById('item_p_2').textContent = originalTexts.item_p_2;
+        document.getElementById('item_h2_3').textContent = originalTexts.item_h2_3;
+        document.getElementById('item_p_3').textContent = originalTexts.item_p_3;
+        document.getElementById('item_h2_4').textContent = originalTexts.item_h2_4;
+        document.getElementById('item_p_4').textContent = originalTexts.item_p_4;
+        document.getElementById('item_h2_5').textContent = originalTexts.item_h2_5;
+        document.getElementById('item_p_5').textContent = originalTexts.item_p_5;
+        document.getElementById('item_h2_6').textContent = originalTexts.item_h2_6;
+        document.getElementById('item_p_6').textContent = originalTexts.item_p_6;
+        document.getElementById('item_h3').textContent = originalTexts.item_h3;
     }
 });
 

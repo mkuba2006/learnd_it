@@ -10,7 +10,6 @@
 #tutor_info #tutor_content{
     font-family: SfProReg;
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -78,9 +77,10 @@
 }
 
 
-@media screen and (max-width: 925px){
+@media screen and (max-width: 970px){
     #tutor_info #tutor_content{
         flex-direction: column;
+        align-items: center;
         padding: 60px 0 0 0;
     }
     #tutor_info #tutor_content div{
