@@ -70,8 +70,43 @@ const originalTexts = {
     item_h2_6: document.getElementById('item_h2_6').textContent,
     item_p_6: document.getElementById('item_p_6').textContent,
     item_h3: document.getElementById('item_h3').textContent,
-};
 
+    six_h1: document.getElementById('six_h1').textContent,
+
+    seven_h1: document.getElementById('seven_h1').textContent,
+
+    left_first_1: document.getElementById('left_first_1').textContent,
+    left_first_2: document.getElementById('left_first_2').textContent,
+
+    third_span_1: document.getElementById('third_span_1').textContent,
+    third_span_2: document.getElementById('third_span_2').textContent,
+
+    fifth_span_x: document.getElementById('fifth_span_x').textContent,
+    fifth_span_1: document.getElementById('fifth_span_1').textContent,
+    fifth_span_x2: document.getElementById('fifth_span_x2').textContent,
+    fifth_span_2: document.getElementById('fifth_span_2').textContent,
+
+    second_span_1: document.getElementById('second_span_1').textContent,
+    fourth_span_1: document.getElementById('fourth_span_1').textContent,
+    fourth_span_2: document.getElementById('fourth_span_2').textContent,
+
+    eight_h1: document.getElementById('eight_h1').textContent,
+    footer_h1: document.getElementById('footer_h1').textContent,
+    bottom_h3: document.getElementById('bottom_h3').textContent,
+
+
+    column1_h3: document.getElementById('column1_h3').textContent,
+    column1_a1: document.getElementById('column1_a1').textContent,
+    column1_a2: document.getElementById('column1_a2').textContent,
+    column1_a3: document.getElementById('column1_a3').textContent,
+
+    column2_h3: document.getElementById('column2_h3').textContent,
+    column2_a1: document.getElementById('column2_a1').textContent,
+    column2_a2: document.getElementById('column2_a2').textContent,
+    column2_a3: document.getElementById('column2_a3').textContent,
+    column3_h3: document.getElementById('column3_h3').textContent,
+    copyright: document.getElementById('copyright').textContent,
+};
 
 
 
@@ -152,6 +187,45 @@ button_flag.addEventListener('click', () => {
         document.getElementById('item_h2_6').textContent ='Przyjazny interfejs';
         document.getElementById('item_p_6').textContent ='Łatwo poruszaj się po naszej intuicyjnej platformie.';
         document.getElementById('item_h3').textContent ='Rozpocznij swoją edukacyjną podróż!';
+
+        document.getElementById('six_h1').textContent = 'Zespół';
+
+
+        document.getElementById('seven_h1').textContent = 'Nasza Historia';
+        document.getElementById('left_first_1').textContent = '1 miejsce';
+        document.getElementById('left_first_2').textContent = 'w regionalnych eliminacjach Econverse CUP 2023 w Gdańsku';
+
+        document.getElementById('third_span_1').textContent = 'Wywiad dla Polskiego Radia “Czwórka” w';
+        document.getElementById('third_span_2').textContent = 'Warszawie';
+
+        document.getElementById('fifth_span_x').textContent = 'Zawarcie Jakuba Strzemiecznego jako założyciela';
+        document.getElementById('fifth_span_1').textContent = 'Learnd.it';
+        document.getElementById('fifth_span_x2').textContent = 'w miesięczniku “My Company Polska” pod tytułem';
+        document.getElementById('fifth_span_2').textContent = '“Liderzy Nowej Generacji”';
+        document.getElementById('second_span_1').textContent = '2 miejsce w Polsce w Wielkim Finale Econverse CUP, program mentoringowy - ';
+
+        document.getElementById('fourth_span_1').textContent = 'Udział Jakuba Strzemiecznego w Pomorskiej konferencji jako prelegenta oraz eksperta reprezentującego';
+        document.getElementById('fourth_span_2').textContent = 'Learnd.it';
+
+        document.getElementById('eight_h1').textContent = 'Masz pytanie? Napisz do nas!';
+        document.getElementById('footer_h1').textContent = 'Już wkrótce na AppStore...';
+        document.getElementById('bottom_h3').textContent = '"Dążymy do ekonomicznej i technologicznej dostępności edukacji dla uczniów i studentów na całym świecie."';
+        document.getElementById('email2').setAttribute("placeholder", "Twój adres email");
+        document.getElementById('submit2').setAttribute("value", 'Odbierz Wczesny Dostęp');
+
+
+        document.getElementById('column1_h3').textContent = 'O Nas';
+        document.getElementById('column1_a1').textContent = 'Jak działa Learnd.it';
+        document.getElementById('column1_a2').textContent = 'Kluczowe Funkcjonalności';
+        document.getElementById('column1_a3').textContent = 'Główne Zalety';
+
+        document.getElementById('column2_h3').textContent = 'Firma';
+        document.getElementById('column2_a1').textContent = 'Poznaj nasz Zespół';
+        document.getElementById('column2_a2').textContent = 'Nasza Historia';
+        document.getElementById('column2_a3').textContent = 'Polityka prywatności';
+
+        document.getElementById('column3_h3').textContent = 'Kontakt';
+        document.getElementById('copyright').textContent = '© 2024 Learnd.it. Wszelkie prawa zastrzeżone';
     } 
     
     else {
@@ -227,6 +301,45 @@ button_flag.addEventListener('click', () => {
         document.getElementById('item_h2_6').textContent = originalTexts.item_h2_6;
         document.getElementById('item_p_6').textContent = originalTexts.item_p_6;
         document.getElementById('item_h3').textContent = originalTexts.item_h3;
+
+        document.getElementById('six_h1').textContent = originalTexts.six_h1;
+
+        document.getElementById('seven_h1').textContent = originalTexts.seven_h1;
+        document.getElementById('left_first_1').textContent = originalTexts.left_first_1;
+        document.getElementById('left_first_2').textContent = originalTexts.left_first_2;
+
+        document.getElementById('third_span_1').textContent = originalTexts.third_span_1;
+        document.getElementById('third_span_2').textContent = originalTexts.third_span_2;
+
+        document.getElementById('fifth_span_x').textContent = originalTexts.fifth_span_x;
+        document.getElementById('fifth_span_1').textContent = originalTexts.fifth_span_1;
+        document.getElementById('fifth_span_x2').textContent = originalTexts.fifth_span_x2;
+        document.getElementById('fifth_span_2').textContent = originalTexts.fifth_span_2;
+
+        document.getElementById('second_span_1').textContent = originalTexts.second_span_1;
+        document.getElementById('fourth_span_1').textContent = originalTexts.fourth_span_1;
+        document.getElementById('fourth_span_2').textContent = originalTexts.fourth_span_2;
+
+        document.getElementById('eight_h1').textContent = originalTexts.eight_h1;
+
+
+        document.getElementById('footer_h1').textContent = originalTexts.footer_h1;
+        document.getElementById('bottom_h3').textContent =  originalTexts.bottom_h3;
+        document.getElementById('email2').setAttribute("placeholder", "Your email address");
+        document.getElementById('submit2').setAttribute("value", 'Get Early Access');
+
+        document.getElementById('column1_h3').textContent = originalTexts.column1_h3;
+        document.getElementById('column1_a1').textContent = originalTexts.column1_a1;
+        document.getElementById('column1_a2').textContent = originalTexts.column1_a2;
+        document.getElementById('column1_a3').textContent = originalTexts.column1_a3;
+
+        document.getElementById('column2_h3').textContent = originalTexts.column2_h3;
+        document.getElementById('column2_a1').textContent = originalTexts.column2_a1;
+        document.getElementById('column2_a2').textContent = originalTexts.column2_a2;
+        document.getElementById('column2_a3').textContent = originalTexts.column2_a3;
+
+        document.getElementById('column3_h3').textContent = originalTexts.column3_h3;
+        document.getElementById('copyright').textContent = originalTexts.copyright;
     }
 });
 

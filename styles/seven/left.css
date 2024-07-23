@@ -75,7 +75,7 @@
     transform: translate(30px, 310px);
 }
 
-#span1 {
+#third_span_2 ,#fifth_span_1, #fourth_span_2  {
     font-family: SfProMed;
     font-weight: 900;
     background: linear-gradient(to right, #03BE3D 0%, #006D22 100%);
@@ -88,7 +88,7 @@
     transform: translate(30px, 240px);
 }
 
-#span2 {
+#fifth_span_2 {
     color: #B4C300;
 }
 

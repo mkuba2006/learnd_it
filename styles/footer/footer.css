@@ -77,7 +77,7 @@ footer h1 {
     height: 24px;
 }
 
-#element1 #email {
+#element1 #email2 {
     color: white;
     background: none;
     letter-spacing: 1.1px;
@@ -87,20 +87,21 @@ footer h1 {
     width: 200px;
 }
 
-#email:hover {
+#email2:hover {
     opacity: 0.80;
 }
 
-#email:focus {
+#email2:focus {
     outline: none;
 }
 
-#submit {
-    width: 200px;
+#submit2 {
+    width: auto;
     height: 54px;
     border-radius: 32px;
     border: none;
     font-size: 15.3px;
+    padding: 0 10px;
     font-weight: 590;
     letter-spacing: 1.2px;
     color: #FFF;
@@ -110,7 +111,7 @@ footer h1 {
     transition: all 0.3s ease;
 }
 
-#submit:hover {
+#submit2:hover {
     opacity: 0.93;
 }
 
@@ -208,13 +209,13 @@ footer h1 {
         margin: 15px 0 40px;
     }
 
-    #email {
+    #email2 {
         letter-spacing: 0.7px;
         font-size: 17px;
         width: 180px;
     }
 
-    #submit {
+    #submit2 {
         letter-spacing: 1px;
     }
 
@@ -293,17 +294,18 @@ footer h1 {
         padding: 0 80px 0 20px;
     }
 
-    #element1 #email {
+    #element1 #email2 {
         height: 47px;
         font-size: 15px;
         width: 180px;
     }
 
-    #element1 #submit {
+    #element1 #submit2 {
         height: 47px;
         letter-spacing: 0.8px;
-        width: 170px;
+        width: auto;
         font-size: 12px;
+        padding: 0 8px;
     }
 
     #two {
@@ -364,30 +366,32 @@ footer h1 {
 
     #element1 #form {
         height: 32px;
-        margin: 15px 0 30px;
+        margin: 15px 0 60px;
         width: 350px;
     }
     #element1 #form_one{
         height: 32px;
         gap: 3px;
-        padding: 0 30px 0 10px;
+        padding: 0 70px 0 10px;
     }
     #element1 #form_one img{
         width: 14px;
         height: 14px;
     }
-    #element1 #email {
+    #element1 #email2 {
         height: 32px;
         font-size: 10px;
-        width: 180px;
+        width: auto;
     }
 
-    #element1 #submit {
+    #element1 #submit2 {
         padding-top: 2px;
         height: 32px;
         letter-spacing: 0.8px;
-        width: 114px;
+        width: auto;
         font-size: 8px;
+        padding: 0 5px;
+        transform: translateX(-70px);
     }
 
 
@@ -437,7 +441,7 @@ footer h1 {
 
 @media screen and (max-width: 350px) {
     #one h3 {
-        max-width: 270px;
+        max-width: 250px;
         width: 90%;
         font-size: 11px;
     }
