@@ -101,6 +101,26 @@ nav #buttons #flag p{
     font-weight: 860;
 }
 
+@media screen and (max-width: 1560px){
+
+    nav {
+        padding: 5px 110px
+    }
+    nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    nav #buttons #courses button {
+        width: auto;
+        height: 45px;
+        border-radius: 32px;
+        padding: 0 35px;
+        border: none;
+        font-size: 15px;
+    }
+}
+
 
 @media screen and (max-width: 1279px){
 
@@ -121,7 +141,10 @@ nav #buttons #flag p{
     nav #buttons #link{
         font-size: 18px;
     }
-
+    nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
     nav #buttons #courses button {
         width: 170px;
         height: 40px;
@@ -154,7 +177,7 @@ nav #buttons #flag p{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 30px 5%;
+        padding: 20px 5% ;
         margin-top: 0;
         z-index: 101;
         background: white;

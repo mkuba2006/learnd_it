@@ -189,6 +189,117 @@
 
 
 
+@media screen and (max-width: 1650px){
+    #first {
+        padding: 0 100px;
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+    #first #first_content h2{
+        font-size: 55px;
+        max-width: 720px;
+    }
+    #first #first_content p{
+        font-size: 17px;
+        max-width: 650px;
+        margin: 40px 0;
+    }
+    #first #first_image img {
+        width: 240px;
+        height: 530px;
+        height: auto;
+    }
+    
+    #first #first_image::after {
+        top: 80px;
+        left: -30px;
+        width: 300px;
+        height: 85%;
+        max-height: 450px;
+    }
+
+    #first #first_content #colabs #incredibles {
+        width: 114px;
+        height: 55.88px; 
+    }
+    
+    #first #first_content #colabs #mycompany {
+        width: 91.75px;
+        height: 38.57px; 
+    }
+    
+    #first #first_content #colabs #mamstartup {
+        width: 113px;
+        height: 32.13px;
+    }
+    
+    #first #first_content #colabs #czworka {
+        width: 96px;
+        height: 44.34px;
+    }
+    
+
+
+
+
+    #first #first_content #form{
+        height: 48px;
+        margin: 20px 0 40px 0;
+    }
+    
+    #first #first_content #form #form_one{
+        height: 48px;
+        padding: 0 80px 0 20px;
+    }
+     
+    
+    #first #first_content #form #form_one img{
+        width: 22px;
+        height: 22px;
+    }
+    
+    #first #first_content #form #form_one #email{
+        letter-spacing: 1px;
+        font-size: 17px;
+        width: 200px;
+    }
+
+    
+    
+    #first #first_content #form #submit {
+        height: 48px;
+        font-size: 15px;
+        font-weight: 590;
+        letter-spacing: 1.1px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -203,14 +314,14 @@
 @media screen and (max-width: 1450px){
     
     #first #first_content h2{
-        font-size: 60px;
-        max-width: 750px;
+        font-size: 50px;
+        max-width: 640px;
     }
     
     #first #first_content p{
-        font-size: 18px;
-        max-width: 650px;
-        margin: 40px 0;
+        font-size: 16px;
+        max-width: 570px;
+        margin: 22px 0 35px 0;
     }
 
  
@@ -223,46 +334,56 @@
         align-items: center;
     }
     
-    #first #first_content #colabs #incredibles{
-        width: 124px;
-        height: 60.75px;
+    #first #first_content #colabs #incredibles {
+        width: 109px;
+        height: 53.43px; 
     }
     
-    #first #first_content #colabs #mycompany{
-        width: 101.75px;
-        height: 42.75px;
+    #first #first_content #colabs #mycompany {
+        width: 86.75px; 
+        height: 36.41px; 
     }
     
-    #first #first_content #colabs #mamstartup{
-        width: 123px;
-        height: 35px;
+    #first #first_content #colabs #mamstartup {
+        width: 108px; 
+        height: 30.73px; 
     }
     
-    #first #first_content #colabs #czworka{
-        width: 106px;
-        height: 49px;
+    #first #first_content #colabs #czworka {
+        width: 91px; 
+        height: 42.06px;
     }
+    
 
     #first #first_image {
         position: relative;
-        margin-right:  0;
+        margin-right:  70px;
     }
     
     #first #first_image img {
-        width: 290px;
-        height: 621px;
+        width: 210px;
         height: auto;
     }
     
     #first #first_image::after {
-        top: 80px;
-        left: -37px;
-        width: 363px;
-        height: 90%;
-        max-height: 578px;
+        top: 70px;
+        left: -30px;
+        width: 270px;
+        height: 85%;
+        max-height: 386px;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -270,17 +391,17 @@
 
     #first{
         padding: 0 5%;
-        margin-top: 140px;
+        margin-top: 100px;
     }
 
     #first #first_content h2{
-        font-size: 53px;
-        max-width: 700px;
+        font-size: 45px;
+        max-width: 600px;
     }
     
     #first #first_content p{
-        font-size: 18px;
-        max-width: 650px;
+        font-size: 15px;
+        max-width: 550px;
         margin: 30px 0;
     }
 
@@ -289,41 +410,42 @@
         gap: 17px;
     }
     
-    #first #first_content #colabs #incredibles{
-        width: 100px;
-        height: 52.75px;
+    #first #first_content #colabs #incredibles {
+        width: 92px; 
+        height: 48.53px; 
     }
     
-    #first #first_content #colabs #mycompany{
-        width: 100px;
-        height: 40.75px;
+    #first #first_content #colabs #mycompany {
+        width: 92px; 
+        height: 37.49px;
     }
     
-    #first #first_content #colabs #mamstartup{
-        width: 110px;
-        height: 33px;
+    #first #first_content #colabs #mamstartup {
+        width: 102px; 
+        height: 30.60px; 
     }
     
-    #first #first_content #colabs #czworka{
-        width: 100px;
-        height: 46px;
+    #first #first_content #colabs #czworka {
+        width: 92px;
+        height: 42.32px; 
     }
+    
 
     #first #first_image {
         margin-right: 30px;
     }
     
     #first #first_image img {
-        width: 270px;
-        height: 561px;
+        width: 210px;
+        height: auto;
     }
     
     #first #first_image::after {
-        top: 80px;
+        top: 83px;
         left: -32px;
-        width: 333px;
+        width: 270px;
         height: 90%;
-        max-height: 578px;
+        max-height: 370px;
     }
 
 
@@ -362,6 +484,14 @@
     }
 
 }
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 968px){
