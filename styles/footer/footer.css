@@ -128,9 +128,11 @@ footer h1 {
 
 #column h3 {
     font-family: SfProThin;
+    font-weight: 900;
     font-size: 22px;
+    letter-spacing: 1.2px;
     margin: 22px 0 10px 0;
-    color: #EAEAEA;
+    color: white;
 }
 
 #column a,
@@ -405,8 +407,9 @@ footer h1 {
     }
 
     #column h3 {
+        letter-spacing: 0.5px;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 900;
         margin: 10px 0 10px 0;
         
     }
