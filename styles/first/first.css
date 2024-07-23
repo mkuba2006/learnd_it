@@ -9,7 +9,7 @@
 
 #first #first_content{
     width: 60vw;
-    max-width: 870px;
+    max-width: 970px;
 }
 
 #first #first_content h2{
@@ -165,9 +165,9 @@
     max-height: 578px;
     content: '';
     position: absolute;
-    background: linear-gradient(to right, #03BE3D, #006D22);
+    background: linear-gradient(170deg, #03BE3D, #006D22);
     opacity: 0.85;
-    border-radius: 72px;
+    border-radius: 75px;
     z-index: 1;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -190,18 +190,21 @@
 
 
 @media screen and (max-width: 1650px){
+    #first{
+        gap: 100px;
+    }
     #first {
-        padding: 0 100px;
+        padding: 0 110px;
         margin-top: 120px;
         margin-bottom: 100px;
     }
     #first #first_content h2{
-        font-size: 55px;
-        max-width: 720px;
+        font-size: 60px;
+        max-width: 920px;
     }
     #first #first_content p{
         font-size: 17px;
-        max-width: 650px;
+        max-width: 750px;
         margin: 40px 0;
     }
     #first #first_image img {
@@ -211,11 +214,12 @@
     }
     
     #first #first_image::after {
-        top: 80px;
+        top: 90px;
         left: -30px;
         width: 300px;
-        height: 85%;
-        max-height: 450px;
+        height: 88%;
+        max-height: 425px;
+        border-radius: 62px;
     }
 
     #first #first_content #colabs #incredibles {
@@ -287,16 +291,29 @@
 
 
 
+/* 
+@media screen and (max-width: 1520px){
 
 
 
+    #first #first_image img {
+        width: 240px;
+        height: 530px;
+        height: auto;
+    }
+
+    #first #first_image::after {
+        top: 90px;
+        left: -30px;
+        width: 300px;
+        height: 88%;
+        max-height: 425px;
+        border-radius: 62px;
+    }
 
 
 
-
-
-
-
+} */
 
 
 
@@ -312,15 +329,17 @@
 
 
 @media screen and (max-width: 1450px){
-    
+    #first{
+        gap:70px;
+    }
     #first #first_content h2{
-        font-size: 50px;
-        max-width: 640px;
+        font-size: 52px;
+        max-width: 900px;
     }
     
     #first #first_content p{
         font-size: 16px;
-        max-width: 570px;
+        max-width: 700px;
         margin: 22px 0 35px 0;
     }
 
@@ -361,16 +380,17 @@
     }
     
     #first #first_image img {
-        width: 210px;
+        width: 220px;
         height: auto;
     }
     
     #first #first_image::after {
         top: 70px;
-        left: -30px;
+        left: -27px;
         width: 270px;
-        height: 85%;
-        max-height: 386px;
+        height: 90%;
+        max-height: 400px;
+        border-radius: 50px;
     }
 
 }
@@ -391,26 +411,28 @@
 
     #first{
         padding: 0 5%;
-        margin-top: 100px;
+        margin-top: 110px;
+        gap: 55px;
     }
 
     #first #first_content h2{
-        font-size: 45px;
+        font-size: 42px;
         max-width: 600px;
+        line-height: 50px;
     }
     
     #first #first_content p{
-        font-size: 15px;
+        font-size: 13px;
         max-width: 550px;
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     
     #first #first_content #colabs{
-        gap: 17px;
+        gap: 25px;
     }
     
-    #first #first_content #colabs #incredibles {
+    /* #first #first_content #colabs #incredibles {
         width: 92px; 
         height: 48.53px; 
     }
@@ -429,35 +451,23 @@
         width: 92px;
         height: 42.32px; 
     }
-    
+     */
 
-    #first #first_image {
-        margin-right: 30px;
-    }
-    
-    #first #first_image img {
-        width: 210px;
-        height: auto;
-    }
     
     #first #first_image::after {
-        top: 83px;
-        left: -32px;
-        width: 270px;
-        height: 90%;
-        max-height: 370px;
+        height: 100%;
     }
 
 
 
 
     #first #first_content #form{
-        height: 47px;
+        height: 50px;
         margin: 20px 0 40px 0;
     }
     
     #first #first_content #form #form_one{
-        height: 47px;
+        height: 50px;
         padding: 0 40px 0 20px;
     }
      
@@ -468,7 +478,7 @@
     }
     
     #first #first_content #form #form_one #email{
-        font-size: 16px;
+        font-size: 13px;
         width: 175px;
     }
     
@@ -476,10 +486,10 @@
     #first #first_content #form #submit {
         padding: 0 25px;
         max-width: 240px;
-        height: 47px;
+        height: 50px;
         border-radius: 32px;
         border: none;
-        font-size: 13.3px;
+        font-size: 13px;
         transform: translateX(-40px);
     }
 
@@ -487,82 +497,50 @@
 
 
 
+@media screen and (max-width: 1150px){
 
-
-
-
-
-
-
-@media screen and (max-width: 968px){
-    #first{
-        margin-top: 120px;
-    }
-
-    #first #first_content h2{
-        font-size: 40px;
-        max-width: 500px;
-    }
-    
-    #first #first_content p{
-        font-size: 15px;
-        max-width: 500px;
-        margin: 30px 0;
-    }
-
-    
-    #first #first_content #colabs{
-        gap: 17px;
-    }
-    
-    #first #first_content #colabs #incredibles{
-        width: 80px;
-        height: 36px;
-    }
-    
-    #first #first_content #colabs #mycompany{
-        width: 80px;
-        height: 32.75px;
-    }
-    
-    #first #first_content #colabs #mamstartup{
-        width: 85px;
-        height: 25px;
-    }
-    
-    #first #first_content #colabs #czworka{
-        width: 80px;
-        height: 32px;
-    }
-
-    #first #first_image {
-        margin-right: 30px;
-    }
-    
     #first #first_image img {
         width: 200px;
-        height: 421px;
+        height: auto;
     }
     
     #first #first_image::after {
-        top: 50px;
-        left: -30px;
-        width: 260px;
-        height: 93%;
-        max-height: 400px;
+        top: 79px;
+        left: -26px;
+        width: 250px;
+        height: 100%;
+        max-height: 350px;
+        border-radius: 50px;
     }
 
+}
 
 
+@media screen and (max-width: 1050px){
 
+    #first #first_content h2{
+        font-size: 40px;
+        max-width: 600px;
+        line-height: 45px;
+    }
+    
+    #first #first_content p{
+        font-size: 13px;
+        max-width: 550px;
+        margin: 20px 0;
+    }
+
+    
     #first #first_content #form{
-        height: 42px;
-        margin: 20px 0 40px 0;
+        height: 40px;
+        margin: 25px 0 20px 0;
     }
     
     #first #first_content #form #form_one{
-        height: 42px;
-        padding: 0 100px 0 20px;
+        height: 40px;
+        padding: 0 20px 0 15px;
+        gap: 5px;
+        width: auto;
     }
      
     
@@ -572,18 +550,22 @@
     }
     
     #first #first_content #form #form_one #email{
-        font-size: 13px;
-        width: 150px;
+        font-size: 12px;
+        width: 155px;
     }
     
     
     #first #first_content #form #submit {
-        padding: 0 15px;
+        padding: 0 25px;
         max-width: 240px;
-        height: 42px;
-        font-size: 11.3px;
-        transform: translateX(-110px);
+        height: 40px;
+        border-radius: 32px;
+        border: none;
+        font-size: 12px;
+        transform: translateX(-40px);
     }
+
+
 }
 
 
@@ -593,7 +575,8 @@
 
 
 
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 900px){
     #first #first_image {
         margin-right: 0px;
     }
