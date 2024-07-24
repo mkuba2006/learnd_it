@@ -462,12 +462,12 @@
 
 
     #first #first_content #form{
-        height: 50px;
+        height: 44px;
         margin: 20px 0 40px 0;
     }
     
     #first #first_content #form #form_one{
-        height: 50px;
+        height: 44px;
         padding: 0 40px 0 20px;
     }
      
@@ -486,7 +486,7 @@
     #first #first_content #form #submit {
         padding: 0 25px;
         max-width: 240px;
-        height: 50px;
+        height: 44px;
         border-radius: 32px;
         border: none;
         font-size: 13px;
