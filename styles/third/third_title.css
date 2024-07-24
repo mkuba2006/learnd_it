@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px auto 100px auto;
+    margin: 0 auto 100px auto;
 }
 
 #third h1{
@@ -37,3 +37,5 @@
         margin: 70px auto 100px auto;
     }
 }
+
+
