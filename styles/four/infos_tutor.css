@@ -208,6 +208,13 @@
 
 
 @media screen and (max-width: 970px){
+    #tutor_content div {
+        margin-right: 0;
+        width: 45%;
+        max-width: 350px;
+        max-height: 220px;
+        margin-right: 0;
+    }
     #tutor_info #tutor_content{
         flex-direction: column;
         align-items: center;
@@ -247,6 +254,18 @@
 }
 
 @media screen and (max-width: 625px){
+    #tutor_info #img_box {
+        min-width: 0px;
+    }
+    #tutor_info #img_box img{
+        width: 60vw;
+        height: 60vw;
+        min-width: 0px;
+        min-height: 0px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
     #tutor_info #tutor_content{
         flex-direction: column;
         padding: 0;
@@ -278,8 +297,10 @@
         padding: 30px 0 0 0;
     }
     #tutor_info #img_box img{
-        width: 100%;
+        width: 80vw;
+        height: 80vw;
         min-width: 280px;
+        min-height: 280px;
     }
 
 }

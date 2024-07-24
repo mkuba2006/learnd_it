@@ -38,8 +38,10 @@
         flex-direction: column-reverse;
         justify-content: center;
         padding: 0 5vw;
+        align-items: center;
     }
     #infos #tutor_info {
         flex-direction: column;
+        align-items: center;
    }
 }

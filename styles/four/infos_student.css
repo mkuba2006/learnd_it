@@ -251,6 +251,18 @@
 
 
 @media screen and (max-width: 625px){
+    #student_info #img_box {
+        min-width: 0px;
+    }
+    #student_info #img_box img{
+        width: 60vw;
+        height: 60vw;
+        min-width: 0px;
+        min-height: 0px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
     #student_info #student_content{
         flex-direction: column;
         padding: 30px 0 0 0;
@@ -289,8 +301,10 @@
         padding: 30px 0 0 0;
     }
     #student_info #img_box img{
-        width: 100%;
+        width: 80vw;
+        height: 80vw;
         min-width: 280px;
+        min-height: 280px;
     }
 
 }
