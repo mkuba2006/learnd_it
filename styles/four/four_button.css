@@ -137,9 +137,11 @@
   }
   #student {
     font-size: 9.66px;
+    transform: translate(2px,-0.3px);
     padding: 12.5px 32px;
   }
   #tutor {
+    transform: translate(-2px,-0.3px);
     font-size: 9.66px;
     padding: 12.5px 32px;
   }

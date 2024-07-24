@@ -810,6 +810,22 @@
         width: 98%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    #first #first_content #form #submit {
+        width: auto;
+        height: 32px;
+        font-size: 9px;
+    }
+    #first #first_content #form #form_one {
+        height: 32px;
+        padding: 0 35px 0 20px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 400px){
     #first #first_content h2{
         font-size: 29px;
