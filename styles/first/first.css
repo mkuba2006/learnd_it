@@ -688,12 +688,13 @@
     #first #first_content h2{
         font-size: 29px;
         max-width: 430px;
+        line-height: 30px;
     }
     
     #first #first_content p{
         font-size: 10px;
         max-width: 440px;
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     
