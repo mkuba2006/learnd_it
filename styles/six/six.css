@@ -206,6 +206,14 @@
     }
 
 }
+
+@media screen and (max-width: 1000px){
+
+    #six{
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 600px){
     #six #team{
         display: none;

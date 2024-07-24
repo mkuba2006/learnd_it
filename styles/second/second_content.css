@@ -372,7 +372,8 @@
             "el3"
             "el4";
         padding: 0 20px;
-        gap: 20px;
+        gap: 10px;
+        margin: 10px 3vw 0 3vw;
     }
 
     #el1, #el2, #el3, #el4{
@@ -390,7 +391,7 @@
         grid-area: el1;
         margin-top: 20px;
     }
-    #el3 {
+    #el2 {
         padding-bottom: 20px;
     }
     #el3 {

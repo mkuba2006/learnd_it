@@ -42,6 +42,11 @@
 
 
 @media screen and (max-width: 920px){
+    #four {
+        margin-top: 50px;
+    }
+    
+    
     #four #description h1{
         font-size: 35px;
     }

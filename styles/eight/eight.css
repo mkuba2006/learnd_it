@@ -44,6 +44,7 @@
 @media screen and (max-width: 768px) {
     #eight {
         height: 85px;
+        gap: 2px;
         margin: 100px 0 0 0 ;
     }
 
@@ -52,8 +53,8 @@
     }
 
     #eight img {
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 53px;
     }
 }
 
@@ -67,7 +68,7 @@
     }
 
     #eight img {
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
     }
 }
