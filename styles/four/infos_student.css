@@ -48,27 +48,162 @@
 
 
 
-@media screen and (max-width: 1400px){
-    #student_info #img_box {
-        align-items: center;
-        width: 530px;
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px){
+
+    #student_info #img_box{
+        width: 40vw;
+        max-height: 720px;
     }
     #student_info #img_box img{
-        width: 50vw;
-        min-width: 600px;
+        min-width: 530px;
+        min-height: 530px;
+        width: 35vw;
+        height: 35vw;
     }
-
+    #student_info #student_content{
+        row-gap: 10px;
+        column-gap: 30px;
+        padding: 60px 0;
+        max-width: 800px;
+        max-height: 570px;
+    }
+    
+    #student_content div{
+        width: 45%;
+        max-width: 350px;
+        max-height: 220px;
+    }
+    
+    #student_content div #icon_box {
+        width: 72px;
+        height: 72px;
+        border-radius: 21px;
+    }
+    
+    #student_content div #icon_box img {
+        z-index: 10;
+        width: 33px;
+    }
+    
     #student_content div h2{
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 700;
     }
     
     #student_content div p{
-        font-size: 17px;
+        font-size: 18px;
         font-weight: 400;
         color:  #707070;   
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px){
+    #student_info #img_box {
+        align-items: center;
+        width: 450px;
+        min-width: 450px;
+    }
+    #student_info #img_box img{
+        min-width: 450px;
+        min-height: 450px;
+        max-width: 450px;
+        max-height: 450px;
+        width: 35vw;
+        height: 35vw;
+    }
+
+    #student_content div h2{
+        font-size: 19px;
+        font-weight: 700;
+    }
+    
+    #student_content div p{
+        font-size: 16px;
+        font-weight: 400;
+        color:  #707070;   
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #student_info #img_box {
+        width: 400px;
+        min-width: 400px;
+    }
+    #student_info #img_box img{
+        min-width: 400px;
+        min-height: 400px;
+        max-width: 400px;
+        max-height: 400px;
+        width: 35vw;
+        height: 35vw;
+    }
+    #student_content div{
+        width: 45%;
+        max-width: 350px;
+        max-height: 220px;
+    }
+    
+    #student_content div #icon_box {
+        width: 60px;
+        height: 60px;
+        border-radius: 21px;
+    }
+    #student_content div #icon_box img {
+        width: 29px;
+    }
+    #student_content div h2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    #student_content div p{
+        font-size: 14px;
+        font-weight: 400;
+        color:  #707070;   
+    }
+
+
+
+}
+
 
 
 @media screen and (max-width: 970px){
