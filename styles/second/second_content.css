@@ -110,6 +110,120 @@
     font-size: 19.29px;
 }
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px){
+
+    #second #content {
+        grid-template-columns: 1fr 400px 1fr;
+        gap: 30px; 
+        margin: 30px 3vw 0 3vw;
+        padding: 0 40px;
+    }
+    
+    
+    #phone {
+        max-width: 230px;
+    }
+    #phone::before {
+        width: 350px;
+        height: 350px;
+        transform: translate(-60px, 78px);
+    }
+    
+    #phone img {
+        max-width: 300px;
+        max-height: 480px;
+        position: relative;
+    }
+    #el1, #el2, #el3, #el4{
+        max-width: 380px;
+    }
+    #el1, #el3 {
+        margin-left: auto;
+    }
+    #el2, #el4 {
+        align-self: start; 
+        justify-content: flex-start;
+        text-align: left;
+        margin-right: auto;
+    }
+    #el1 {
+        margin-top: 20px;
+    }
+    
+    #el2 {
+        grid-area: el2;
+        margin-top: 20px;
+    }
+    
+    #el1 div, #el2 div, #el4 div, #el3 div {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    
+    #el1 div p, #el2 div p, #el4 div p, #el3 div {
+        font-size: 30px;
+    }
+    
+    
+    #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
+        font-size: 22px;
+    }
+    
+    
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
+        color: #707070;
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1500px){
     #second #content {
         gap: 25px;
@@ -117,49 +231,79 @@
     #el1, #el2, #el3, #el4{
         max-width: 360px;
     }
+    #el1 div, #el2 div, #el4 div, #el3 div {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    
+    #el1 div p, #el2 div p, #el4 div p, #el3 div {
+        font-size: 29px;
+    }
+    
+    
+    #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
+        font-size: 21.5px;
+    }
+    
+    
+    #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
+        color: #707070;
+        font-size: 17px;
+    }
 
 }
+
+
+
+
+
+
 @media screen and (max-width: 1250px){
     #second #content {
-        grid-template-columns: 1fr 330px 1fr;
-        padding: 0 40px;
+        grid-template-columns: 1fr 280px 1fr;
+        padding: 0 10px;
         gap: 40px; 
     }
 
     #phone {
         max-width: 220px;
     }
-
+    #el1, #el2, #el3, #el4 {
+        max-width: 300px;
+    }
     #phone::before {
-        width: 350px;
-        height: 350px;
-        transform: translate(-65px, 70px);
+        width: 285px;
+        height: 285px;
+        transform: translate(-32px, 70px);
     }
     
     #phone img {
         max-width: 220px;
-        max-height: 448px;
+        max-height: 440px;
     }
 
     #el1 div p, #el2 div p, #el4 div p, #el3 div {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
-        font-size: 21px;
-        margin: 15px 0 0 0;
+        font-size: 20px;
     }
 
 
     #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
         color: #707070;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #el1 div, #el2 div, #el4 div, #el3 div {
-        width: 63px;
-        height: 63px;
+        width: 55px;
+        height: 55px;
         border-radius: 18px;
+    }
+    #el1 div p, #el2 div p, #el4 div p, #el3 div {
+        font-size: 23px;
     }
 }
 
@@ -168,7 +312,7 @@
 @media screen and (max-width: 920px){
 
     #second #content {
-        grid-template-columns: 1fr 280px 1fr;
+        grid-template-columns: 1fr 250px 1fr;
         padding: 0 40px;
         gap: 40px; 
     }
@@ -178,9 +322,9 @@
     }
 
     #phone::before {
-        width: 310px;
-        height: 310px;
-        transform: translate(-58px, 60px);
+        width: 260px;
+        height: 260px;
+        transform: translate(-30px, 60px);
     }
     
     #phone img {
@@ -217,7 +361,7 @@
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 835px){
     #second #content {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto;
@@ -247,6 +391,10 @@
         margin-top: 20px;
     }
     #el3 {
+        padding-bottom: 20px;
+    }
+    #el3 {
+        padding-top: 20px;
         grid-area: el3;
     }
     
@@ -258,6 +406,15 @@
         align-self: start; 
         justify-content: flex-start;
         text-align: center;
+    }
+    #el1, #el3 {
+        margin: auto;
+    }
+    #el2, #el4 {
+        align-self: start; 
+        justify-content: flex-start;
+        text-align: center;
+        margin: auto;
     }
 }
 
