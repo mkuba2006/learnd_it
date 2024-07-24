@@ -870,15 +870,7 @@
     }
 }
 
-@media screen and (max-width: 380px) {
-    #first #first_content #form #submit {
-        width: auto;
-        height: 32px;
-        font-size: 9px;
-        transform: translateX(-30px);
-        padding: 0 3px;
-    }
-}
+
 
 
 
