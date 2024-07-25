@@ -94,29 +94,21 @@
 
 
 
-
-
-@media screen and (max-width: 1450px){
-
-    #six h1{
-        font-size: 54px;
-        margin-bottom: 50px;
-    }
+@media screen and (max-width: 1600px){
     
     #six #team{
-        gap: 35px;
+        gap: 40px;
     }
 
     #six #team #item{
-        width: 320px;
-        border-radius: 20.91px;
+        width: 300px;
     }
     #six #team #item #img_box{
-        width: 320px;
+        width: 300px;
         height: 290px;
     }
     #six #team #item #img_box img{
-        width: 320px;
+        width: 300px;
         height: 290px;
     }
     
@@ -125,17 +117,88 @@
     }
     
     #six #team #item #content #name{
-        font-size: 20px;
+        font-size: 21px;
+        margin: 10px 0 10px 0;
+    }
+    #six #team #item #content h4{
+        font-size: 17px;
+        margin: 10px 0 12px 0;
+    }
+    
+    #six #team #item #line{
+        width: 300px;
+        height: 8.5px;
+    }
+    #six #team #item #content a{
+        background: linear-gradient(to right, rgb(3, 190, 62), rgb(0, 109, 34));
+        padding-top: 1px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        margin-bottom: 7px;
+    }
+    
+    #six #team #item #content a img{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px){
+
+    #six h1{
+        font-size: 54px;
+        margin-bottom: 50px;
+    }
+    
+    #six #team{
+        gap: 25px;
+    }
+
+    #six #team #item{
+        width: 270px;
+        border-radius: 20.91px;
+    }
+    #six #team #item #img_box{
+        width: 270px;
+        height: 250px;
+    }
+    #six #team #item #img_box img{
+        width: 270px;
+        height: 250px;
+    }
+    
+    #six #team #item #content{
+        padding: 18px 30px;
+    }
+    
+    #six #team #item #content #name{
+        font-size: 19px;
         margin: 15px 0 10px 0;
     }
     #six #team #item #content h4{
-        font-size: 18px;
+        font-size: 15px;
         color: #707070;
         margin: 12px 0 15px 0;
     }
     
     #six #team #item #line{
-        width: 320px;
+        width: 270px;
         height: 8px;
     }
     #six #team #item #content a{
@@ -168,11 +231,11 @@
     }
     #six #team #item #img_box{
         width: 250px;
-        height: 240px;
+        height: 230px;
     }
     #six #team #item #img_box img{
         width: 250px;
-        height: 240px;
+        height: 230px;
     }
     
     #six #team #item #content{
@@ -184,7 +247,7 @@
         margin: 15px 0 10px 0;
     }
     #six #team #item #content h4{
-        font-size: 15px;
+        font-size: 14px;
         color: #707070;
         margin: 10px 0 12px 0;
     }
