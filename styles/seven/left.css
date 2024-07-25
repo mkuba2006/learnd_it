@@ -290,16 +290,16 @@
 }
 
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 350px){
     #data_box2 {
         padding-top: 0;
         transform: translate(30px, 138px);
         width: 90px;
-        font-size: 8px;
+        font-size: 9px;
     }
     #left p {
         transform: translate(30px, 80px);
-        width: 110px;
+        width: 120px;
         height: auto;
         border-radius: 8px;
         font-size: 8.94px;
@@ -314,11 +314,13 @@
     p#left_fifth{
         transform: translate(30px, 416px);
         height: auto;
+        padding: 8px 13px;
+        width: 135px;
     }
     #data_box4 {
         padding-top: 0;
         width: 90px;
-        font-size: 8px;
+        font-size: 9px;
         height: 25.06px;
         transform: translate(30px, 363px);
     }

@@ -294,18 +294,21 @@
 
 
 @media screen and (max-width: 350px){
+    #data_box1 {
+        font-size: 9px;
+    }
     #right_second {
         font-size: 8.94px;
         transform: translate(-30px, 180px);
-        width: 110px;
-        padding: 13px 13px;
+        width: 120px;
+        padding: 8px 8px;
         border-radius: 8px;
     }
     #data_box3 {
         display: flex;
         height: 25.06px;
         width: 107px;
-        font-size: 8px;
+        font-size: 9px;
         padding: 4px;
         transform: translate(-30px, 285px);
     }
@@ -313,7 +316,7 @@
     #right_fourth {
         font-size: 8.94px;
         transform: translate(-30px, 373px);
-        width: 117px;
+        width: 130px;
         padding: 8px;
         border-radius: 8px;
     }
@@ -322,8 +325,7 @@
         display: flex;
         height: 25.06px;
         width: 90px;
-        font-size: 8px;
+        font-size: 9px;
         transform: translate(-30px, 404px);
-        background-color: #cec4c4;
     }
 }
