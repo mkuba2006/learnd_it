@@ -60,7 +60,7 @@
     flex-wrap: nowrap;
     gap: 10px;
     border: 1px solid #B3B3B3;
-    border-radius: 32px;
+    border-radius: 32px 0 0 32px;
     height: 54px;
     padding: 0 100px 0 20px;
 }
@@ -782,6 +782,14 @@
 
 }
 @media screen and (max-width: 480px){
+    #first #first_content #form #form_one{
+        height: 32px;
+        gap: 3px;
+        padding: 0 20px 0 20px;
+    }
+    #first #first_content #form #form_one #email{
+        max-width: 130px;
+    }
     #brbr{
         display: none;
     }
@@ -789,7 +797,7 @@
         margin-top: 85px;
     }
     #first #first_content #form #form_one #email {
-        letter-spacing: 0.2px;
+        letter-spacing: 0;
     }
     #first #first_content #form #form_one {
         height: 32px;
@@ -819,7 +827,7 @@
     }
     #first #first_content #form #form_one {
         height: 32px;
-        padding: 0 35px 0 20px;
+        padding: 0 15px 0 20px;
     }
 }
 
@@ -869,7 +877,7 @@
         height: 26px;
     }
     #first #first_content #form #submit {
-        background-color: red;
+        background: red;
     }
 }
 
@@ -886,7 +894,7 @@
         height: 32px;
         font-size: 9px;
         transform: translateX(-25px);
-        padding: 0 5px;
+        padding: 0 3px;
     }
     #first #first_content #form #form_one {
         height: 32px;

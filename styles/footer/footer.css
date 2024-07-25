@@ -384,6 +384,7 @@ footer h1 {
         height: 32px;
         font-size: 10px;
         width: auto;
+        max-width: 150px;
     }
 
     #element1 #submit2 {
