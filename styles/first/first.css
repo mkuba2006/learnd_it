@@ -789,6 +789,7 @@
     }
     #first #first_content #form #form_one #email{
         max-width: 130px;
+        min-width: 0;
     }
     #brbr{
         display: none;
