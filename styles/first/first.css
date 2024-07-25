@@ -879,7 +879,9 @@
         width: 65px;
         height: 26px;
     }
-
+    #first #first_content #form #submit {
+        background: blue;
+    }
 }
 
 
@@ -887,6 +889,9 @@
 
 
 @media screen and (max-width: 330px){
+    #first #first_content #form #submit {
+        background: white;
+    }
     #first #first_content #colabs{
         gap: 8px;
     }
