@@ -829,6 +829,9 @@
         height: 32px;
         padding: 0 15px 0 20px;
     }
+    #first #first_content #form #submit {
+        background: red;
+    }
 }
 
 
@@ -876,9 +879,7 @@
         width: 65px;
         height: 26px;
     }
-    #first #first_content #form #submit {
-        background: red;
-    }
+
 }
 
 
