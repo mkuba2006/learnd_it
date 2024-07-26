@@ -484,6 +484,11 @@ footer h1 {
 }
 
 @media screen and (max-width: 350px) {
+    #element1 #submit2 {
+        width: auto;
+        max-width: 150px;
+        transform: translateX(-80px);
+    }
     #one h3 {
         max-width: 250px;
         width: 90%;

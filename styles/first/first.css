@@ -895,10 +895,11 @@
     }
     #first #first_content #form #submit {
         width: auto;
-        min-width: 100px;
+        min-width: 120px;
+        max-width: 139px;
         height: 32px;
         font-size: 9px;
-        transform: translateX(-25px);
+        transform: translateX(-30px);
         padding: 0 5px;
     }
     #first #first_content #form #form_one {
