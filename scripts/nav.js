@@ -1,9 +1,8 @@
-const button_flag2 = document.getElementById('flag2');
-const language2 = document.getElementById('language2');
-const flag2 = document.getElementById('flag_iamge2');
+const button_flag = document.getElementById('flag');
+const language = document.getElementById('language');
+const flag = document.getElementById('flag_iamge');
 
-
-const originalTexts2 = {
+const originalTexts = {
     nav_link1: document.getElementById('link1').textContent,
     nav_link2: document.getElementById('link2').textContent,
     nav_link3: document.getElementById('link3').textContent,
@@ -95,10 +94,10 @@ const originalTexts2 = {
 
 
 
-button_flag2.addEventListener('click', () => {
-    if (language2.textContent == 'EN') {
-        language2.textContent = 'PL';
-        flag2.setAttribute('src', './images/flags/poland.png');
+button_flag.addEventListener('click', () => {
+    if (language.textContent == 'EN') {
+        language.textContent = 'PL';
+        flag.setAttribute('src', './images/flags/poland.png');
         document.getElementById('link1').textContent = 'Jak działa Learnd.it';
         document.getElementById('link2').textContent = 'Funkcjonalności';
         document.getElementById('link3').textContent = 'Zalety';
@@ -190,96 +189,96 @@ button_flag2.addEventListener('click', () => {
     } 
     
     else {
-        language2.textContent = 'EN';
-        flag2.setAttribute('src', './images/flags/uk.png');
-        document.getElementById('link1').textContent = originalTexts2.nav_link1;
-        document.getElementById('link2').textContent = originalTexts2.nav_link2;
-        document.getElementById('link3').textContent = originalTexts2.nav_link3;
-        document.getElementById('link4').textContent = originalTexts2.nav_link4;
-        document.getElementById('courses_button').textContent = originalTexts2.nav_but;
-        document.getElementById('first_span1').textContent = originalTexts2.first_span1;
-        document.getElementById('first_b').textContent = originalTexts2.first_b;
-        document.getElementById('first_span2').textContent = originalTexts2.first_span2;
-        document.getElementById('first_p').textContent = originalTexts2.first_p;
+        language.textContent = 'EN';
+        flag.setAttribute('src', './images/flags/uk.png');
+        document.getElementById('link1').textContent = originalTexts.nav_link1;
+        document.getElementById('link2').textContent = originalTexts.nav_link2;
+        document.getElementById('link3').textContent = originalTexts.nav_link3;
+        document.getElementById('link4').textContent = originalTexts.nav_link4;
+        document.getElementById('courses_button').textContent = originalTexts.nav_but;
+        document.getElementById('first_span1').textContent = originalTexts.first_span1;
+        document.getElementById('first_b').textContent = originalTexts.first_b;
+        document.getElementById('first_span2').textContent = originalTexts.first_span2;
+        document.getElementById('first_p').textContent = originalTexts.first_p;
         document.getElementById('email').setAttribute("placeholder", "Your email address");
         document.getElementById('submit').setAttribute("value", 'Get Early Access');
-        document.getElementById('second_h1').textContent = originalTexts2.second_h1;
-        document.getElementById('second_h2').textContent = originalTexts2.second_h2;
-        document.getElementById('second_el1_h3').textContent = originalTexts2.second_el1_h3;
-        document.getElementById('text1').textContent = originalTexts2.text1; 
-        document.getElementById('second_el2_h3').textContent = originalTexts2.second_el2_h3;
-        document.getElementById('text2').textContent = originalTexts2.text2; 
-        document.getElementById('second_el3_h3').textContent = originalTexts2.second_el3_h3;
-        document.getElementById('text3').textContent = originalTexts2.text3; 
-        document.getElementById('second_el4_h3').textContent = originalTexts2.second_el4_h3; 
-        document.getElementById('text4').textContent = originalTexts2.text4; 
-        document.getElementById('third_description').textContent = originalTexts2.third_description; 
-        document.getElementById('third_h2_1').textContent = originalTexts2.third_h2_1; 
-        document.getElementById('third_h2_2').textContent = originalTexts2.third_h2_2; 
-        document.getElementById('third_h2_3').textContent = originalTexts2.third_h2_3; 
-        document.getElementById('third_h2_4').textContent = originalTexts2.third_h2_4; 
-        document.getElementById('third_p_1').textContent = originalTexts2.third_p_1;  
-        document.getElementById('third_p_2').textContent = originalTexts2.third_p_2; 
-        document.getElementById('third_p_3').textContent = originalTexts2.third_p_3;  
-        document.getElementById('third_p_4').textContent = originalTexts2.third_p_4; 
-        document.getElementById('four_h1').textContent = originalTexts2.four_h1; 
-        document.getElementById('four_h2').textContent = originalTexts2.four_h2; 
-        document.getElementById('student').textContent = originalTexts2.student;
-        document.getElementById('student_h2_1').textContent = originalTexts2.student_h2_1;
-        document.getElementById('student_h2_2').textContent = originalTexts2.student_h2_2;
-        document.getElementById('student_h2_3').textContent = originalTexts2.student_h2_3;
-        document.getElementById('student_p_1').textContent = originalTexts2.student_p_1;
-        document.getElementById('student_p_2').textContent = originalTexts2.student_p_2;
-        document.getElementById('student_p_3').textContent = originalTexts2.student_p_3;
-        document.getElementById('tutor_h2_1').textContent = originalTexts2.tutor_h2_1;
-        document.getElementById('tutor_h2_2').textContent = originalTexts2.tutor_h2_2;
-        document.getElementById('tutor_h2_3').textContent = originalTexts2.tutor_h2_3;
-        document.getElementById('tutor_p_1').textContent = originalTexts2.tutor_p_1;
-        document.getElementById('tutor_p_2').textContent = originalTexts2.tutor_p_2;
-        document.getElementById('tutor_p_3').textContent = originalTexts2.tutor_p_3;
-        document.getElementById('topic_h1').textContent = originalTexts2.topic_h1;
-        document.getElementById('topic_p').textContent = originalTexts2.topic_p;
-        document.getElementById('item_h2_1').textContent = originalTexts2.item_h2_1;
-        document.getElementById('item_p_1').textContent = originalTexts2.item_p_1;
-        document.getElementById('item_h2_2').textContent = originalTexts2.item_h2_2;
-        document.getElementById('item_p_2').textContent = originalTexts2.item_p_2;
-        document.getElementById('item_h2_3').textContent = originalTexts2.item_h2_3;
-        document.getElementById('item_p_3').textContent = originalTexts2.item_p_3;
-        document.getElementById('item_h2_4').textContent = originalTexts2.item_h2_4;
-        document.getElementById('item_p_4').textContent = originalTexts2.item_p_4;
-        document.getElementById('item_h2_5').textContent = originalTexts2.item_h2_5;
-        document.getElementById('item_p_5').textContent = originalTexts2.item_p_5;
-        document.getElementById('item_h2_6').textContent = originalTexts2.item_h2_6;
-        document.getElementById('item_p_6').textContent = originalTexts2.item_p_6;
-        document.getElementById('item_h3').textContent = originalTexts2.item_h3;
-        document.getElementById('six_h1').textContent = originalTexts2.six_h1;
-        document.getElementById('seven_h1').textContent = originalTexts2.seven_h1;
-        document.getElementById('left_first_1').textContent = originalTexts2.left_first_1;
-        document.getElementById('left_first_2').textContent = originalTexts2.left_first_2;
-        document.getElementById('third_span_1').textContent = originalTexts2.third_span_1;
-        document.getElementById('third_span_2').textContent = originalTexts2.third_span_2;
-        document.getElementById('fifth_span_x').textContent = originalTexts2.fifth_span_x;
-        document.getElementById('fifth_span_1').textContent = originalTexts2.fifth_span_1;
-        document.getElementById('fifth_span_x2').textContent = originalTexts2.fifth_span_x2;
-        document.getElementById('fifth_span_2').textContent = originalTexts2.fifth_span_2;
-        document.getElementById('second_span_1').textContent = originalTexts2.second_span_1;
-        document.getElementById('fourth_span_1').textContent = originalTexts2.fourth_span_1;
-        document.getElementById('fourth_span_2').textContent = originalTexts2.fourth_span_2;
-        document.getElementById('eight_h1').textContent = originalTexts2.eight_h1;
-        document.getElementById('footer_h1').textContent = originalTexts2.footer_h1;
-        document.getElementById('bottom_h3').textContent =  originalTexts2.bottom_h3;
+        document.getElementById('second_h1').textContent = originalTexts.second_h1;
+        document.getElementById('second_h2').textContent = originalTexts.second_h2;
+        document.getElementById('second_el1_h3').textContent = originalTexts.second_el1_h3;
+        document.getElementById('text1').textContent = originalTexts.text1; 
+        document.getElementById('second_el2_h3').textContent = originalTexts.second_el2_h3;
+        document.getElementById('text2').textContent = originalTexts.text2; 
+        document.getElementById('second_el3_h3').textContent = originalTexts.second_el3_h3;
+        document.getElementById('text3').textContent = originalTexts.text3; 
+        document.getElementById('second_el4_h3').textContent = originalTexts.second_el4_h3; 
+        document.getElementById('text4').textContent = originalTexts.text4; 
+        document.getElementById('third_description').textContent = originalTexts.third_description; 
+        document.getElementById('third_h2_1').textContent = originalTexts.third_h2_1; 
+        document.getElementById('third_h2_2').textContent = originalTexts.third_h2_2; 
+        document.getElementById('third_h2_3').textContent = originalTexts.third_h2_3; 
+        document.getElementById('third_h2_4').textContent = originalTexts.third_h2_4; 
+        document.getElementById('third_p_1').textContent = originalTexts.third_p_1;  
+        document.getElementById('third_p_2').textContent = originalTexts.third_p_2; 
+        document.getElementById('third_p_3').textContent = originalTexts.third_p_3;  
+        document.getElementById('third_p_4').textContent = originalTexts.third_p_4; 
+        document.getElementById('four_h1').textContent = originalTexts.four_h1; 
+        document.getElementById('four_h2').textContent = originalTexts.four_h2; 
+        document.getElementById('student').textContent = originalTexts.student;
+        document.getElementById('student_h2_1').textContent = originalTexts.student_h2_1;
+        document.getElementById('student_h2_2').textContent = originalTexts.student_h2_2;
+        document.getElementById('student_h2_3').textContent = originalTexts.student_h2_3;
+        document.getElementById('student_p_1').textContent = originalTexts.student_p_1;
+        document.getElementById('student_p_2').textContent = originalTexts.student_p_2;
+        document.getElementById('student_p_3').textContent = originalTexts.student_p_3;
+        document.getElementById('tutor_h2_1').textContent = originalTexts.tutor_h2_1;
+        document.getElementById('tutor_h2_2').textContent = originalTexts.tutor_h2_2;
+        document.getElementById('tutor_h2_3').textContent = originalTexts.tutor_h2_3;
+        document.getElementById('tutor_p_1').textContent = originalTexts.tutor_p_1;
+        document.getElementById('tutor_p_2').textContent = originalTexts.tutor_p_2;
+        document.getElementById('tutor_p_3').textContent = originalTexts.tutor_p_3;
+        document.getElementById('topic_h1').textContent = originalTexts.topic_h1;
+        document.getElementById('topic_p').textContent = originalTexts.topic_p;
+        document.getElementById('item_h2_1').textContent = originalTexts.item_h2_1;
+        document.getElementById('item_p_1').textContent = originalTexts.item_p_1;
+        document.getElementById('item_h2_2').textContent = originalTexts.item_h2_2;
+        document.getElementById('item_p_2').textContent = originalTexts.item_p_2;
+        document.getElementById('item_h2_3').textContent = originalTexts.item_h2_3;
+        document.getElementById('item_p_3').textContent = originalTexts.item_p_3;
+        document.getElementById('item_h2_4').textContent = originalTexts.item_h2_4;
+        document.getElementById('item_p_4').textContent = originalTexts.item_p_4;
+        document.getElementById('item_h2_5').textContent = originalTexts.item_h2_5;
+        document.getElementById('item_p_5').textContent = originalTexts.item_p_5;
+        document.getElementById('item_h2_6').textContent = originalTexts.item_h2_6;
+        document.getElementById('item_p_6').textContent = originalTexts.item_p_6;
+        document.getElementById('item_h3').textContent = originalTexts.item_h3;
+        document.getElementById('six_h1').textContent = originalTexts.six_h1;
+        document.getElementById('seven_h1').textContent = originalTexts.seven_h1;
+        document.getElementById('left_first_1').textContent = originalTexts.left_first_1;
+        document.getElementById('left_first_2').textContent = originalTexts.left_first_2;
+        document.getElementById('third_span_1').textContent = originalTexts.third_span_1;
+        document.getElementById('third_span_2').textContent = originalTexts.third_span_2;
+        document.getElementById('fifth_span_x').textContent = originalTexts.fifth_span_x;
+        document.getElementById('fifth_span_1').textContent = originalTexts.fifth_span_1;
+        document.getElementById('fifth_span_x2').textContent = originalTexts.fifth_span_x2;
+        document.getElementById('fifth_span_2').textContent = originalTexts.fifth_span_2;
+        document.getElementById('second_span_1').textContent = originalTexts.second_span_1;
+        document.getElementById('fourth_span_1').textContent = originalTexts.fourth_span_1;
+        document.getElementById('fourth_span_2').textContent = originalTexts.fourth_span_2;
+        document.getElementById('eight_h1').textContent = originalTexts.eight_h1;
+        document.getElementById('footer_h1').textContent = originalTexts.footer_h1;
+        document.getElementById('bottom_h3').textContent =  originalTexts.bottom_h3;
         document.getElementById('email2').setAttribute("placeholder", "Your email address");
         document.getElementById('submit2').setAttribute("value", 'Get Early Access');
-        document.getElementById('column1_h3').textContent = originalTexts2.column1_h3;
-        document.getElementById('column1_a1').textContent = originalTexts2.column1_a1;
-        document.getElementById('column1_a2').textContent = originalTexts2.column1_a2;
-        document.getElementById('column1_a3').textContent = originalTexts2.column1_a3;
-        document.getElementById('column2_h3').textContent = originalTexts2.column2_h3;
-        document.getElementById('column2_a1').textContent = originalTexts2.column2_a1;
-        document.getElementById('column2_a2').textContent = originalTexts2.column2_a2;
-        document.getElementById('column2_a3').textContent = originalTexts2.column2_a3;
-        document.getElementById('column3_h3').textContent = originalTexts2.column3_h3;
-        document.getElementById('copyright').textContent = originalTexts2.copyright;
+        document.getElementById('column1_h3').textContent = originalTexts.column1_h3;
+        document.getElementById('column1_a1').textContent = originalTexts.column1_a1;
+        document.getElementById('column1_a2').textContent = originalTexts.column1_a2;
+        document.getElementById('column1_a3').textContent = originalTexts.column1_a3;
+        document.getElementById('column2_h3').textContent = originalTexts.column2_h3;
+        document.getElementById('column2_a1').textContent = originalTexts.column2_a1;
+        document.getElementById('column2_a2').textContent = originalTexts.column2_a2;
+        document.getElementById('column2_a3').textContent = originalTexts.column2_a3;
+        document.getElementById('column3_h3').textContent = originalTexts.column3_h3;
+        document.getElementById('copyright').textContent = originalTexts.copyright;
     }
 });
 
