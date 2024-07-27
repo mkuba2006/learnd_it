@@ -19,7 +19,7 @@ flag22.addEventListener('click', () => {
         leftfifth.style.transform = 'translate(30px, 400px)';
 
         dataBox5.style.transform = 'translate(-30px, 370px)';
-        dataBox2.style.transform = 'translate(30px, 130px)';
+        dataBox2.style.transform = 'translate(30px, 127px)';
         dataBox4.style.transform = 'translate(30px, 343px)';
 
     }
