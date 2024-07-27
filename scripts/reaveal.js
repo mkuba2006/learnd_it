@@ -7,7 +7,7 @@ const leftfifth = document.getElementById('left_fifth');
 
 const dataBox5 = document.getElementById('data_box5');
 const dataBox4 = document.getElementById('data_box4');
-const dataBox2 = document.getElementById('data_box5');
+const dataBox2 = document.getElementById('data_box2');
 
 
 flag22.addEventListener('click', () => {
