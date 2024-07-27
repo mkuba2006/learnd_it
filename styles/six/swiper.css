@@ -14,10 +14,12 @@
         width: auto;
         height: 550px;
     }
-
+    #six h1 {
+        margin-bottom: 30px;
+    }
 
     .swiper-slide #item{
-        width: 310px;
+        width: 300px;
         border-radius: 21.91px;
         box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
@@ -27,14 +29,14 @@
         margin: 0 auto;
     }
     .swiper-slide #item #img_box{
-        width: 310px;
-        height: 290px;
+        width: 300px;
+        height: 280px;
         border-radius: 25px 25px 0px 0px;
     }
     .swiper-slide #item #img_box img{
         object-fit: cover;
-        width: 310px;
-        height: 290px;
+        width: 300px;
+        height: 280px;
         border-radius: 25px 25px 0px 0px;
     }
 
@@ -46,7 +48,7 @@
     .swiper-slide #item #content #name{
         font-size: 20px;
         font-weight: 700;
-        margin: 20px 0 10px 0;
+        margin: 10px 0 10px 0;
     }
     .swiper-slide #item #content h4{
         font-family: SfProReg;
@@ -59,7 +61,7 @@
     .swiper-slide #item #line{
         content: '';
         position: absolute;
-        width: 310px;
+        width: 300px;
         height: 9px;
         background: linear-gradient(90deg, #03BE3D 40%, #006D22 100%);
     }
@@ -103,10 +105,12 @@
         width: auto;
         height: 420px;
     }
-
+    #six h1 {
+        font-size: 35px;
+    }
 
     .swiper-slide #item{
-        width: 265px;
+        width: 260px;
         border-radius: 21.91px;
         box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
@@ -116,13 +120,13 @@
         margin: 0 auto;
     }
     .swiper-slide #item #img_box{
-        width: 265px;
+        width: 260px;
         height: 252px;
         border-radius: 25px 25px 0px 0px;
     }
     .swiper-slide #item #img_box img{
         object-fit: cover;
-        width: 265px;
+        width: 260px;
         height: 252px;
         border-radius: 25px 25px 0px 0px;
     }
@@ -146,7 +150,7 @@
     .swiper-slide #item #line{
         content: '';
         position: absolute;
-        width: 265px;
+        width: 260px;
         height: 6.26px;
         background: linear-gradient(90deg, #03BE3D 40%, #006D22 100%);
     }
