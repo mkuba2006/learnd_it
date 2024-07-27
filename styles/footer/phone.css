@@ -8,7 +8,7 @@
 
 .image-body img {
     display: block;
-    width: 1551px;
+    width: 1450px;
     height: auto;
 }
 
@@ -16,8 +16,8 @@
     content: "";
     position: absolute;
     top: 20%;
-    width: 700px;
-    height: 700px;
+    width: 670px;
+    height: 670px;
     border: 6px solid rgba(0, 0, 0, 0.1); 
     border-radius: 50%;
     z-index: -1;
@@ -25,9 +25,9 @@
 #kolo2{
     content: "";
     position: absolute;
-    top: 15%;
-    width: 800px;
-    height: 800px;
+    top: 16%;
+    width: 770px;
+    height: 770px;
     border: 6px solid rgba(0, 0, 0, 0.1); 
     border-radius: 50%;
     z-index: -1;
@@ -35,16 +35,16 @@
 #kolo3{
     content: "";
     position: absolute;
-    top: 11%;
-    width: 900px;
-    height: 900px;
+    top: 12%;
+    width: 870px;
+    height: 870px;
     border: 6px solid rgba(0, 0, 0, 0.1); 
     border-radius: 50%;
     z-index: -1;
 }
 
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1600px){
 
     .image-body {
         transform: translateY(360px);
