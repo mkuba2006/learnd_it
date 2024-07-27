@@ -1,7 +1,14 @@
 const submit2 = document.getElementById('submit2');
 const flag22 = document.getElementById('flag2');
+
+
 const rightFourth = document.getElementById('right_fourth');
+const leftfifth = document.getElementById('left_fifth');
+
 const dataBox5 = document.getElementById('data_box5');
+const dataBox4 = document.getElementById('data_box4');
+const dataBox2 = document.getElementById('data_box5');
+
 
 flag22.addEventListener('click', () => {
     if (submit2.value === 'Odbierz Wczesny Dostęp') {
@@ -9,7 +16,12 @@ flag22.addEventListener('click', () => {
 
 
         rightFourth.style.transform = 'translate(-30px, 353px)';
+        leftfifth.style.transform = 'translate(30px, 400px)';
+
         dataBox5.style.transform = 'translate(-30px, 370px)';
+        dataBox2.style.transform = 'translate(30px, 130px)';
+        dataBox4.style.transform = 'translate(30px, 343px)';
+
     }
     
     
@@ -17,9 +29,14 @@ flag22.addEventListener('click', () => {
         submit2.style.transform = 'translateX(-80px)';
         submit2.style.padding = '0 5px';
 
-        
-
+    
         rightFourth.style.transform = 'translate(-30px, 373px)';
+        leftfifth.style.transform = 'translate(30px, 416px)';
+
+
         dataBox5.style.transform = 'translate(-30px, 404px)';
+        dataBox2.style.transform = 'translate(30px, 138px)';
+        dataBox4.style.transform = 'translate(30px, 363px)';
+
     }
 });
