@@ -8,7 +8,7 @@ const leftfifth = document.getElementById('left_fifth');
 const dataBox5 = document.getElementById('data_box5');
 const dataBox4 = document.getElementById('data_box4');
 const dataBox2 = document.getElementById('data_box2');
-
+const dataBox3 = document.getElementById('data_box3');
 
 flag22.addEventListener('click', () => {
     if (submit2.value === 'Odbierz Wczesny Dostęp') {
@@ -20,8 +20,8 @@ flag22.addEventListener('click', () => {
 
         dataBox5.style.transform = 'translate(-30px, 370px)';
         dataBox2.style.transform = 'translate(30px, 127px)';
-        dataBox4.style.transform = 'translate(30px, 343px)';
-
+        dataBox4.style.transform = 'translate(30px, 330px)';
+        dataBox3.style.transform = 'translate(-30px, 277px)';
     }
     
     
@@ -37,6 +37,6 @@ flag22.addEventListener('click', () => {
         dataBox5.style.transform = 'translate(-30px, 404px)';
         dataBox2.style.transform = 'translate(30px, 138px)';
         dataBox4.style.transform = 'translate(30px, 363px)';
-
+        dataBox3.style.transform = 'translate(-30px, 285px)';
     }
 });
