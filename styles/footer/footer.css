@@ -491,6 +491,7 @@ footer h1 {
 @media screen and (max-width: 350px) {
     #column a, #column p {
         letter-spacing: 0.1px;
+        font-weight: 500;
     }
     #element1 #email2 {
         height: 47px;
