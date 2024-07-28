@@ -462,7 +462,8 @@ footer h1 {
 
     #column a,
     #column p {
-        font-size: 11px;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     #icons {
@@ -491,6 +492,7 @@ footer h1 {
 @media screen and (max-width: 350px) {
     #column a, #column p {
         letter-spacing: 0.1px;
+    
     }
     #element1 #email2 {
         height: 47px;
