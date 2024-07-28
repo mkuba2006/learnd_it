@@ -102,7 +102,7 @@
     font-weight: 590;
     letter-spacing: 1.2px;
     color: #FFFFFF;
-    background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
+    background: linear-gradient(170deg, #03BE3D 0%, #006D22 100%);
     transform: translateX(-90px);
     cursor: pointer;
     transition: all 0.3s ease;

@@ -12,7 +12,7 @@ const dataBox3 = document.getElementById('data_box3');
 flag22.addEventListener('click', () => {
     if (submit2.value === 'Odbierz Wczesny Dostęp') {
         submit2.style.transform = 'translateX(-100px)';
-
+        submit2.style.padding = '0 5px';
         if (document.body.clientWidth <= 330) {
             rightFourth.style.transform = 'translate(-30px, 353px)';
             leftFifth.style.transform = 'translate(30px, 400px)';
@@ -23,7 +23,7 @@ flag22.addEventListener('click', () => {
         }
     } else {
         submit2.style.transform = 'translateX(-80px)';
-        submit2.style.padding = '0 5px';
+        submit2.style.padding = '0 15px';
 
         if (document.body.clientWidth <= 330) {
             rightFourth.style.transform = 'translate(-30px, 373px)';
