@@ -22,7 +22,7 @@ flag22.addEventListener('click', () => {
             dataBox4.style.transform = 'translate(30px, 330px)';
             dataBox3.style.transform = 'translate(-30px, 277px)';
         }
-        if (document.body.clientWidth <= 350) {
+        if (document.body.clientWidth <= 420) {
             submit.style.padding = '0 5px';
             submit.style.maxWidth = '160px';
             submit.style.minWidth = '150px';
@@ -40,7 +40,7 @@ flag22.addEventListener('click', () => {
             dataBox4.style.transform = 'translate(30px, 363px)';
             dataBox3.style.transform = 'translate(-30px, 285px)';
         }
-        if (document.body.clientWidth <= 350) {
+        if (document.body.clientWidth <= 420) {
             submit.style.padding = '0 5px';
             submit.style.maxWidth = '139px'
             submit.style.minWidth = '120px'

@@ -279,4 +279,16 @@ nav #buttons #flag p{
         transition: transform 0.4s ease;
         border-radius: 10px;
     }
+
+    #nav2 #name #flag2 img{
+        width: 20px;
+        border-radius: 1px;
+    }
+    #nav2 #name #flag2 p{
+        text-align: center;
+        margin: 0;
+        font-family: SfProReg;
+        font-size: 13px;
+    }
 }
+
