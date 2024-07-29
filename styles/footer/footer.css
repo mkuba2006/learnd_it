@@ -410,7 +410,7 @@ footer h1 {
     #one h3 {
         max-width: 330px;
         width: 90%;
-        font-size: 11px;
+        font-size: 14px;
     }
 
     #element1 #form {
@@ -456,7 +456,7 @@ footer h1 {
 
     #column h3 {
         letter-spacing: 0.3px;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 900;
         margin: 10px 0 5px 0;
         
@@ -510,8 +510,8 @@ footer h1 {
         transform: translateX(-80px);
     }
     #one h3 {
-        max-width: 250px;
+        max-width: 271px;
         width: 90%;
-        font-size: 11px;
+        font-size: 13px;
     }
 }
