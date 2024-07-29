@@ -1,4 +1,5 @@
 const submit2 = document.getElementById('submit2');
+const submit = document.getElementById('submit');
 const flag22 = document.getElementById('flag2');
 
 const rightFourth = document.getElementById('right_fourth');
@@ -21,6 +22,12 @@ flag22.addEventListener('click', () => {
             dataBox4.style.transform = 'translate(30px, 330px)';
             dataBox3.style.transform = 'translate(-30px, 277px)';
         }
+        if (document.body.clientWidth <= 350) {
+            submit.style.padding = '0 5px';
+            submit.style.maxWidth = '160px';
+            submit.style.minWidth = '150px';
+            submit.style.transform = 'translateX(-40px)';
+        }
     } else {
         submit2.style.transform = 'translateX(-80px)';
         submit2.style.padding = '0 15px';
@@ -32,6 +39,12 @@ flag22.addEventListener('click', () => {
             dataBox2.style.transform = 'translate(30px, 138px)';
             dataBox4.style.transform = 'translate(30px, 363px)';
             dataBox3.style.transform = 'translate(-30px, 285px)';
+        }
+        if (document.body.clientWidth <= 350) {
+            submit.style.padding = '0 5px';
+            submit.style.maxWidth = '139px'
+            submit.style.minWidth = '120px'
+            submit.style.transform = 'translateX(-30px)';
         }
     }
 });
