@@ -435,6 +435,7 @@ footer h1 {
     }
 
     #element1 #submit2 {
+        min-width: 105px;
         padding-top: 2px;
         height: 32px;
         letter-spacing: 0.8px;
@@ -490,7 +491,26 @@ footer h1 {
         height: 13px;
     }
 }
+@media screen and (max-width: 420px) {
+    #column h3 {
+        font-size: 13px;
+        
+    }
 
+    #column a,
+    #column p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    #element2 p {
+        font-size: 10px;
+    }
+}
+
+
+
+'
 @media screen and (max-width: 350px) {
     #column a, #column p {
         letter-spacing: 0.1px;
