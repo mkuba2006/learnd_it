@@ -16,7 +16,7 @@
     flex-direction: column;
 }
 #five #topic h1{
-    font-family: SfProMed;
+    font-family: SfProReg;
     font-weight: 700;
     font-size: 54px;
     margin: 0;
@@ -240,14 +240,12 @@
         flex-direction: column;
     }
     #five #topic h1{
-        font-family: SfProMed;
         font-weight: 700;
         font-size: 45px;
         margin: 0;
     }
     
     #five #topic p{
-        font-family: SfProReg;
         font-weight: 400;
         font-size: 17px;
         margin: 5px 0;
@@ -307,13 +305,11 @@
         flex-direction: column;
     }
     #five #topic h1{
-        font-family: SfProMed;
         font-size: 25px;
         margin: 0;
     }
     
     #five #topic p{
-        font-family: SfProReg;
         font-size: 12px;
         margin: 5px 0;
         color: #707070;
@@ -373,7 +369,6 @@
         justify-content: flex-start;
     }
     #five #topic{
-        text-align: center;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -386,7 +381,6 @@
     }
     
     #five #topic p{
-        font-family: SfProReg;
         font-weight: 400;
         font-size: 10.72px;
         margin: 5px 0;
