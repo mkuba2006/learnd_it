@@ -41,11 +41,12 @@
     }
 
     .swiper-slide #item #content{
-        font-family: SfProMed;
+        font-family: SfProReg;
         padding: 20px 35px;
     }
 
     .swiper-slide #item #content #name{
+        font-family: SfProReg;
         font-size: 20px;
         font-weight: 700;
         margin: 10px 0 10px 0;
@@ -132,11 +133,11 @@
     }
 
     .swiper-slide #item #content{
-        font-family: SfProMed;
         padding: 10px 20px;
     }
 
     .swiper-slide #item #content #name{
+        font-family: SfProReg;
         font-size: 16.68px;
         font-weight: 700;
         margin: 16px 0 0 0;

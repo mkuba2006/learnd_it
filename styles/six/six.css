@@ -44,11 +44,12 @@
 }
 
 #six #team #item #content{
-    font-family: SfProMed;
+    font-family: SfProReg;
     padding: 20px 35px;
 }
 
 #six #team #item #content #name{
+    font-family: SfProReg;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -288,6 +289,5 @@
     #six {
         margin-top: 70px;
         padding: 0; 
-        /* new */
     }
 }
