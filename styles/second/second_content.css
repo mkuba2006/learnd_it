@@ -39,7 +39,7 @@
     position: relative;
 }
 #el1, #el2, #el3, #el4{
-    max-width: 420px;
+    max-width: 450px;
 }
 #el1, #el3 {
     display: flex;
