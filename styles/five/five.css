@@ -376,13 +376,13 @@
     #five #topic h1{
         font-family: SfProMed;
         font-weight: 700;
-        font-size: 24.75px;
+        font-size: 24px;
         margin: 0;
     }
     
     #five #topic p{
         font-weight: 400;
-        font-size: 10.72px;
+        font-size: 10px;
         margin: 5px 0;
         color: #707070;
     }
@@ -401,12 +401,12 @@
     }
     
     #five #item h2 {
-        font-size: 12.17px;
+        font-size: 12px;
         margin: 0;
     }
     
     #five #item p{
-        font-size: 8.85px;
+        font-size: 9px;
         margin: 5px 0;
     }
     
@@ -414,7 +414,7 @@
         padding: 15px 20px 15px 20px;
     }
     #five #item:last-child h3{
-        font-size: 13.5px;
+        font-size: 13px;
         margin: 0 0 8px 0;
     }
     #five #item:last-child img{

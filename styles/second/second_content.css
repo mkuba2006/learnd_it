@@ -99,7 +99,7 @@
 
 
 #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
-    font-size: 23.15px;
+    font-size: 23px;
     font-weight: 700;
     margin: 15px 0 0 0;
 }
@@ -107,7 +107,7 @@
 
 #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
     color: #707070;
-    font-size: 19.29px;
+    font-size: 19px;
 }
 
 
@@ -243,7 +243,7 @@
     
     
     #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
-        font-size: 21.5px;
+        font-size: 21px;
     }
     
     

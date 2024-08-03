@@ -46,12 +46,12 @@
 }
 
 #tutor_content div h2{
-    font-size: 22.87px;
+    font-size: 23px;
     font-weight: 700;
 }
 
 #tutor_content div p{
-    font-size: 19.06px;
+    font-size: 19px;
     font-weight: 400;
     color:  #707070;   
     max-width: 360px;
@@ -289,13 +289,13 @@
         padding: 0;
     }
     #tutor_content div h2{
-        font-size: 12.86px;
+        font-size: 13px;
         font-weight: 700;
         margin: 15px 0 5px 0;
     }
     
     #tutor_content div p{
-        font-size: 10.72px;
+        font-size: 11px;
         margin: 5px 0;
         max-width: 300px;
     }
