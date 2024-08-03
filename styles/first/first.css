@@ -3,13 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 110px;
-    margin-top: 140px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
 #first #first_content{
     width: 60vw;
-    max-width: 1010px;
+    max-width: 810px;
 }
 
 #first #first_content h2{
@@ -28,7 +28,7 @@
     width: 90%;
     color: #707070;
     padding: 0;
-    margin: 40px 0 50px 0;
+    margin: 30px 0 50px 0;
 }
 
 #first #first_content h2 #first_span2 {
@@ -59,10 +59,10 @@
     align-items: center;
     flex-wrap: nowrap;
     gap: 10px;
-    border: 1px solid #B3B3B3;
+    border: 1px solid #b3b3b3b4;
     border-radius: 32px 0 0 32px;
     height: 54px;
-    padding: 0 100px 0 20px;
+    padding: 0 125px 0 20px;
 }
  
 
@@ -195,16 +195,16 @@
     }
     #first {
         padding: 0 110px;
-        margin-top: 120px;
+        margin-top: 140px;
         margin-bottom: 100px;
     }
     #first #first_content h2{
         font-size: 60px;
-        max-width: 920px;
+        max-width: 720px
     }
     #first #first_content p{
         font-size: 17px;
-        max-width: 750px;
+        max-width: 700px;
         margin: 40px 0;
     }
     #first #first_image img {
@@ -223,37 +223,35 @@
     }
 
     #first #first_content #colabs #incredibles {
-        width: 114px;
-        height: 55.88px; 
+        width: 132px;
+        height: 64.71px;
     }
     
     #first #first_content #colabs #mycompany {
-        width: 91.75px;
-        height: 38.57px; 
+        width: 109.75px;
+        height: 46.16px;
     }
     
     #first #first_content #colabs #mamstartup {
-        width: 113px;
-        height: 32.13px;
+        width: 131px;
+        height: 37.25px;
     }
     
     #first #first_content #colabs #czworka {
-        width: 96px;
-        height: 44.34px;
+        width: 114px;
+        height: 52.63px;
     }
     
-
-
 
 
     #first #first_content #form{
         height: 48px;
-        margin: 20px 0 40px 0;
+        margin: 20px 0 25px 0;
     }
     
     #first #first_content #form #form_one{
         height: 48px;
-        padding: 0 80px 0 20px;
+        padding: 0 95px 0 20px;
     }
      
     
@@ -264,7 +262,7 @@
     
     #first #first_content #form #form_one #email{
         letter-spacing: 1px;
-        font-size: 17px;
+        font-size: 15px;
         width: 200px;
     }
 
@@ -272,7 +270,7 @@
     
     #first #first_content #form #submit {
         height: 48px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 590;
         letter-spacing: 1.1px;
     }
@@ -305,12 +303,12 @@
     }
     #first #first_content h2{
         font-size: 52px;
-        max-width: 900px;
+        max-width: 620px;
     }
     
     #first #first_content p{
         font-size: 16px;
-        max-width: 700px;
+        max-width: 550px;
         margin: 22px 0 35px 0;
     }
 
@@ -325,24 +323,25 @@
     }
     
     #first #first_content #colabs #incredibles {
-        width: 109px;
-        height: 53.43px; 
+        width: 119px;
+        height: 58.34px;
     }
     
     #first #first_content #colabs #mycompany {
-        width: 86.75px; 
-        height: 36.41px; 
+        width: 96.75px;
+        height: 40.63px;
     }
     
     #first #first_content #colabs #mamstartup {
-        width: 108px; 
-        height: 30.73px; 
+        width: 118px;
+        height: 33.57px;
     }
     
     #first #first_content #colabs #czworka {
-        width: 91px; 
-        height: 42.06px;
+        width: 101px;
+        height: 46.69px;
     }
+    
     
 
     #first #first_image {
@@ -388,13 +387,13 @@
 
     #first #first_content h2{
         font-size: 42px;
-        max-width: 600px;
+        max-width: 510px;
         line-height: 50px;
     }
     
     #first #first_content p{
         font-size: 13px;
-        max-width: 550px;
+        max-width: 500px;
         margin: 20px 0;
     }
 
@@ -463,7 +462,7 @@
     }
     #first{
         padding: 0 5%;
-        margin-top: 90px;
+        margin-top: 110px;
         gap: 55px;
     }
 
@@ -474,13 +473,13 @@
 
     #first #first_content h2{
         font-size: 40px;
-        max-width: 600px;
+        max-width: 470px;
         line-height: 45px;
     }
     
     #first #first_content p{
         font-size: 13px;
-        max-width: 550px;
+        max-width: 450px;
         margin: 20px 0;
     }
 
@@ -492,7 +491,7 @@
     
     #first #first_content #form #form_one{
         height: 40px;
-        padding: 0 20px 0 15px;
+        padding: 0 35px 0 15px;
         gap: 5px;
         width: auto;
     }
@@ -504,7 +503,7 @@
     }
     
     #first #first_content #form #form_one #email{
-        font-size: 12px;
+        font-size: 11px;
         width: 155px;
     }
     
@@ -515,7 +514,7 @@
         height: 40px;
         border-radius: 32px;
         border: none;
-        font-size: 12px;
+        font-size: 11px;
         transform: translateX(-40px);
     }
 
@@ -567,13 +566,13 @@
     }
 
     #first #first_content #form{
-        height: 47px;
+        height: 38px;
         margin: 20px 0 40px 0;
     }
     
     #first #first_content #form #form_one{
-        height: 47px;
-        padding: 0 100px 0 20px;
+        height: 38px;
+        padding: 0 70px 0 20px;
     }
      
     
@@ -583,7 +582,7 @@
     }
     
     #first #first_content #form #form_one #email{
-        font-size: 16px;
+        font-size: 11px;
         width: 165px;
     }
     
@@ -591,10 +590,10 @@
     #first #first_content #form #submit {
         padding: 0 15px;
         max-width: 240px;
-        height: 47px;
+        height: 38px;
         border-radius: 32px;
         border: none;
-        font-size: 13.3px;
+        font-size: 11px;
         transform: translateX(-80px);
     }
 }
@@ -761,9 +760,16 @@
         padding: 0 15px;
     }
 }
+
+
+
 @media screen and (max-width: 440px){
+    #first #first_content #form #form_one #email {
+        font-size: 10px;
+        width: 135px;
+    }
     #first #first_content h2{
-        font-size: 29px;
+        font-size: 25px;
         max-width: 380px;
         width: 98%;
     }
@@ -774,15 +780,14 @@
 
 @media screen and (max-width: 420px){
     #first #first_content h2{
-        font-size: 29px;
         max-width: 330px;
         width: 98%;
     }
     
     #first #first_content p{
-        font-size: 10px;
+        font-size: 8.5px;
         max-width: 330px;
-        margin: 30px 0;
+        margin: 20px 0 30px 0;
     }
 
     #first #first_content #form #form_one {

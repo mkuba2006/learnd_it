@@ -51,6 +51,7 @@
 #six #team #item #content #name{
     font-size: 24px;
     font-weight: 700;
+    letter-spacing: 1px;
     margin: 20px 0 10px 0;
 }
 #six #team #item #content h4{
@@ -270,7 +271,11 @@
 }
 
 @media screen and (max-width: 1000px){
-
+    #six #team #item #content #name{
+        font-size: 18px;
+        margin: 15px 0 10px 0;
+        letter-spacing: 0px;
+    }
     #six{
         margin-top: 50px;
     }

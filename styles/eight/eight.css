@@ -16,7 +16,15 @@
     letter-spacing: 1px;
     font-size: 32px;
     font-weight: 590;
+    transition: 0.3s ease all;
+    cursor: pointer;
 }
+#eight p:hover{
+    color: #03BE3D ;
+}
+
+
+
 
 #eight img {
     width: 37px;

@@ -20,6 +20,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0 5vw;
+    justify-content: center;
 }
 
 #infos #tutor_info {
@@ -28,6 +29,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0 5vw;
+    justify-content: center;
 }
 
 

@@ -15,7 +15,7 @@
     align-items: center;
     text-align: center;
     border-radius: 19.82px;
-    background: linear-gradient(120deg, #FFFFFF, #A5A5A5);
+    background: linear-gradient(120deg, #FFFFFF, #cccbcb);
 }
 
 #lessons div h2, #lessons div p {
@@ -26,14 +26,15 @@
 
 #lessons div h2 {
     letter-spacing: 1.3px;
-    font-size: 21.8px;
-    font-weight: 700;
+    font-family: SfProMed;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 #lessons div p {
     letter-spacing: 0.5px;
-    font-size: 13.88px;
-    font-weight: 590;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #lessons:nth-child(odd) {
@@ -44,7 +45,10 @@
     color: #FFFFFF;
 }
 
-
+#lessons #graduation{
+    width: 70px;
+    height: 70px;
+}
 
 
 
@@ -60,25 +64,26 @@
     
     #lessons div h2, #lessons div p {
         margin: 5px;
-        font-family: SfProReg;
         color: #323232;
     }
     
     #lessons div h2 {
         letter-spacing: 1.3px;
         font-size: 18px;
-        font-weight: 700;
     }
     
     #lessons div p {
         letter-spacing: 0.5px;
         font-size: 11.5px;
-        font-weight: 590;
     }
     
     #lessons img{
         width: 60px;
         height: 60px;
+    }
+    #lessons #graduation{
+        width: 70px;
+        height: 70px;
     }
 
 }
@@ -103,13 +108,11 @@
     #lessons div h2 {
         letter-spacing: 1px;
         font-size: 16px;
-        font-weight: 700;
     }
     
     #lessons div p {
         letter-spacing: 0.2px;
         font-size: 10px;
-        font-weight: 590;
     }
     #lessons img{
         width: 65px;
@@ -129,17 +132,19 @@
 
     #lessons div h2 {
         font-size: 15px;
-        font-weight: 700;
     }
     
     #lessons div p {
         letter-spacing: 0.7px;
         font-size: 9px;
-        font-weight: 590;
     }
     #lessons img{
         width: 55px;
         height: 55px;
+    }
+    #lessons #graduation{
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -158,16 +163,18 @@
 
     #lessons div h2 {
         font-size: 11.8px;
-        font-weight: 700;
     }
     
     #lessons div p {
         font-size: 7.88px;
-        font-weight: 590;
     }
     #lessons img{
         width: 48px;
         height: 48px;
+    }
+    #lessons #graduation{
+        width: 52px;
+        height: 52px;
     }
     #box {
         display: flex;
@@ -191,16 +198,18 @@
 
     #lessons div h2 {
         font-size: 11px;
-        font-weight: 700;
     }
     
     #lessons div p {
         font-size: 7.3px;
-        font-weight: 590;
     }
     #lessons img{
         width: 37px;
         height: 37px;
+    }
+    #lessons #graduation{
+        width: 42px;
+        height: 42px;
     }
     #box {
         display: flex;
@@ -236,6 +245,10 @@
     #lessons img{
         width: 34px;
         height: 34px;
+    }
+    #lessons #graduation{
+        width: 48px;
+        height: 48px;
     }
     #box {
         display: flex;

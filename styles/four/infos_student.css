@@ -1,7 +1,14 @@
 #student_info #img_box{
-    width: 45vw;
+    /* width: 45vw; */
+    width: auto;
+    max-width: 620px;
+    max-height: 620px;
     display: flex;
     justify-content: center;
+}
+#student_info #img_box img{
+    max-width: 620px;
+    max-height: 620px;
 }
 
 #student_info #student_content{
@@ -11,13 +18,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: auto;
-    gap: 30px;
-    padding: 100px 0;
+    row-gap: 0;
+    column-gap: 30px;
+    padding: 75px 0;
+    max-width: 1000px;
 }
 
 #student_content div{
     width: 45%;
     row-gap: 0;
+    max-height: 250px;
 }
 
 #student_content div #icon_box {

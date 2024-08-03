@@ -1,12 +1,17 @@
 
-
 #tutor_info #img_box{
-    width: 45vw;
+    /* width: 45vw; */
+    width: auto;
+    max-width: 620px;
+    max-height: 620px;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
-
+#tutor_info #img_box img{
+    max-width: 620px;
+    max-height: 620px;
+}
 #tutor_info #tutor_content{
     font-family: SfProReg;
     display: flex;
@@ -14,12 +19,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: auto;
-    gap: 30px;
-    padding: 100px 0;
+    row-gap: 0;
+    column-gap: 15px;
+    padding: 75px 0;
+    max-width: 800px;
 }
 
 #tutor_content div{
-    width: 45%;
+    width: 47%;
     row-gap: 0;
 }
 
@@ -61,14 +68,17 @@
 @media screen and (max-width: 1600px){
 
     #tutor_info #img_box{
-        width: 40vw;
-        max-height: 720px;
+        width: auto;
+        max-width: 530px;
+        max-height: 530px;
     }
     #tutor_info #img_box img{
-        min-width: 530px;
-        min-height: 530px;
-        width: 35vw;
-        height: 35vw;
+        min-width: 520px;
+        min-height: 520px;
+        max-width: 530px;
+        max-height: 530px;
+        width: auto;
+        height: auto;
     }
     #tutor_info #tutor_content{
         row-gap: 10px;

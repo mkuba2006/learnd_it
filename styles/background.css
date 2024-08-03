@@ -10,38 +10,44 @@ body{
     background-color: white;
     overflow-x: hidden;
 }
-@font-face {
-    font-family: SfProMed;
-    src: url(./Medium.otf);
-}
-@font-face {
-    font-family: SfProReg;
-    src: url(./SFreg.OTF);
-}
-@font-face {
-    font-family: SfProBold;
-    src: url(./SFbold.OTF);
-}
+
+
+
+
+
+/* THIN */
 @font-face {
     font-family: SfProThin;
-    src: url(./thin.otf);
+    src: url(./fonts/thin.otf);
+}
+
+
+/* REGULAR */
+@font-face {
+    font-family: SfProReg;
+    src: url(./fonts/SFreg.OTF);
+}
+
+
+/* MEDIUM */
+@font-face {
+    font-family: SfProMed;
+    src: url(./fonts/Medium.otf);
+}
+
+
+/* BOLD */
+@font-face {
+    font-family: SfProBold;
+    src: url(./fonts/SFbold.OTF);
 }
 
 @font-face {
     font-family: SfProBold2;
-    src: url(./bold.otf);
+    src: url(./fonts/bold.otf);
 }
+
 @font-face {
     font-family: Logo;
-    src: url(./SF-Pro-Display-Black.otf);
+    src: url(./fonts/SFLogo.otf);
 }
-
-
-/* @font-face {
-    font-family: SfProMed;
-    src: url(../fonts/SfPro/SFPRODISPLAYMEDIUM.OTF);
-}
-@font-face {
-    font-family: SfProReg;
-    src: url(../fonts/SfPro/SFPRODISPLAYREGULAR.OTF);
-} */
