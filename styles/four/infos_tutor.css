@@ -12,17 +12,17 @@
     max-width: 620px;
     max-height: 620px;
 }
-#tutor_info #tutor_content{
+#tutor_info #tutor_content {
     font-family: SfProReg;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: auto;
-    row-gap: 0;
-    column-gap: 15px;
+    row-gap: 10px;
+    column-gap: 0;
     padding: 75px 0;
-    max-width: 800px;
+    max-width: 825px;
 }
 
 #tutor_content div{
@@ -54,6 +54,7 @@
     font-size: 19.06px;
     font-weight: 400;
     color:  #707070;   
+    max-width: 360px;
 }
 
 
@@ -82,18 +83,18 @@
     }
     #tutor_info #tutor_content{
         row-gap: 10px;
-        column-gap: 30px;
+        column-gap: 25px;
         padding: 60px 0;
-        max-width: 700px;
+        max-width: 660px;
         max-height: 570px;
     }
     
     #tutor_content div{
         margin-right: 0;
-        width: 45%;
+        width: 47%;
         max-width: 350px;
         max-height: 220px;
-        margin-right: auto;
+        margin-right: none;
     }
     
     #tutor_content div #icon_box {
@@ -116,6 +117,7 @@
         font-size: 18px;
         font-weight: 400;
         color:  #707070;   
+        max-width: 305px;
     }
 }
 
@@ -218,6 +220,9 @@
 
 
 @media screen and (max-width: 970px){
+    #infos #tutor_info {
+        padding: 0 5vw;
+    }
     #tutor_content div {
         margin-right: 0;
         width: 45%;
@@ -229,6 +234,7 @@
         flex-direction: column;
         align-items: center;
         padding: 60px 0 0 0;
+        max-height: none;
     }
     #tutor_info #tutor_content div{
         display: flex;
@@ -238,6 +244,7 @@
         text-align: center;
         width: 85vw;
         max-width: 500px;
+        max-height: none;
     }   
     #tutor_content div #icon_box {
         width: 62px;
@@ -256,6 +263,7 @@
     #tutor_content div p{
         font-size: 17px;
         margin: 5px 0;
+        max-width: 450px;
     }
     #tutor_info #img_box {
         align-items: center;
