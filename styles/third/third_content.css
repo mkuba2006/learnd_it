@@ -41,8 +41,11 @@
     background: linear-gradient(120deg, #03BE3D, #006D22);
 }
 
-#lessons:nth-child(odd) div h2, #lessons:nth-child(odd) div p {
-    color: #FFFFFF;
+#lessons:nth-child(odd) div h2 {
+    color: #ffffff;
+}
+#lessons:nth-child(odd) div p {
+    color: #ffffffe7;
 }
 
 #lessons #graduation{
@@ -207,12 +210,12 @@
         font-size: 10px;
     }
     #lessons img{
-        width: 37px;
-        height: 37px;
+        width: 43px;
+        height: 43px;
     }
     #lessons #graduation{
-        width: 42px;
-        height: 42px;
+        width: 47px;
+        height: 47px;
     }
     #box {
         display: flex;
@@ -246,12 +249,12 @@
         
     }
     #lessons img{
-        width: 34px;
-        height: 34px;
+        width: 38px;
+        height: 38px;
     }
     #lessons #graduation{
-        width: 36px;
-        height: 36px;
+        width: 40px;
+        height: 40px;
     }
     #box {
         display: flex;
