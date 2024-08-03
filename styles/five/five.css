@@ -362,7 +362,7 @@
 @media screen and (max-width: 400px){
     #five{
         margin-top: 50px;
-        max-width: 280px;
+        max-width: 266px;
         padding: 0;
         align-items: center;
         gap: 12px;
@@ -383,7 +383,7 @@
     #five #topic p{
         font-weight: 400;
         font-size: 10px;
-        margin: 5px 0;
+        margin: 5px 0 10px 0;
         color: #707070;
     }
 

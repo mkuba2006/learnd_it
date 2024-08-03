@@ -60,8 +60,17 @@
 
 @media screen and (max-width: 625px){
     #four #description{
-        padding: 0 30px;
+        padding: 0;
     }
+    #four #description h1{
+        padding: 0 10px;
+    }
+    #four #description h2{
+        margin: 15px 0 20px 0;
+        padding: 0 20px;
+    }
+
+
 
     #four #description h1{
         font-size: 25px;
