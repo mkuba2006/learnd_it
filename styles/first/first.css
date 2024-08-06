@@ -60,7 +60,7 @@
     flex-wrap: nowrap;
     gap: 10px;
     border: 1px solid #b3b3b3b4;
-    border-radius: 32px 0 0 32px;
+    border-radius: 28px 0 0 28px;
     height: 54px;
     padding: 0 125px 0 20px;
 }
@@ -96,7 +96,7 @@
     max-width: 240px;
     text-align: center;
     height: 54px;
-    border-radius: 32px;
+    border-radius: 28px;
     border: none;
     font-size: 16px;
     font-weight: 500;
@@ -252,6 +252,7 @@
     #first #first_content #form #form_one{
         height: 48px;
         padding: 0 95px 0 20px;
+        border-radius: 26px 0 0 26px;
     }
      
     
@@ -273,6 +274,7 @@
         font-size: 14px;
         font-weight: 590;
         letter-spacing: 1.1px;
+        border-radius: 26px;
     }
 
 
@@ -494,6 +496,7 @@
         padding: 0 35px 0 15px;
         gap: 5px;
         width: auto;
+        border-radius: 26px 0 0 26px;
     }
      
     
@@ -512,7 +515,7 @@
         padding: 0 25px;
         max-width: 240px;
         height: 40px;
-        border-radius: 32px;
+        border-radius: 26px;
         border: none;
         font-size: 11px;
         transform: translateX(-40px);
@@ -591,7 +594,6 @@
         padding: 0 15px;
         max-width: 240px;
         height: 38px;
-        border-radius: 32px;
         border: none;
         font-size: 11px;
         transform: translateX(-80px);
@@ -711,6 +713,7 @@
         height: 32px;
         gap: 3px;
         padding: 0 30px 0 20px;
+        border-radius: 18px 0 0 18px;
     }
      
     
@@ -731,6 +734,7 @@
         font-size: 9px;
         transform: translateX(-30px);
         padding: 0 10px;
+        border-radius: 18px;
     }
 
 
