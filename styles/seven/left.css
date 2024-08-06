@@ -1,16 +1,19 @@
 #left p {
-    width: 536px;
+    max-width: 400px;
     border: 1px solid #DADADA;
-    border-radius: 20px;
-    font-size: 24px;
-    font-weight: 700;
-    font-family: SfProReg;
-    padding: 27px 20px;
-    letter-spacing: 1.25px;
+    border-radius: 10px;
+    font: 600 18px/1 SfProReg;
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+#left_first_1, #fifth_span_2 {
+    font-family: SfProMed;
 }
 
 #left_first {
-    transform: translate(30px, 130px);
+    transform: translate(30px, 110px);
 }
 
 #left_second {
@@ -18,33 +21,46 @@
 }
 
 #data_box2 {
-    font-family: SfProReg;
+    font: 500 18px/1 SfProReg;
     letter-spacing: 1px;
-    width: 186px;
-    height: 44px;
+    width: 180px;
+    height: 40px;
     background-color: #A4A4A4;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    font-weight: 400;
-    border-radius: 5px;
-    transform: translate(30px, 191px);
+    border-radius: 8px;
+    transform: translate(30px, 175px);
 }
+
+#data_box4 {
+    font: 500 18px/1 SfProReg;
+    letter-spacing: 1px;
+    width: 180px;
+    height: 40px;
+    background-color: #A4A4A4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transform: translate(30px, 310px);
+}
+
 
 #left_second img {
     object-fit: cover;
     border-radius: 15px;
-    width: 414px;
-    height: 288px;
-    transform: translate(-20px, 162px);
+    width: 300px;
+    height: 200px;
+    transform: translate(-20px, 140px);
 }
 
 #left #left_third {
     padding: 27px 20px;
     width: 390px;
-    transform: translate(25px, 195px);
+    transform: translate(25px, 260px);
 }
 
 #left_fourth {
@@ -54,38 +70,22 @@
 #left_fourth img {
     object-fit: cover;
     border-radius: 15px;
-    width: 281px;
-    height: 227px;
-    transform: translate(-30px, 240px);
+    width: 260px;
+    height: 170px;
+    transform: translate(-30px, 270px);
 }
 
-#data_box4 {
-    font-family: SfProReg;
-    letter-spacing: 1px;
-    width: 186px;
-    height: 44px;
-    background-color: #A4A4A4;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 400;
-    border-radius: 5px;
-    transform: translate(30px, 310px);
-}
 
-#third_span_2 ,#fifth_span_1, #fourth_span_2  {
+#third_span_2, #fifth_span_1, #fourth_span_2 {
     font-family: SfProMed;
     font-weight: 900;
-    background: linear-gradient(to right, #03BE3D 0%, #006D22 100%);
+    background: linear-gradient(to right, #03BE3D, #006D22);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-
 #left_fifth {
-    transform: translate(30px, 240px);
+    transform: translate(30px, 280px);
 }
 
 #fifth_span_2 {
@@ -118,11 +118,13 @@
 
 @media screen and (max-width: 1450px){
     #left p {
-        width: 380px;
-        border-radius: 22px;
-        font-size: 18px;
+        width: auto;
+        border-radius: 15px;
+        font-size: 16px;
         font-family: SfProReg;
-        padding: 27px 30px;
+        padding: 18px;
+        max-width: 350px;
+        line-height: 18px;
     }
     
     #left_first {
@@ -134,33 +136,36 @@
         height: 38px;
         font-size: 15px;
         border-radius: 6px;
-        transform: translate(30px, 160px);
+        transform: translate(30px, 185px);
     }
     
     #left_second img {
-        width: 300px;
-        height: 208px;
+        width: 260px;
+        height: 170px;
         transform: translate(0, 132px);
     }
     
     #left #left_third {
-        padding: 27px 20px;
+        padding: 18px;
         width: 390px;
-        transform: translate(25px, 195px);
+        transform: translate(25px, 260px);
     }
     
     #left_fourth img {
         border-radius: 15px;
         width: 210px;
         height: 169px;
-        transform: translate(-10px, 210px);
+        transform: translate(-10px, 300px);
     }
     
     #data_box4 {
         width: 140px;
         height: 38px;
         font-size: 15px;
-        transform: translate(30px, 274px);
+        transform: translate(30px, 365px);
+    }
+    #left_fifth {
+        transform: translate(30px,320px);
     }
 }
 
@@ -172,13 +177,13 @@
 @media screen and (max-width: 1120px){
     #left p {
         width: 280px;
-        border-radius: 22px;
+        border-radius: 16px;
         font-size: 18px;
         font-family: SfProReg;
-        padding: 22px 25px;
+        padding: 20px;
     }
     #left_first {
-        transform: translate(30px, 110px);
+        transform: translate(30px, 100px);
         font-size: 19px;
         padding: 27px 20px;
         letter-spacing: 1.25px;
@@ -187,7 +192,7 @@
         display: none;
     }
     #data_box2 {
-        transform: translate(30px, 126px);
+        transform: translate(30px, 138px);
     }
     #left #left_third {
         padding: 22px 25px;
@@ -198,7 +203,7 @@
         width: 140px;
         height: 38px;
         font-size: 15px;
-        transform: translate(30px, 386px);
+        transform: translate(30px, 405px);
     }
 
     #left_fifth {
@@ -208,15 +213,17 @@
 
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 770px){
 
     #left p {
+        font: 500 18px/1 SfProReg;
         width: 157px;
-        height: 62px;
+        height: 65px;
         border-radius: 8px;
-        font-size: 9.94px;
-        padding: 13px 13px;
-        letter-spacing: 0;
+        font-size: 10px;
+        padding: 13px;
+        letter-spacing: 0.4px;
+        line-height: 12px;
     }
     #left_first {
         transform: translate(30px, 85px);
@@ -235,7 +242,7 @@
         letter-spacing: 0;
     }
     #left #left_third {
-        padding: 13px 13px;
+        padding: 13px;
         height: auto;
         width: 167px;
         transform: translate(25px, 293px);
@@ -246,7 +253,7 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(30px, 359px);
+        transform: translate(30px, 354px);
         letter-spacing: 0;
     }
 
@@ -260,28 +267,37 @@
 
 
 
+
+
+
+
 @media screen and (max-width: 440px){
 
     #left p {
-        transform: translate(30px, 80px);
+        transform: translate(30px, 65px);
         width: 130px;
-        
         height: auto;
         border-radius: 8px;
-        font-size: 9.94px;
-        padding: 11px 13px;
+        font-size: 10px;
+        padding: 10px;
     }
-    #left_first{
+    p#left_first{
         min-height: 62px;
+        height: 70px;
     }
+
+    #data_box2 {
+        transform: translate(30px, 92px);
+    }
+
     #left #left_third {
-        padding: 13px 10px;
+        padding: 10px;
         height: auto;
         width: 130px;
-        transform: translate(25px, 293px);
+        transform: translate(25px, 253px);
     }
     p#left_fifth{
-        transform: translate(30px, 422px);
+        transform: translate(30px, 340px);
         height: auto;
     }
     #data_box4 {
@@ -289,44 +305,77 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(30px, 360px);
+        transform: translate(30px, 290px);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 350px){
     #data_box2 {
         padding-top: 0;
-        transform: translate(30px, 138px);
+        transform: translate(30px, 108px);
         width: 90px;
         font-size: 9px;
+        height: 25px;
     }
     #left p {
-        transform: translate(30px, 80px);
-        width: 120px;
+        transform: translate(30px, 60px);
+        width: 125px;
         height: auto;
+        min-height: auto;
         border-radius: 8px;
-        font-size: 8.94px;
-        padding: 8px 13px;
+        font-size: 9px;
+        padding: 9px;
+        letter-spacing: 0.2px;
     }
     #left #left_third {
-        padding: 13px 6px;
+        padding: 9px;
         height: auto;
         width: auto;
-        min-width: 127px;
-        transform: translate(25px, 290px);
+        min-width: 136px;
+        transform: translate(30px, 256px);
     }
     p#left_fifth{
-        transform: translate(30px, 416px);
+        transform: translate(33px, 380px);
         height: auto;
-        padding: 8px 13px;
+        min-height: auto;
+        padding: 9px;
         width: 135px;
     }
     #data_box4 {
         padding-top: 0;
         width: 90px;
         font-size: 9px;
-        height: 25.06px;
-        transform: translate(30px, 363px);
+        height: 25px;
+        transform: translate(30px, 322px);
     }
 }

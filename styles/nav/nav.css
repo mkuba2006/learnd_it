@@ -10,7 +10,7 @@ nav{
     background-color: white;
     top: 0;
     z-index: 1000;
-    box-shadow: rgba(149, 157, 165, 0.12) 0px 8px 44px;
+    /* box-shadow: rgba(149, 157, 165, 0.12) 0px 8px 44px; */
 }
 #nav2{
     display: none;
