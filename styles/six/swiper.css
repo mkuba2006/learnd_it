@@ -3,7 +3,14 @@
     display: none;
 }
 
-
+.mySwiper .swiper-pagination-bullet {
+    background-color: black !important; /* Makes the pagination bullets black */
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    background-color: black !important; /* Ensures the active bullet is also black */
+  }
+  
 
 
 @media screen and (max-width: 601px){

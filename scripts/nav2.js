@@ -10,7 +10,7 @@ const originalTexts2 = {
     nav_link4: document.getElementById('link4').textContent,
     nav_but: document.getElementById('courses_button').textContent,
     first_b: document.getElementById('first_b').textContent,
-    first_span1: document.getElementById('first_span1').textContent,
+    first_span1: document.getElementById('first_span1').innerHTML,
     first_span2: document.getElementById('first_span2').textContent,
     first_p: document.getElementById('first_p').textContent,
     second_h1: document.getElementById('second_h1').textContent,
@@ -197,7 +197,7 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('link3').textContent = originalTexts2.nav_link3;
         document.getElementById('link4').textContent = originalTexts2.nav_link4;
         document.getElementById('courses_button').textContent = originalTexts2.nav_but;
-        document.getElementById('first_span1').textContent = originalTexts2.first_span1;
+        document.getElementById('first_span1').innerHTML = originalTexts2.first_span1;
         document.getElementById('first_b').textContent = originalTexts2.first_b;
         document.getElementById('first_span2').textContent = originalTexts2.first_span2;
         document.getElementById('first_p').textContent = originalTexts2.first_p;
