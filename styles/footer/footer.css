@@ -398,7 +398,7 @@ footer h1 {
 @media screen and (max-width: 500px) {
     footer h1 {
         transform: translateY(130px);
-        font-size: 22px;
+        font-size: 20px;
         max-width: 290px;
         margin: 0 auto;
     }
