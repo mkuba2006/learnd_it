@@ -9,7 +9,11 @@
   margin: 30px 0 30px 0;
   outline: none;
 }
-  
+
+#br_four{
+  display: none;
+}
+
 #student {
   font-family: SfProReg;
   font-weight: 590;
@@ -167,5 +171,14 @@
   .button-animation {
     transition: left 0.3s ease;
     border-radius: 13px;
+  }
+}
+
+
+
+@media screen and (max-width: 460px){
+  #br_four{
+    display: flex;
+    margin-top: 12px;
   }
 }
