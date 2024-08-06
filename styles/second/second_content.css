@@ -450,6 +450,7 @@
 
     #el1 #second_el1_h3, #el2 #second_el2_h3, #el3 #second_el3_h3, #el4 #second_el4_h3 {
         font-size: 13px;
+        letter-spacing: 0.2px;
     }
 
     #el1 #text1, #el2 #text2, #el3 #text3, #el4 #text4 {
