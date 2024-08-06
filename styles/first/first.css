@@ -118,24 +118,24 @@
     align-items: center;
 }
 
-#first #first_content #colabs #incredibles{
-    width: 144px;
-    height: 67.75px;
+#first #first_content #colabs #incredibles {
+    width: 154px; /* 144px + 10px */
+    height: 72.42px; /* 67.75px * (154px / 144px) */
 }
 
-#first #first_content #colabs #mycompany{
-    width: 141.75px;
-    height: 57.75px;
+#first #first_content #colabs #mycompany {
+    width: 151.75px; /* 141.75px + 10px */
+    height: 61.89px; /* 57.75px * (151.75px / 141.75px) */
 }
 
-#first #first_content #colabs #mamstartup{
-    width: 173px;
-    height: 47px;
+#first #first_content #colabs #mamstartup {
+    width: 183px; /* 173px + 10px */
+    height: 49.73px; /* 47px * (183px / 173px) */
 }
 
-#first #first_content #colabs #czworka{
-    width: 106px;
-    height: 49px;
+#first #first_content #colabs #czworka {
+    width: 116px; /* 106px + 10px */
+    height: 53.62px; /* 49px * (116px / 106px) */
 }
 
 
@@ -223,24 +223,25 @@
     }
 
     #first #first_content #colabs #incredibles {
-        width: 132px;
-        height: 64.71px;
+        width: 142px; /* 132px + 10px */
+        height: 69.56px; /* 64.71px * (142px / 132px) */
     }
     
     #first #first_content #colabs #mycompany {
-        width: 109.75px;
-        height: 46.16px;
+        width: 119.75px; /* 109.75px + 10px */
+        height: 50.35px; /* 46.16px * (119.75px / 109.75px) */
     }
     
     #first #first_content #colabs #mamstartup {
-        width: 131px;
-        height: 37.25px;
+        width: 141px; /* 131px + 10px */
+        height: 40.12px; /* 37.25px * (141px / 131px) */
     }
     
     #first #first_content #colabs #czworka {
-        width: 114px;
-        height: 52.63px;
+        width: 124px; /* 114px + 10px */
+        height: 57.25px; /* 52.63px * (124px / 114px) */
     }
+    
     
 
 
