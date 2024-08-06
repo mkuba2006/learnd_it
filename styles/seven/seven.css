@@ -325,7 +325,7 @@
         align-items: center;
         column-gap: 15px;
         flex-wrap: wrap;
-        margin: 150px auto 0 auto;
+        margin: 100px auto 0 auto;
     }
     #images_container #row1, #images_container #row2 {
         display: flex;
