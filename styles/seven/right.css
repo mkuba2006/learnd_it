@@ -235,7 +235,7 @@
         width: 115px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(-30px, 445px);
+        transform: translate(-30px, 440px);
         border-radius: 5px;
         letter-spacing: 0;
     
@@ -254,7 +254,8 @@
 
     #right_fourth {
         font: 500 18px/1 SfProReg;
-        font-size: 9.94px;
+        font-size: 10px;
+        line-height: 11px;
         transform: translate(-30px, 390px);
         width: 176px;
         padding: 10px;
@@ -291,7 +292,7 @@
     }
 
     #right_fourth {
-        font-size: 9.94px;
+        font-size: 10px;
         transform: translate(-30px, 310px);
         width: 136px;
         padding: 8px;
@@ -303,7 +304,7 @@
         width: 110px;
         height: 25.06px;
         font-size: 11px;
-        transform: translate(-30px, 360px);
+        transform: translate(-30px, 355px);
     }
 }
 
@@ -360,6 +361,6 @@
         width: 90px;
         height: 25px;
         font-size: 10px;
-        transform: translate(-30px, 385px);
+        transform: translate(-30px, 374px);
     }
 }

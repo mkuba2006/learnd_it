@@ -4,11 +4,11 @@
 }
 
 .mySwiper .swiper-pagination-bullet {
-    background-color: black !important; /* Makes the pagination bullets black */
+    background-color: black !important; 
   }
   
   .mySwiper .swiper-pagination-bullet-active {
-    background-color: black !important; /* Ensures the active bullet is also black */
+    background-color: black !important;
   }
   
 

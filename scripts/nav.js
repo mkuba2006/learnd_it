@@ -32,7 +32,7 @@ const originalTexts = {
     third_p_3: document.getElementById('third_p_3').textContent,
     third_p_4: document.getElementById('third_p_4').textContent,
     four_h1: document.getElementById('four_h1').textContent,
-    four_h2: document.getElementById('four_h2').textContent,
+    four_h2: document.getElementById('four_h2').innerHTML,
     student : document.getElementById('student').textContent,
     student_h2_1: document.getElementById('student_h2_1').textContent,
     student_h2_2: document.getElementById('student_h2_2').textContent,
@@ -222,7 +222,7 @@ button_flag.addEventListener('click', () => {
         document.getElementById('third_p_3').textContent = originalTexts.third_p_3;  
         document.getElementById('third_p_4').textContent = originalTexts.third_p_4; 
         document.getElementById('four_h1').textContent = originalTexts.four_h1; 
-        document.getElementById('four_h2').textContent = originalTexts.four_h2; 
+        document.getElementById('four_h2').innerHTML = originalTexts.four_h2; 
         document.getElementById('student').textContent = originalTexts.student;
         document.getElementById('student_h2_1').textContent = originalTexts.student_h2_1;
         document.getElementById('student_h2_2').textContent = originalTexts.student_h2_2;

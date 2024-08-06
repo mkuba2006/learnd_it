@@ -33,7 +33,7 @@ const originalTexts2 = {
     third_p_3: document.getElementById('third_p_3').textContent,
     third_p_4: document.getElementById('third_p_4').textContent,
     four_h1: document.getElementById('four_h1').textContent,
-    four_h2: document.getElementById('four_h2').textContent,
+    four_h2: document.getElementById('four_h2').innerHTML,
     student : document.getElementById('student').textContent,
     student_h2_1: document.getElementById('student_h2_1').textContent,
     student_h2_2: document.getElementById('student_h2_2').textContent,
@@ -130,7 +130,7 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('third_p_3').textContent = 'od 2 PLN za 60 min';
         document.getElementById('third_p_4').textContent = 'od 1 PLN za pytanie';
         document.getElementById('four_h1').textContent ='Wybierz Swoją Ścieżkę';
-        document.getElementById('four_h2').textContent = 'Z Learnd.it masz elastyczność kształtowania swojej edukacyjnej drogi. Jako uczeń, wybierz spośród różnych formatów zajęć, które najlepiej odpowiadają Twojemu stylowi nauki. Jeśli jesteś ekspertem w swojej dziedzinie, dołącz do nas jako nauczyciel, aby dzielić się swoją wiedzą, inspirować innych i zarabiać. Wykorzystaj okazję, by uczyć się lub nauczać w sposób, który odpowiada Twoim celom.';
+        document.getElementById('four_h2').innerHTML = `Z Learnd.it masz elastyczność kształtowania swojej edukacyjnej drogi. Jako uczeń, wybierz spośród różnych formatów zajęć, które najlepiej odpowiadają Twojemu stylowi nauki. <br> Jeśli jesteś ekspertem w swojej dziedzinie, dołącz do nas jako nauczyciel, aby dzielić się swoją wiedzą, inspirować innych i zarabiać. Wykorzystaj okazję, by uczyć się lub nauczać w sposób, który odpowiada Twoim celom.`;
         document.getElementById('student').textContent = 'Uczeń';
         document.getElementById('student_h2_1').textContent = 'Odkrywaj dopasowaną naukę';
         document.getElementById('student_h2_2').textContent = 'Skontaktuj się z ekspertami';
@@ -223,7 +223,7 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('third_p_3').textContent = originalTexts2.third_p_3;  
         document.getElementById('third_p_4').textContent = originalTexts2.third_p_4; 
         document.getElementById('four_h1').textContent = originalTexts2.four_h1; 
-        document.getElementById('four_h2').textContent = originalTexts2.four_h2; 
+        document.getElementById('four_h2').innerHTML = originalTexts2.four_h2; 
         document.getElementById('student').textContent = originalTexts2.student;
         document.getElementById('student_h2_1').textContent = originalTexts2.student_h2_1;
         document.getElementById('student_h2_2').textContent = originalTexts2.student_h2_2;
