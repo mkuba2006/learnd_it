@@ -284,7 +284,7 @@
     }
     #data_box3 {
         display: flex;
-        width: 115px;
+        width: 110px;
         height: 25.06px;
         font-size: 11px;
         transform: translate(-30px, 250px);
@@ -300,7 +300,7 @@
 
     #data_box5 {
         display: flex;
-        width: 115px;
+        width: 110px;
         height: 25.06px;
         font-size: 11px;
         transform: translate(-30px, 360px);
@@ -325,7 +325,7 @@
 
 @media screen and (max-width: 350px){
     #data_box1 {
-        font-size: 9px;
+        font-size: 10px;
         width: 90px;
         height: 25px;
     }
@@ -341,7 +341,7 @@
         display: flex;
         width: 90px;
         height: 25px;
-        font-size: 9px;
+        font-size: 10px;
         padding: 4px;
         transform: translate(-30px, 268px);
     }
@@ -359,7 +359,7 @@
         display: flex;
         width: 90px;
         height: 25px;
-        font-size: 9px;
+        font-size: 10px;
         transform: translate(-30px, 385px);
     }
 }

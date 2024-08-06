@@ -344,24 +344,25 @@
         padding-top: 0;
         transform: translate(30px, 108px);
         width: 90px;
-        font-size: 9px;
+        font-size: 10px;
         height: 25px;
+        padding: 7px;
     }
     #left p {
-        transform: translate(30px, 60px);
-        width: 125px;
+        transform: translate(32px, 60px);
+        width: 130px;
         height: auto;
         min-height: auto;
         border-radius: 8px;
-        font-size: 9px;
+        font-size: 10px;
         padding: 9px;
         letter-spacing: 0.2px;
     }
     #left #left_third {
-        padding: 9px;
+        padding: 7px;
         height: auto;
-        width: auto;
-        min-width: 136px;
+        width: 115px;
+        min-width: 100px;
         transform: translate(30px, 256px);
     }
     p#left_fifth{
@@ -374,7 +375,7 @@
     #data_box4 {
         padding-top: 0;
         width: 90px;
-        font-size: 9px;
+        font-size: 10px;
         height: 25px;
         transform: translate(30px, 322px);
     }
