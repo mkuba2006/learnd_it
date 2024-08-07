@@ -282,7 +282,11 @@
         margin-top: 50px;
     }
 }
-
+@media screen and (max-width: 625px){
+    #six {
+        scroll-margin-top: 90px;
+    }
+}
 @media screen and (max-width: 600px){
     #six #team{
         display: none;
