@@ -648,7 +648,7 @@
     #first #first_content h2{
         font-size: 29px;
         max-width: 430px;
-        line-height: 30px;
+        line-height: initial;
         letter-spacing: 0;
     }
     
@@ -799,7 +799,7 @@
         font-size: 11px;
         max-width: 330px;
         margin: 12px 0 20px 0;
-        line-height: 12.3px;
+        line-height: initial;
     }
 
     #first #first_content #form #form_one {

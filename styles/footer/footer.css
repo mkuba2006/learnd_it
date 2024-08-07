@@ -8,10 +8,11 @@ footer {
 }
 
 footer h1 {
-    transform: translateY(600px);
+    transform: translateY(180px);
     font-family: SfProReg;
     font-size: 48px;
     font-weight: 700;
+    margin: 0;
     text-align: center;
 }
 
@@ -198,7 +199,7 @@ footer h1 {
 
 @media screen and (max-width: 1600px) {
     footer h1 {
-        transform: translateY(400px);
+        transform: translateY(180px);
         font-size: 40px;
     }
 
@@ -304,7 +305,7 @@ footer h1 {
 
 @media screen and (max-width: 1000px) {
     footer h1 {
-        transform: translateY(250px);
+        transform: translateY(130px);
         font-size: 40px;
     }
 }
@@ -312,8 +313,9 @@ footer h1 {
 @media screen and (max-width: 750px) {
 
     footer h1 {
+        margin-top: 20px;
         font-size: 24.4px;
-        transform: translateY(150px);
+        transform: translateY(50px);
     }
 
     #bottom {
@@ -397,7 +399,7 @@ footer h1 {
 
 @media screen and (max-width: 500px) {
     footer h1 {
-        transform: translateY(130px);
+        transform: translateY(80px);
         font-size: 20px;
         max-width: 290px;
         margin: 0 auto;
