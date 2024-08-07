@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 110px;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 100px;
 }
 
@@ -195,7 +195,7 @@
     }
     #first {
         padding: 0 110px;
-        margin-top: 140px;
+        margin-top: 110px;
         margin-bottom: 100px;
     }
     #first #first_content h2{
@@ -465,7 +465,7 @@
     }
     #first{
         padding: 0 5%;
-        margin-top: 110px;
+        margin-top: 80px;
         gap: 55px;
     }
 
@@ -542,7 +542,7 @@
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        margin-top: 110px;
+        margin-top: 84px;
     }
     #first #first_content{
         width: auto;
@@ -635,7 +635,7 @@
     }
 
     #first{
-        margin-top: 110px;
+        margin-top: 84px;
         padding: 0 0 0 20px
     }
 
@@ -754,7 +754,7 @@
         display: none;
     }
     #first{
-        margin-top: 85px;
+        margin-top: 64px;
     }
     #first #first_content #form #form_one #email {
         letter-spacing: 0;
