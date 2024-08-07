@@ -14,7 +14,7 @@ const originalTexts2 = {
     nav_link3: document.getElementById('link3').textContent,
     nav_link4: document.getElementById('link4').textContent,
     nav_but: document.getElementById('courses_button').textContent,
-    courses_button1: document.getElementById('courses_button1').textContent,
+    courses_button1 : document.getElementById('courses_button1 ').textContent,
     first_b: document.getElementById('first_b').textContent,
     first_span1: document.getElementById('first_span1').innerHTML,
     first_span2: document.getElementById('first_span2').textContent,
