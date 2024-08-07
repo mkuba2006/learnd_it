@@ -1,6 +1,6 @@
 *, *:before, *:after{ 
     box-sizing: border-box; 
-
+    scroll-behavior: smooth;
 }
 body{
     position: relative;
@@ -9,6 +9,7 @@ body{
     padding: 0;
     background-color: white;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 

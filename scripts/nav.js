@@ -295,16 +295,3 @@ function toggleMenu() {
     navigation.style.transform = isOpen ? `translateY(-${offsetHeight/2}px)` : 'translateY(-130vh)';
     document.body.style.overflowY = isOpen ? 'hidden' : 'visible';
 }
-
-
-
-// function toggleMenu() {
-//     const burger = document.getElementById('burger');
-//     const nav2 = document.getElementById('nav2');
-//     var offsetHeight = nav2.offsetHeight;
-//     const navigation = document.getElementById('navigation');
-//     const isOpen = burger.classList.toggle('open');
-//     nav2.classList.toggle('open');
-//     navigation.style.transform = isOpen ? 'translateY(-5vh)' : 'translateY(-130vh)';
-//     document.body.style.overflowY = isOpen ? 'hidden' : 'visible';
-// }
