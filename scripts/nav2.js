@@ -4,6 +4,11 @@ const flag2 = document.getElementById('flag_iamge2');
 
 
 const originalTexts2 = {
+    nav_link11: document.getElementById('link11').textContent,
+    nav_link22: document.getElementById('link22').textContent,
+    nav_link33: document.getElementById('link33').textContent,
+    nav_link44: document.getElementById('link44').textContent,
+
     nav_link1: document.getElementById('link1').textContent,
     nav_link2: document.getElementById('link2').textContent,
     nav_link3: document.getElementById('link3').textContent,
@@ -99,6 +104,10 @@ button_flag2.addEventListener('click', () => {
     if (language2.textContent == 'EN') {
         language2.textContent = 'PL';
         flag2.setAttribute('src', './images/flags/poland.png');
+        document.getElementById('link11').textContent = 'Jak działa Learnd.it';
+        document.getElementById('link22').textContent = 'Funkcjonalności';
+        document.getElementById('link33').textContent = 'Zalety';
+        document.getElementById('link44').textContent = 'Zespół';
         document.getElementById('link1').textContent = 'Jak działa Learnd.it';
         document.getElementById('link2').textContent = 'Funkcjonalności';
         document.getElementById('link3').textContent = 'Zalety';
@@ -196,6 +205,11 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('link2').textContent = originalTexts2.nav_link2;
         document.getElementById('link3').textContent = originalTexts2.nav_link3;
         document.getElementById('link4').textContent = originalTexts2.nav_link4;
+        document.getElementById('link11').textContent = originalTexts2.nav_link11;
+        document.getElementById('link22').textContent = originalTexts2.nav_link22;
+        document.getElementById('link33').textContent = originalTexts2.nav_link33;
+        document.getElementById('link44').textContent = originalTexts2.nav_link44;
+
         document.getElementById('courses_button').textContent = originalTexts2.nav_but;
         document.getElementById('first_span1').innerHTML = originalTexts2.first_span1;
         document.getElementById('first_b').textContent = originalTexts2.first_b;

@@ -28,7 +28,7 @@
         gap: 35px; 
     }
 
-    #navigation_d1 #link{
+    #navigation_d1 a{
         font-family: SfProMed;
         text-decoration: none;
         color: black;
@@ -38,11 +38,11 @@
         transition: color 0.3s ease;
     }
 
-    #navigation_d1 #link:hover{
+    #navigation_d1 a:hover{
         color: #000000da;
     }
 
-    #navigation_d1 #courses button {
+    #navigation_d1 #courses1 button {
         font-family: SfProReg;
         width: 153px;
         height: 43px;
@@ -55,7 +55,7 @@
         background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
     }
 
-    #navigation_d1 #courses button:hover{
+    #navigation_d1 #courses1 button:hover{
         transform: scale(1.01); 
     }
 
