@@ -55,7 +55,7 @@ footer h1 {
     
 }
 
-#form {
+#form2 {
     height: 54px;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ footer h1 {
     width: min-content;
 }
 
-#form_one {
+#form_one2 {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -74,7 +74,7 @@ footer h1 {
     padding: 0 100px 0 20px;
 }
 
-#form_one img {
+#form_one2 img {
     width: 24px;
     height: 24px;
 }
@@ -83,7 +83,7 @@ footer h1 {
     color: #EAEAEA;
     background: none;
     letter-spacing: 0.7px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
     border: none;
     width: 200px;
@@ -99,14 +99,15 @@ footer h1 {
 }
 
 #submit2 {
+    text-align: center;
     width: auto;
     height: 54px;
     border-radius: 32px;
     border: none;
-    font-size: 15.3px;
+    font-size: 18px;
     padding: 0 30px;
     font-weight: 500;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.7px;
     color: #FFF;
     background: linear-gradient(170deg, #03BE3D 0%, #006D22 100%);
     transform: translateX(-90px);
@@ -191,14 +192,14 @@ footer h1 {
     letter-spacing: 0.1px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1650px) {
     #element1 #email2 {
         font-size: 18px;
     }
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1650px) {
     footer h1 {
         transform: translateY(180px);
         font-size: 40px;
@@ -218,7 +219,7 @@ footer h1 {
         font-size: 18px;
     }
 
-    #form {
+    #form2 {
         margin: 15px 0 40px;
     }
 
@@ -273,14 +274,14 @@ footer h1 {
 
 
 
-@media screen and (max-width: 1250px) {
-    #form {
+@media screen and (max-width: 1256px) {
+    #form2 {
         height: 46px;
     }
     
-    #form_one {
-        height: 46px;
-        border-radius: 32px 0 0 32px;
+    #form_one2 {
+        height: 44px;
+        padding: 0 40px 0 20px;
     }
     
     #element1 #email2 {
@@ -290,12 +291,13 @@ footer h1 {
     }
     
     #submit2 {
-        height: 46.5px;
-        font-size: 14px;
-        padding: 0 15px;
-        font-weight: 500;
-        letter-spacing: 0.6px;
-        color: #FFF;
+        padding: 0 25px;
+        max-width: 240px;
+        height: 44px;
+        border-radius: 32px;
+        border: none;
+        font-size: 13px;
+        transform: translateX(-40px);
     }
 }
 
@@ -334,29 +336,40 @@ footer h1 {
         font-size: 15px;
     }
 
-    #element1 #form {
-        height: 47px;
+
+
+
+    #element1 #form2 {
+        height: 40px;
         margin: 15px 0 30px;
     }
-    #element1 #form_one{
-        height: 47px;
-        padding: 0 80px 0 20px;
-        border-radius: 32px;
+    #element1 #form_one2{
+        height: 32px;
+        gap: 3px;
+        padding: 0 30px 0 20px;
+        border-radius: 18px 0 0 18px;
     }
 
     #element1 #email2 {
-        height: 47px;
-        font-size: 15px;
-        width: 180px;
+        font-size: 11px;
+        width: 135px;
+    }
+    #form2 #form_one2 img {
+        width: 13px;
+        height: 13px;
     }
 
     #element1 #submit2 {
-        height: 47px;
-        letter-spacing: 0.8px;
         width: auto;
-        font-size: 12px;
-        padding: 0 15px;
+        height: 32px;
+        font-size: 9px;
+        transform: translateX(-30px);
+        padding: 0 10px;
+        border-radius: 18px;
     }
+
+
+
 
     #two {
         gap: 30px;
@@ -398,7 +411,7 @@ footer h1 {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
     footer h1 {
         transform: translateY(80px);
         font-size: 20px;
@@ -416,17 +429,17 @@ footer h1 {
         font-size: 14px;
     }
 
-    #element1 #form {
+    #element1 #form2 {
         height: 32px;
         margin: 15px 0 30px;
         width: 350px;
     }
-    #element1 #form_one{
+    #element1 #form_one2{
         height: 32px;
         gap: 3px;
         padding: 0 70px 0 10px;
     }
-    #element1 #form_one img{
+    #element1 #form_one2 img{
         width: 14px;
         height: 14px;
     }
@@ -494,7 +507,57 @@ footer h1 {
         height: 13px;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+
+    #element1 #form2 {
+        height: 32px;
+        padding: 0;
+    }
+    #element1 #form_one2{
+        height: 32px;
+        gap: 3px;
+        padding: 0 30px 0 15px;
+    }
+    #element1 #form_one2 img{
+        width: 14px;
+        height: 14px;
+    }
+    #element1 #email2 {
+        max-width: 130px;
+        min-width: 0;
+        font-size: 10px;
+    }
+
+    #element1 #submit2 {
+        width: auto;
+        height: 32px;
+        font-size: 10px;
+        transform: translateX(-30px);
+        padding: 0 15px;
+        min-width: 0;
+        max-width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 440px){
+    #element1 #email2 {
+        font-size: 10px;
+        width: 135px;
+    }
+}
+
+
+
 @media screen and (max-width: 420px) {
+    #element1 #form_one2 {
+        height: 32px;
+        padding: 0 40px 0 10px;
+    }
+
+
     #column h3 {
         font-size: 13px;
         
@@ -529,12 +592,38 @@ footer h1 {
 
     #element1 #submit2 {
         width: auto;
-        max-width: 150px;
-        transform: translateX(-80px);
+        min-width: 120px;
+        max-width: 139px;
+        height: 32px;
+        font-size: 10px;
+        transform: translateX(-30px);
+        padding: 0 5px;
     }
     #one h3 {
         max-width: 271px;
         width: 90%;
         font-size: 13px;
+    }
+
+
+
+    #form #submit {
+        width: auto;
+        min-width: 120px;
+        max-width: 139px;
+        height: 32px;
+        font-size: 10px;
+        transform: translateX(-30px);
+        padding: 0 5px;
+    }
+    #form2 #form_one2 {
+        height: 32px;
+        padding: 0 30px 0 10px;
+    }
+    #form2 #form_one2 {
+        gap: 2px;
+    }
+    #form2 #form_one #email2 {
+        letter-spacing: 0px;
     }
 }
