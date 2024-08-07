@@ -14,6 +14,7 @@ const originalTexts2 = {
     nav_link3: document.getElementById('link3').textContent,
     nav_link4: document.getElementById('link4').textContent,
     nav_but: document.getElementById('courses_button').textContent,
+    courses_button1: document.getElementById('courses_button1').textContent,
     first_b: document.getElementById('first_b').textContent,
     first_span1: document.getElementById('first_span1').innerHTML,
     first_span2: document.getElementById('first_span2').textContent,
@@ -196,6 +197,7 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('column2_a3').textContent = 'Polityka prywatności';
         document.getElementById('column3_h3').textContent = 'Kontakt';
         document.getElementById('copyright').textContent = '© 2024 Learnd.it. Wszelkie prawa zastrzeżone';
+        document.getElementById('courses_button1').textContent = 'Nasza Oferta';
     } 
     
     else {
@@ -209,7 +211,7 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('link22').textContent = originalTexts2.nav_link22;
         document.getElementById('link33').textContent = originalTexts2.nav_link33;
         document.getElementById('link44').textContent = originalTexts2.nav_link44;
-
+        document.getElementById('courses_button1').textContent = originalTexts2.courses_button1;
         document.getElementById('courses_button').textContent = originalTexts2.nav_but;
         document.getElementById('first_span1').innerHTML = originalTexts2.first_span1;
         document.getElementById('first_b').textContent = originalTexts2.first_b;
