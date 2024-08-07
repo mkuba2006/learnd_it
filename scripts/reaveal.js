@@ -25,12 +25,12 @@ flag22.addEventListener('click', () => {
             submit.style.padding = '0 5px';
             submit.style.maxWidth = '160px';
             submit.style.minWidth = '150px';
-            submit.style.transform = 'translateX(-40px)';
+            submit.style.transform = 'translateX(-45px)';
 
             submit2.style.padding = '0 5px';
             submit2.style.maxWidth = '160px'
             submit2.style.minWidth = '150px'
-            submit2.style.transform = 'translateX(-45px)';
+            submit2.style.transform = 'translateX(-50px)';
             
         }
     } else {
