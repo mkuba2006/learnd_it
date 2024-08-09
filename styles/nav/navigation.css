@@ -129,7 +129,7 @@
 
     #navigation{
         justify-content: center;
-        padding: 0;
+        padding: 0 0 10vh 0;
         gap: 10vh;
         height: calc(98vh);
     }
