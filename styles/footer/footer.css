@@ -67,7 +67,7 @@ footer h1 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border: 1px solid #ffffff90;
+    border: 1px solid #b3b3b3b4;
     border-radius: 32px 0 0 32px;
     border-right: none;
     height: 54px;
@@ -192,11 +192,7 @@ footer h1 {
     letter-spacing: 0.1px;
 }
 
-@media screen and (max-width: 1650px) {
-    #element1 #email2 {
-        font-size: 18px;
-    }
-}
+
 
 
 @media screen and (max-width: 1650px) {
@@ -223,14 +219,22 @@ footer h1 {
         margin: 15px 0 40px;
     }
 
-    #email2 {
+    #element1 #email2 {
         letter-spacing: 0.7px;
-        font-size: 17px;
-        width: 180px;
+        font-size: 15px;
+        width: 200px;
     }
-
+    #form_one2 {
+        height: 46px;
+        padding: 0 65px 0 20px;
+        border-radius: 26px 0 0 26px;
+    }
     #submit2 {
-        letter-spacing: 1px;
+        height: 46px;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+        border-radius: 26px;
+        padding: 0 20px;
     }
 
     #two {
@@ -409,6 +413,7 @@ footer h1 {
     }
 
 }
+
 
 
 @media screen and (max-width: 530px) {

@@ -133,4 +133,11 @@
         gap: 10vh;
         height: calc(98vh);
     }
+
+    /* #navigation{
+        justify-content: center;
+        padding: 0px 0 0vh 0;
+        gap: 20vh;
+        height: calc(98vh);
+    } */
 }
