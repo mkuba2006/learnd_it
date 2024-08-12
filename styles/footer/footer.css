@@ -216,23 +216,23 @@ footer h1 {
     }
 
     #form2 {
-        margin: 15px 0 40px;
+        margin: 5px 0 40px;
     }
 
     #element1 #email2 {
         letter-spacing: 0.7px;
-        font-size: 15px;
+        font-size: 14px;
         width: 200px;
     }
     #form_one2 {
-        height: 46px;
-        padding: 0 65px 0 20px;
+        height: 44px;
+        padding: 0 60px 0 20px;
         border-radius: 26px 0 0 26px;
     }
     #submit2 {
-        height: 46px;
-        font-size: 15px;
-        letter-spacing: 0.8px;
+        height: 44px;
+        font-size: 14px;
+        letter-spacing: 0.7px;
         border-radius: 26px;
         padding: 0 20px;
     }
