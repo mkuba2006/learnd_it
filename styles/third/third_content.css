@@ -7,8 +7,8 @@
 }
 
 #lessons {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,21 +20,20 @@
 
 #lessons div h2, #lessons div p {
     margin: 5px;
-    font-family: SfProReg;
+    font-family: "Montserrat", serif;
     color: #323232;
 }
 
 #lessons div h2 {
-    letter-spacing: 1.3px;
-    font-family: SfProMed;
-    font-size: 22px;
-    font-weight: 500;
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 #lessons div p {
     letter-spacing: 0.5px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #lessons:nth-child(odd) {
@@ -60,8 +59,8 @@
 @media screen and (max-width: 1600px){
 
     #lessons {
-        width: 220px;
-        height: 220px;
+        width: 280px;
+        height: 280px;
         border-radius: 19px;
     }
     
@@ -71,18 +70,17 @@
     }
     
     #lessons div h2 {
-        letter-spacing: 1.3px;
-        font-size: 18px;
+        font-size: 20px;
     }
     
     #lessons div p {
         letter-spacing: 0.5px;
-        font-size: 11px;
+        font-size: 14px;
     }
     
     #lessons img{
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
     #lessons #graduation{
         width: 70px;
@@ -110,7 +108,7 @@
 
     #lessons div h2 {
         letter-spacing: 1px;
-        font-size: 16px;
+        font-size: 15px;
     }
     
     #lessons div p {
@@ -118,8 +116,16 @@
         font-size: 10px;
     }
     #lessons img{
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
+    }
+    #lessons img{
+        width: 60px;
+        height: 60px;
+    }
+    #lessons #graduation{
+        width: 60px;
+        height: 60px;
     }
 }
 

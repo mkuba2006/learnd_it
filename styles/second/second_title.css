@@ -6,7 +6,7 @@
     margin-bottom: 100px;
 }
 #second #description{
-    font-family: SfProMed;
+    font-family: "Montserrat", serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

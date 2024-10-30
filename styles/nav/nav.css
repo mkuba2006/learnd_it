@@ -29,7 +29,7 @@ nav{
     gap: 30px;
 }
 nav #name h2, #nav2 #name h2 {
-    font-family: Logo;
+    font-family: "Montserrat", serif;
     z-index: 1000;
     font-size: 34px;
     font-weight: 900;
@@ -52,12 +52,11 @@ nav #name h2, #nav2 #name h2 {
 }
 
 nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
-    font-family: SfProReg;
+    font-family: "Montserrat", serif;
     text-decoration: none;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 1.1px;
     transition: color 0.3s ease;
 }
 
@@ -66,14 +65,13 @@ nav #name_div #link1:hover,nav #name_div #link2:hover, nav #name_div #link3:hove
 }
 
 nav #buttons #courses button {
-    font-family: SfProReg;
-    width: 200px;
-    height: 50px;
-    border-radius: 32px;
+    font-family: "Montserrat", serif;
+    width: 204px;
+    height: 57px;
+    border-radius: 22px;
     border: none;
-    font-size: 17px;
-    font-weight: 590;
-    letter-spacing: 1.2px;
+    font-size: 16px;
+    font-weight: 600;
     color: #FFFFFF;
     background: linear-gradient(120deg, #03BE3D 20%, #006D22 100%);
 }
@@ -95,11 +93,11 @@ nav #buttons #flag img{
 }
 
 nav #buttons #flag p{
-    font-family: SfProReg;
+    font-family: "Montserrat", serif;
     margin: 0;
     color: black;
-    font-size: 13px;
-    font-weight: 860;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1560px){
@@ -108,17 +106,17 @@ nav #buttons #flag p{
         padding: 5px 110px
     }
     nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
-        font-size: 17px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 
     nav #buttons #courses button {
-        width: auto;
-        height: 45px;
-        border-radius: 32px;
+        width: 200px;
+        height: 57px;
+        border-radius: 22px;
         padding: 0 35px;
         border: none;
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
@@ -148,8 +146,9 @@ nav #buttons #flag p{
     }
     nav #buttons #courses button {
         width: 170px;
-        height: 40px;
+        height: 45px;
         font-size: 14px;
+        border-radius: 16px;
     }
 
     nav #buttons #flag img{
@@ -158,7 +157,6 @@ nav #buttons #flag p{
 
     nav #buttons #flag p{
         font-size: 13px;
-        font-weight: 860;
     }
 
 }
@@ -206,7 +204,7 @@ nav #buttons #flag p{
     #nav2 #name #flag2 p{
         text-align: center;
         margin: 0;
-        font-family: SfProReg;
+        font-family: "Montserrat", serif;
     }
 
     #nav2 #name h2{
@@ -291,7 +289,7 @@ nav #buttons #flag p{
     #nav2 #name #flag2 p{
         text-align: center;
         margin: 0;
-        font-family: SfProReg;
+        font-family: "Montserrat", serif;
         font-size: 13px;
     }
 }
