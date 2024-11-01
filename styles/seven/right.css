@@ -90,7 +90,17 @@
 
 
 
-
+#right_six{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: SfProReg;
+    max-width: 400px;
+    transform: translate(-30px, 195px);
+    padding: 20px;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+}
 
 
 
@@ -171,7 +181,12 @@
         transform: translate(10px, 160px);
     }
     
-
+    #right_six{
+        font-size: 16px;
+        transform: translate(-30px, 187px);
+        max-width: 380px;
+    }
+    
 }
 
 

@@ -20,6 +20,10 @@
     display: flex;
 }
 
+#left_six{
+    transform: translate(10px, 210px);
+}
+
 #data_box2 {
     font: 500 18px/1 SfProReg;
     letter-spacing: 1px;
@@ -92,10 +96,32 @@
     color: #B4C300;
 }
 
+#left_six{
+    display: flex;
+}
+
+#data_box6{
+    font: 500 18px/1 SfProReg;
+    letter-spacing: 1px;
+    width: 180px;
+    height: 40px;
+    background-color: #A4A4A4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transform: translate(30px, 248px);
+}
 
 
-
-
+#left_six img {
+    object-fit: cover;
+    border-radius: 15px;
+    width: 260px;
+    height: 350px;
+    transform: translate(-20px, 120px);
+}
 
 
 
@@ -167,6 +193,19 @@
     #left_fifth {
         transform: translate(30px,320px);
     }
+
+
+    #data_box6{
+        transform: translate(23px, 231px);
+    }
+    
+    
+    #left_six img {
+        width: 210px;
+        height: 280px;
+        transform: translate(-20px, 120px);
+    }
+
 }
 
 

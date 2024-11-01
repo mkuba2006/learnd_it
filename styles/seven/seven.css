@@ -81,6 +81,14 @@
 #line1:nth-child(10){
     height: 200px;
 }
+#line11{
+    width: 5px;
+    background-color: #00882A;
+    border-radius: 25px;
+    height: 270px;
+}
+
+
 
 @media screen and (max-width: 1600px){
     #seven h1{
@@ -121,6 +129,12 @@
     #right{
         padding: 20px;
         width: 500px;
+    }
+    #line11{
+        width: 4px;
+        background-color: #00882A;
+        border-radius: 25px;
+        height: 170px;
     }
 }
 

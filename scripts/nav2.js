@@ -94,6 +94,8 @@ const originalTexts2 = {
     column2_a3: document.getElementById('column2_a3').textContent,
     column3_h3: document.getElementById('column3_h3').textContent,
     copyright: document.getElementById('copyright').textContent,
+    six_span_x: document.getElementById('six_span_x').textContent,
+    six_span_x2:  document.getElementById('six_span_x2').textContent,
 };
 
 
@@ -132,13 +134,13 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('text4').textContent = 'Zdobądź wiedzę od najlepszych tutorów, korzystając ze zweryfikowanych i niezawodnych źródeł. Zwiększ swoje doświadczenia edukacyjne dzięki zaufanym i skutecznym materiałom.';
         document.getElementById('third_description').textContent ='Kluczowe Funkcjonalności';
         document.getElementById('third_h2_1').textContent ='Lekcje indywidualne';
-        document.getElementById('third_h2_2').textContent = 'Lekcje grupowe';
+        document.getElementById('third_h2_2').textContent = 'Spersonalizowane wyszukiwania';
         document.getElementById('third_h2_3').textContent = 'Wykłady LIVE';
-        document.getElementById('third_h2_4').textContent = 'LIVE z pytaniami';
+        document.getElementById('third_h2_4').textContent = 'Rynek zasobów';
         document.getElementById('third_p_1').textContent = 'od 50 PLN za 60 min';
-        document.getElementById('third_p_2').textContent = 'od 20 PLN za 60 min';
+        document.getElementById('third_p_2').textContent = 'przy użyciu asystenta AI';
         document.getElementById('third_p_3').textContent = 'od 2 PLN za 60 min';
-        document.getElementById('third_p_4').textContent = 'od 1 PLN za pytanie';
+        document.getElementById('third_p_4').textContent = 'Oryginalne zasoby edukacyjne';
         document.getElementById('four_h1').textContent ='Wybierz Swoją Ścieżkę';
         document.getElementById('four_h2').innerHTML = `Z Learnd.it masz elastyczność kształtowania swojej edukacyjnej drogi. Jako uczeń, wybierz spośród różnych formatów zajęć, które najlepiej odpowiadają Twojemu stylowi nauki. <br> Jeśli jesteś ekspertem w swojej dziedzinie, dołącz do nas jako nauczyciel, aby dzielić się swoją wiedzą, inspirować innych i zarabiać. Wykorzystaj okazję, by uczyć się lub nauczać w sposób, który odpowiada Twoim celom.`;
         document.getElementById('student').textContent = 'Uczeń';
@@ -198,6 +200,8 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('column3_h3').textContent = 'Kontakt';
         document.getElementById('copyright').textContent = '© 2024 Learnd.it. Wszelkie prawa zastrzeżone';
         document.getElementById('courses_button1').textContent = 'Nasza Oferta';
+        document.getElementById('six_span_x').textContent = 'Udział Jakuba Strzemiecznego w';
+        document.getElementById('six_span_x2').textContent = 'w roli prelegenta reprezentującego';
     } 
     
     else {
@@ -296,5 +300,7 @@ button_flag2.addEventListener('click', () => {
         document.getElementById('column2_a3').textContent = originalTexts2.column2_a3;
         document.getElementById('column3_h3').textContent = originalTexts2.column3_h3;
         document.getElementById('copyright').textContent = originalTexts2.copyright;
+        document.getElementById('six_span_x').textContent = originalTexts.six_span_x;
+        document.getElementById('six_span_x2').textContent = originalTexts.six_span_x2;
     }
 });

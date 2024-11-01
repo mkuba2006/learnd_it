@@ -70,6 +70,10 @@ const originalTexts = {
     fifth_span_x: document.getElementById('fifth_span_x').textContent,
     fifth_span_1: document.getElementById('fifth_span_1').textContent,
     fifth_span_x2: document.getElementById('fifth_span_x2').textContent,
+
+    six_span_x: document.getElementById('six_span_x').textContent,
+    six_span_x2:  document.getElementById('six_span_x2').textContent,
+
     fifth_span_2: document.getElementById('fifth_span_2').textContent,
     second_span_1: document.getElementById('second_span_1').textContent,
     fourth_span_1: document.getElementById('fourth_span_1').textContent,
@@ -122,6 +126,7 @@ button_flag.addEventListener('click', () => {
         document.getElementById('third_description').textContent ='Kluczowe Funkcjonalności';
         document.getElementById('third_h2_1').textContent ='Lekcje indywidualne';
         document.getElementById('third_h2_2').textContent = 'Spersonalizowane wyszukiwania';
+        
         document.getElementById('third_h2_3').textContent = 'Wykłady LIVE';
         document.getElementById('third_h2_4').textContent = 'Rynek zasobów';
         document.getElementById('third_p_1').textContent = 'od 50 PLN za 60 min';
@@ -167,6 +172,11 @@ button_flag.addEventListener('click', () => {
         document.getElementById('fifth_span_x').textContent = 'Zawarcie Jakuba Strzemiecznego jako założyciela';
         document.getElementById('fifth_span_1').textContent = 'Learnd.it';
         document.getElementById('fifth_span_x2').textContent = 'w miesięczniku “My Company Polska” pod tytułem';
+        document.getElementById('six_span_x').textContent = 'Udział Jakuba Strzemiecznego w';
+        document.getElementById('six_span_x2').textContent = 'w roli prelegenta reprezentującego';
+
+
+
         document.getElementById('fifth_span_2').textContent = '“Liderzy Nowej Generacji”';
         document.getElementById('second_span_1').textContent = '2 miejsce w Polsce w Wielkim Finale Econverse CUP, program mentoringowy - ';
         document.getElementById('fourth_span_1').textContent = 'Udział Jakuba Strzemiecznego w Pomorskiej konferencji jako prelegenta oraz eksperta reprezentującego';
@@ -260,6 +270,10 @@ button_flag.addEventListener('click', () => {
         document.getElementById('fifth_span_x').textContent = originalTexts.fifth_span_x;
         document.getElementById('fifth_span_1').textContent = originalTexts.fifth_span_1;
         document.getElementById('fifth_span_x2').textContent = originalTexts.fifth_span_x2;
+
+        document.getElementById('six_span_x').textContent = originalTexts.six_span_x;
+        document.getElementById('six_span_x2').textContent = originalTexts.six_span_x2;
+
         document.getElementById('fifth_span_2').textContent = originalTexts.fifth_span_2;
         document.getElementById('second_span_1').textContent = originalTexts.second_span_1;
         document.getElementById('fourth_span_1').textContent = originalTexts.fourth_span_1;
