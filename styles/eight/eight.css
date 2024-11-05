@@ -48,7 +48,7 @@
 #eight p {
     letter-spacing: 1px;
     font-size: 32px;
-    font-weight: 590;
+    font-weight: 500;
     transition: 0.3s ease all;
     cursor: pointer;
     z-index: 1000;
