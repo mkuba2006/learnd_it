@@ -107,9 +107,11 @@ nav #buttons #flag p{
     }
     nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
         font-size: 20px;
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
-
+    #name_div #links {
+        gap: 20px;
+    }
     nav #buttons #courses button {
         width: 200px;
         height: 57px;
@@ -142,7 +144,7 @@ nav #buttons #flag p{
     }
     nav #name_div #link1,nav #name_div #link2, nav #name_div #link3,nav #name_div #link4{
         font-size: 14px;
-        letter-spacing: 1px;
+        letter-spacing: 0;
     }
     nav #buttons #courses button {
         width: 170px;

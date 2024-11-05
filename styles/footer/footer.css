@@ -9,7 +9,7 @@ footer {
 
 footer h1 {
     transform: translateY(180px);
-    font-family: SfProReg;
+    font-family: "Montserrat", serif;
     font-size: 48px;
     font-weight: 700;
     margin: 0;
@@ -17,7 +17,7 @@ footer h1 {
 }
 
 #bottom {
-    font-family: SfProReg;
+    font-family: "Montserrat", serif;
     width: 100vw;
     background-color: #222;
     display: flex;
@@ -48,7 +48,7 @@ footer h1 {
 }
 
 #one h3 {
-    max-width: 471px;
+    max-width: 500px;
     font-size: 20px;
     font-weight: 400;
     color: #EAEAEA;
@@ -82,12 +82,12 @@ footer h1 {
 #element1 #email2 {
     color: #EAEAEA;
     background: none;
-    letter-spacing: 0.7px;
-    font-size: 18px;
-    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-weight: 400;
     border: none;
-    width: 200px;
-    font-family: SfProThin;
+    width: 230px;
+    font-family: "Montserrat", serif;
 }
 
 #email2:hover {
@@ -104,8 +104,8 @@ footer h1 {
     height: 54px;
     border-radius: 32px;
     border: none;
-    font-size: 18px;
-    padding: 0 30px;
+    font-size: 17px;
+    padding: 4px 30px 0 30px;
     font-weight: 500;
     letter-spacing: 0.7px;
     color: #FFF;
@@ -131,10 +131,10 @@ footer h1 {
 }
 
 #column h3 {
-    font-family: SfProThin;
-    font-weight: 900;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
     font-size: 22px;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.2px;
     margin: 22px 0 10px 0;
     color: white;
 }
@@ -143,10 +143,10 @@ footer h1 {
 #column p {
     cursor: pointer;
     font-size: 16px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
     color: #9e9e9e;
-    font-weight: 600;
-    font-family: SfProThin;
+    font-weight: 400;
+    font-family: "Montserrat", serif;
     text-decoration: none;
     margin: 0;
     transition: 0.2s ease;
@@ -184,8 +184,8 @@ footer h1 {
 }
 
 #element2 p {
-    font-family: SfProReg;
-    font-weight: 100;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
     font-size: 16px;
     color: #777777af;
     margin: 0;

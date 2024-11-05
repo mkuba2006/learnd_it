@@ -55,6 +55,9 @@
 
 
 @media screen and (max-width: 625px){
+    #second #description h2 {
+        max-width: 450px;
+    }    
     #second {
         margin-top: 100px;
         margin-bottom: 20px;
