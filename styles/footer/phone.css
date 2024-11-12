@@ -205,12 +205,12 @@
     display: flex;
     justify-content: center;
     z-index: -1;
-    height: 800px;
+    height: 720px;
 }
 
 .image-body img {
     display: block;
-    width: 950px;
+    width: 790px;
     height: auto;
 }
 

@@ -65,6 +65,13 @@
     z-index: 100;
 }
 
+
+@media screen and (min-width: 1800px) {
+    #eight{
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (max-width: 1450px) {
     #eight {
         margin: 200px 0 0 0;
